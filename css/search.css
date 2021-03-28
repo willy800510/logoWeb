@@ -1,0 +1,7 @@
+[aria-expanded="false"] .icon-open {
+  transition: transform .5s ease-in;
+}
+[aria-expanded="true"] .icon-open {
+  transform: rotate(180deg);
+  transition: transform .5s ease-out;
+}

@@ -1,0 +1,14 @@
+#scoll_overlay{
+    top: 113px;
+    left: 0px;
+    transition: ease-in-out 1s;
+}
+
+.caroItem_1{
+    transform: scale(0.4) rotate(-24deg) translate(-70px, 330px) !important;
+    transition: transform 1s ease-in-out 1s;
+}
+.caroItem_2{
+    transform: scale(0.3) rotate(-12deg) translate(-250px, 340px) !important;
+    transition: transform 1s ease-in-out 1s;
+}

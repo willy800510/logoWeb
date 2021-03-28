@@ -1,0 +1,84 @@
+.pdClass span{
+    background-size: cover;
+    font-size: 32px;
+}
+.pdClass:hover .mask{
+    transition: .3s;
+    opacity: 1;
+}
+.mask{
+    background: rgba(255, 255, 255, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: .5s;
+}
+.mask a{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.95);
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.bkmk_1{
+    z-index: 2;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s;
+}
+.bkmk_2{
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+
+.lgdp:hover .bkmk_1, .lgdp:hover .bkmk_2{
+    opacity: 1;
+    transition: .3s;
+}
+
+
+@media(min-width: 0){
+    .pdClass span{
+        width: 240px;
+        line-height: 80px;
+        border-radius: 0.5rem;
+        /* margin: .5rem; */
+        /* margin: 1px; */
+    }
+}
+@media(min-width: 768px){
+    .pdClass span{
+        width: 100%;
+        height: auto;  
+        line-height: 120px;
+        padding: 0;
+        margin: 0;
+        border-radius:unset;
+    }
+    .mask{
+        width: 230px;
+        height: 145px;
+    }
+}
+@media(min-width: 992px){
+    .mask{
+        width: 310px;
+    }
+}
+
+@media(min-width: 1200px){
+    .mask{
+        width: 370px;
+    }
+}

@@ -1,0 +1,61 @@
+/* ORDER */
+.logoIcon{
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    /* border: solid 1px; */
+    border-radius: 50%;
+}
+.order{
+    width: 100%;
+}
+
+/* orderNum */
+.odflot{
+    font-size: .5rem !important;
+}
+
+/* BOOKMARK */
+
+@media(min-width: 0px){
+    .bmlogo{
+        width: 98%;
+    }
+}
+@media(min-width: 576px){
+    .bmlogo{
+        width: 253px;
+    }
+}
+@media(min-width: 768px){
+    .bmlogo{
+        width: 340px;
+    }
+}
+@media(min-width: 992px){
+    .bmlogo{
+        width: 305px;
+    }
+}
+@media(min-width: 1200px){
+    .bmlogo{
+        width: 295px;
+    }
+}
+
+.community{
+    background-image: url(../images/loginBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+    
+}
+
+.fbColor{
+    color: #3B5998;
+}
+
+.space{
+    
+}

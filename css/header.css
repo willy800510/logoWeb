@@ -1,0 +1,141 @@
+header {
+    background-color: #DFCCBD;
+    background-blend-mode: darken;
+    backdrop-filter: blur(5px);
+  }
+.sidebar{
+padding: 10px;
+}
+.logo {
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 1999px){
+    .logo{
+        display: flex;
+    }
+}
+@media(min-width: 1200px){
+    .logo{
+        display: inline-block;
+    }
+}
+
+.logo a {
+color: white;
+font-size: 10px;
+padding: 15px;
+}
+
+.userList{
+    left: -110px !important;
+    text-align: center !important;
+    background: rgba(255, 255, 255, 0.8);
+}
+.bagList{
+    left: -238px !important;
+    text-align: right !important;
+    background: rgba(255, 255, 255, 0.8);
+    width: 390px;
+}
+
+.userList a{
+    color:slategray;
+    padding: 1.35rem .5rem !important;
+}
+
+.dropdown-item:hover{
+    background-color: white;
+}
+
+.sideMenuBtn{
+  cursor: pointer;
+}
+
+.menuBurger {
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .menuBurger::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+  }
+
+  .menuBurger::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .menuBurger::before {
+    transform: translateY(-7px);
+  }
+  
+  .menuBurger::after {
+    transform: translateY(7px);
+  }
+
+  /* burger animate */
+  .MenuBtnOpen {
+    background-color: transparent;
+    transform: translateX(-50px);
+  }
+  
+  .MenuBtnOpen::before {
+    /* transform: translate(50px, -7px); */
+    /* background-color: transparent; */
+    width: 20px;
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  
+  @keyframes MeBuOpBf{
+    0%{}
+    100%{transform: rotate(45deg) translate(35px, -35px);}
+  }
+  
+  .MenuBtnOpen::after {
+    width: 20px;
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+  .mask {
+    position: fixed;
+    z-index: 11;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* transition: .7s; */
+  }
+
+  .font8rem{
+    font-size: 0.9rem !important;
+  }
+
+  #collapseMenu-sm{
+    max-height: 75vh;
+    overflow-y: auto;
+    top: 58px; 
+    margin:0px -15px; 
+    background: rgba(255, 255, 255, 0.95)
+  }
+
+  .menulist:hover path{
+    fill: #FAAF6A;
+  }
+  

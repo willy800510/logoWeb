@@ -1,0 +1,196 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+body{
+  background-color: #E5E5E5;
+}
+
+.row, .col-6, .col-md-4, .col-lg-3{
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+}
+
+.bg-white{
+  background-color: #fff;
+}
+
+/* .vam {
+  font-size: 0;
+} */
+
+/* .vam::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+} */
+
+/* .vam > * {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+} */
+
+h1, h2{
+  margin: 0 5px;
+}
+
+  /* 其他常用 */
+.pad15{
+  padding: 15px;
+}
+.m5{
+  margin: 5px;
+}
+
+.marbot {
+  /* z-index: 2; */
+  margin-bottom: 30px;
+}
+
+.btn-pink{
+  color: white;
+  background-color: #FF9292;
+  border: solid 2px;
+  border-color: #FF9292;
+}
+.btn-pink:hover{
+  color: white;
+  border: solid 2px;
+  border-color: #ff4646;
+}
+.btn-outline-pink{
+  color: #FF9292;
+  background-color: transparent;
+  border: solid 2px;
+  border-color: #FF9292;
+}
+.btn-outline-pink:hover{
+  color: white;
+  background-color: #FF9292;
+  border: solid 2px;
+  border-color: #FF9292;
+}
+.bg-brown{
+  background-color: #F3ECE5;
+}
+.bg-pinkLight{
+  background-color:#FFD6D6;
+}
+.text-pink{
+  color: #ff4646;
+}
+
+
+/* toTop arrow */
+.toTop-arrow {
+  position: fixed;
+  right: 20px;
+  bottom: -56px;
+  opacity: 0;
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #DBDBDB;
+}
+.toTop-arrow:hover{
+  background: #D5A178;
+}
+
+.toTop-arrow.showw {
+  /* bottom: 20px; */
+  opacity: .6;
+}
+.toTop-arrow:hover {
+  opacity: 1;
+}
+
+.toTop-arrow:before {
+  transform: rotate(-45deg) translateY(-50%);
+  left: 10px;
+}
+
+.toTop-arrow:after {
+  transform: rotate(45deg) translateY(-50%);
+  right: 10px;
+}
+
+.toTop-arrow:after, .toTop-arrow:before {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 3px;
+  border-radius: 3px;
+  background: #D5A178;
+  content: "";
+}
+
+.toTop-arrow:hover:after, .toTop-arrow:hover:before {
+  background: #FFFFFF;
+}
+
+@media(min-width:0px){
+  .toTop{
+      bottom: 365px;
+      right: 7%;
+    }
+  }
+@media(min-width:768px){
+    .toTop{
+      right: 6.5%;
+  } 
+}
+@media(min-width:992px){
+    .toTop{
+      right: 3.7%;
+  } 
+}
+@media(min-width:1200px){
+    .toTop{
+      bottom: 228px;
+      right: 4.2%;
+    }
+}
+
+/* add bootstrap 5 */
+.list-group-numbered {
+  list-style-type: none;
+  counter-reset: section;
+}
+.list-group-numbered>li::before {
+  content: counters(section, ".") ". ";
+  counter-increment: section;
+}
+
+

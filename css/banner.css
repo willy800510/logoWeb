@@ -1,0 +1,70 @@
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.banner h2{
+    color: #FC9545;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+.srchtext{
+    width: 365px;
+    height: 40px;
+    border: unset;
+    border-radius: 4px;
+}
+.srchtext-2{
+    width: 385px;
+    height: 40px;
+    border: unset;
+    border-radius: 4px;
+}
+.srch{
+    border: unset;
+    background-color: #FAD06A;
+    color: tomato;
+}
+.srch:hover {
+    background-color:#20e388;
+    color: white;
+}
+
+.baninform{
+    padding-top: 100px;
+}
+
+/* search.php banner */
+.srcBanner{
+    background-image: url(../images/banner/logoWeb\ ori\ sm.png),url(../images/class1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+
+@media(min-width: 0px){
+    .banner{
+        background-image: url(../images/banner/logoweb\ color\ face.png);
+    }
+    .srcBanner{
+        height: 300px;
+    }
+}
+@media(min-width: 768px){
+    .srcBanner{
+        height: 360px;
+    }
+}
+@media(min-width: 1200px){
+    .banner{
+        background-image: url(../images/banner/logoWeb\ 3.png);
+    }
+    .srcBanner{
+        background-size: cover;
+        height: 350px;
+    }
+}
+
