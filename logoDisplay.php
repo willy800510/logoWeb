@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/carousel.css">
-    <link href="js/lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
+    <!-- <link href="js/lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
     <script src="js/lightbox2-2.11.3/dist/js/lightbox.min.js"></script>
-    <script src="js/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script> -->
 </head>
 <body>
 <?php
