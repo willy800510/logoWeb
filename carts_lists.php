@@ -5,22 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb carts</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css?<?php echo time();?>">
     <link rel="stylesheet" href="css/header.css?<?php echo time();?>">
     <link rel="stylesheet" href="css/index.css?<?php echo time();?>">
     <link rel="stylesheet" href="css/banner.css?<?php echo time();?>">
     <link rel="stylesheet" href="css/footer.css?<?php echo time();?>">
     <link rel="stylesheet" href="css/account.css?<?php echo time();?>">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
     <div class="container-fluid">
-        <div class="container-sm clearfix" style="padding-top: 70px;">
+        <div class="container-sm clearfix mToTop">
         <!-- 訂單流程狀態 -->
             <div class="d-flex justify-content-between p-1">
                 <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
@@ -53,7 +50,8 @@
                         <span class="font-weight-lighter text-black-50 text-center pt-3 d-block d-md-none">備註說明:備註說明備註說明備註說明</span>
                     </div>
                     <button type="submit" class="btn col-1">
-                        <i class="fas fa-times"></i>
+                        <!-- <i class="fas fa-times"></i> -->
+                        <span class="material-icons">clear</span>
                     </button>
                 </ul>
                 <ul class="row bg-white align-items-center mt-1 mx-1 p-2 rounded ">
@@ -77,7 +75,8 @@
                         <span class="font-weight-lighter text-black-50 text-center pt-3 d-block d-md-none">備註說明:備註說明備註說明備註說明</span>
                     </div>
                     <button type="submit" class="btn col-1">
-                        <i class="fas fa-times"></i>
+                        <!-- <i class="fas fa-times"></i> -->
+                        <span class="material-icons">clear</span>
                     </button>
                 </ul>
                 <div class="row bg-white justify-content-between mt-1 mx-1 p-1 rounded">
@@ -165,13 +164,4 @@
             </div>
         </div>
     </div>
-<?php
-    include("template/footer.php");
-?>
-<script>
-    $(document).ready(function(){
-        $(".bomk").click(function(){
-            $(this).attr("src", "images/icon/bookMark/bm-click.svg");
-        });    
-    });
-</script>
+<?php include("template/footer.php"); ?>

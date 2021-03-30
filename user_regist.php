@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb log</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,24 +13,23 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
 <div class="container-fluid">
-    <div class="container-sm mb-2" style="padding-top: 65px;">
-        <div class="card m-auto justify-content-between" style="width: 400px; height: 550px;">
-            <a href="index.php" class="logo mx-auto mt-4" style="width: 69px; height: 69px;"></a>
+    <div class="container-sm mb-1 mToTop" >
+        <div class="card m-auto justify-content-between cardSize">
+            <a href="index.php" class="logo mx-auto mt-4 logoSize"></a>
             <h3 class="card-title mx-auto mt-3 font-weight-normal">COMPANY</h3>
             <div class=" d-flex flex-column justify-content-center">
                 <form action="" class="form-group row flex-column align-items-center">
                     <input type="text" class="form-control my-2 col-9" placeholder="帳號">
                     <input type="email" class="form-control my-2 col-9" placeholder="Email">
                     <div class="input-group justify-content-center my-2 px-5">
-                        <input type="password" class="form-control" placeholder="密碼" style="border-right: 0;">
+                        <input type="password" class="form-control border-right-0" placeholder="密碼">
                         <div class="input-group-append">
-                            <img src="images/icon/eye/closed.svg" alt="" class="eye input-group-text" style="border-left: 0; background-color:white;">
+                            <img src="images/icon/eye/closed.svg" alt="" class="eye input-group-text border-left-0 bg-white">
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
@@ -55,10 +52,7 @@
         </div>
     </div>
 </div>
-
-<?php
-    include("template/footer.php");
-?>
+<?php include("template/footer.php"); ?>
 <script>
     $(document).ready(function(){
         $(".eye").mousedown(function(){

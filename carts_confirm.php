@@ -5,22 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb carts</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php");?>
     <div class="container-fluid">
-        <div class="container-sm clearfix" style="padding-top: 70px;">
+        <div class="container-sm clearfix mToTop">
             <div class="d-flex justify-content-between p-1">
                 <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
                 <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
@@ -50,7 +47,7 @@
                     <div class="d-flex justify-content-between align-items-center p-3 border-bottom bg-white">
                         <h6 class="mt-2 col-4 text-center">付款資訊</h6>
                         <button type="submit" class="btn btn-outline-pink col-4 text-center">銀行卡/金融卡</button>
-                        <div class="px-3 col-4 text-center" style="color: #FF4141;">總額 NT$400</div>
+                        <div class="px-3 col-4 text-center text-alert">總額 NT$400</div>
                     </div>  
                     <div class="bg-white text-center rounded-bottom p-3">
                         <!-- <button type="submit" class="btn btn-outline-pink my-1 col-5">返回修改</button> -->

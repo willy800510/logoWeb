@@ -3,26 +3,31 @@
     <!-- xl -->
     <div class="container-sm d-none d-xl-block">
         <div class="d-flex justify-content-between align-items-center p-1 pl-3">
-            <a href="index.php" class="logo" style="width: 40px; height: 40px;"></a>
+            <a href="index.php" class="logo"></a>
             <!-- <div class="menu">    -->
             <div class="nav justify-content-end">   
-                <a href="bookmark.php" class="nav-link p-3"><img src="images/headerIcon/bookmark.svg" alt=""></a>
+                <a href="bookmark.php" class="nav-link p-3">
+                    <!-- <img src="images/headerIcon/bookmark.svg" alt=""> -->
+                    <span class="material-icons white md-24 pt-1">favorite</span>
+                </a>
                 <span class="dropdown bagInfo">
                     <a href="carts_lists.php" class="nav-link p-3">
                         <img src="images/headerIcon/bag.svg" alt="">
                     </a>
                     <div class="dropdown-menu bagList" aria-labelledby="dropdownMenuLink">
                         <div class="dropdown-item d-flex align-items-center justify-content-around py-3">
-                            <a href="#" class="logo" style="width: 40px; height: 40px;"></a>
+                            <a href="#" class="logo"></a>
                             <span class="text-muted">Company Name</span>
-                            <span class="text-right" style="color: #ff4646;">NT$200</span>
-                            <i class="fas fa-times fa-xs text-black-50"></i>
+                            <span class="text-right text-alert">NT$200</span>
+                            <span class="material-icons md-18 text-black-50">clear</span>
+                            <!-- <i class="fas fa-times fa-xs text-black-50"></i> -->
                         </div>
                         <div class="dropdown-item d-flex align-items-center justify-content-around py-3">
-                            <a href="#" class="logo" style="width: 40px; height: 40px;"></a>
+                            <a href="#" class="logo"></a>
                             <span class="text-muted">Company Name</span>
-                            <span class="text-right" style="color: #ff4646;">NT$200</span>
-                            <i class="fas fa-times fa-xs text-black-50"></i>
+                            <span class="text-right text-alert">NT$200</span>
+                            <!-- <i class="fas fa-times fa-xs text-black-50"></i> -->
+                            <span class="material-icons md-18 text-black-50">clear</span>
                         </div>
                         <a href="carts_lists.php" class="btn btn-outline-info mr-3" type="button">查看我的購物袋</a>
                     </div>
@@ -44,8 +49,8 @@
     </div>
     <!-- sm/md -->
     <div class="container-sm d-block d-sm-block d-xl-none">
-        <div class="d-flex justify-content-between align-items-center p-1 pl-3">
-            <a href="index.php" class="logo" style="width: 40px; height: 40px;"></a>
+        <div class="d-flex justify-content-between align-items-center p-2 pl-3">
+            <a href="index.php" class="logo"></a>
             <!-- <div class="sidebar"><img src="images/headerIcon/md-rightbar.svg" alt=""></div> -->
             <div class="sideMenuBtn py-4" data-toggle="collapse" data-target="#collapseMenu-sm" aria-expanded="false" aria-controls="collapseMenu-sm">
                 <div class="menuBurger"></div>
@@ -56,7 +61,7 @@
     <div class="container-fluid position-fixed d-xl-none flex-column align-items-start py-3 collapse" id="collapseMenu-sm">
         <div class="container-sm px-1">
             <div class="d-flex flex-column col-12 col-md-3 align-items-center">
-                <a href="index.php" class="text-pink py-1">首頁</a>
+                <a href="index.php" class="text-alert py-1">首頁</a>
                 <a href="#" class="py-1">購買流程</a>
                 <a href="search.php" class="py-1">熱門商品</a>
             </div>
@@ -66,7 +71,6 @@
                 <span class="col-9">我的帳戶</span>
             </a>
             <div class="collapse my-3" id="userCollapse">
-                <!-- <div class="d-flex flex-column col-3 align-items-center" style="margin-left: 15vw;"> -->
                 <div class="d-flex flex-column col-3 offset-3">
                     <h6 class="font-weight-normal">帳戶管理</h6>
                     <ul>
@@ -102,8 +106,11 @@
                 <span class="col-9">訊息中心</span>
             </a>
             <a href="bookmark.php" class="d-flex justify-content-between my-3 menulist">
-                <svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="col-3 icon">
-                    <path d="M0 23V2.15625C0 0.965371 0.895417 0 2 0H14C15.1046 0 16 0.965371 16 2.15625V23L8 17.9688L0 23Z" fill="#DBDBDB"/></svg>
+                <!-- <svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="col-3 icon">
+                    <path d="M0 23V2.15625C0 0.965371 0.895417 0 2 0H14C15.1046 0 16 0.965371 16 2.15625V23L8 17.9688L0 23Z" fill="#DBDBDB"/></svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="23px" height="23px" class="col-3 icon">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#DBDBDB" />
+                </svg>
                 <span class="col-9">我的收藏</span>
             </a>
             <a href="helpCenter.php" class="d-flex justify-content-between my-3 menulist">

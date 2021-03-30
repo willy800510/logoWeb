@@ -5,3 +5,22 @@
   transform: rotate(180deg);
   transition: transform .5s ease-out;
 }
+
+@media(min-width:0){
+  .logoCard{
+      width: 100%;
+      height: 200px;
+  }
+}
+@media(min-width: 768px){
+  .logoCard{
+      width: 100%;
+      height: 100%;
+  }
+}
+@media(min-width: 992px){
+  .logoCard{
+      width: 100%;
+      height: 270px;
+  }
+}

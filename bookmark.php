@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb order</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,6 +13,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
 <?php
@@ -22,13 +21,13 @@
 ?>
 <div class="container-fluid">
     <div class="container-sm">
-        <div class="row" style="margin-top: 70px;">
+        <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 mb-3 px-0 px-xl-3">
                 <div class="d-flex align-items-center justify-content-around bg-white p-4">
-                    <span style="text-align:center;">我的收藏</span>
+                    <span class="text-center">我的收藏</span>
                 </div>
                 <div class="row justify-content-between my-1">
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">

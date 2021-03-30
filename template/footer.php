@@ -11,14 +11,14 @@
                 </span>
                 <span>
                     <h4>會員中心</h4>
-                    <a href="">會員註冊/登入</a>
+                    <a href="user_login.php">會員註冊/登入</a>
                     <a href="customizeCenter.php">客製中心</a>
                     <a href="">會員條款</a>
                 </span>
                 <span>
                     <h4>幫助中心</h4>
                     <a href="">新手購物</a>
-                    <a href="">常見問題</a>
+                    <a href="helpCenter.php">常見問題</a>
                     <a href="">服務說明</a>
                 </span>
                 <span>
@@ -46,7 +46,7 @@
                 <span>
                     <h4>幫助中心</h4>
                     <a href="">新手購物</a>
-                    <a href="">常見問題</a>
+                    <a href="helpCenter.php">常見問題</a>
                     <a href="">服務說明</a>
                 </span>
                 <span>

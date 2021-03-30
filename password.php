@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb info</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,6 +13,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
 <?php
@@ -22,16 +21,16 @@
 ?>
 <div class="container-fluid">
     <div class="container">
-        <div class="row" style="margin-top: 70px;">
+        <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
                 <div class="d-flex align-items-center justify-content-around bg-white p-4">
-                    <span style="text-align:center;">密碼變更</span>
+                    <span class="text-center">密碼變更</span>
                 </div>
                 <form action="" class="bg-white my-1" method="post">
-                    <div class="text-center p-3 text-pink">小提醒：請不要與他人分享密碼</div>
+                    <div class="text-center p-3 text-alert">小提醒：請不要與他人分享密碼</div>
                     <div class="form-group row d-flex align-items-stretch text-center">
                         <div class="col-12 col-lg-9 p-5">
                             <div class="form-group row my-2 align-items-center">

@@ -12,9 +12,22 @@ $(document).ready(function(){
         }
     });
 
-    $(".bomk").click(function(){
-        $(this).attr("src", "images/icon/bookMark/bm-click.svg");
+    // $(".bomk").click(function(){
+    //     $(this).attr("src", "images/icon/bookMark/bm-click.svg");
+    // });
+    $(".hrtCk").click(function(){
+        var str = $(this).html();
+        var tt = str.replace("favorite_border","favorite")
+        var tm = str.replace("favorite","favorite_border")
+        if($(this).hasClass('pink')){
+            $(this).removeClass("pink").addClass("md-dark").html(tm);
+        }else{
+            $(this).removeClass("md-dark").addClass("pink").html(tt);
+        }
     });
+
+    var numHeart =  $('.pink').length
+
     // logo輪播
     $(".carousel-control-next").click(function(){
         var $logo = $("#scoll_overlay");

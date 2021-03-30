@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
-    </style>
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
 <?php
@@ -23,13 +23,13 @@
 ?>
 <div class="container-fluid">
     <div class="container">
-        <div class="row" style="margin-top: 70px;">
+        <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
                 <div class="d-flex align-items-center justify-content-around bg-white p-4">
-                    <span style="text-align:center;">修改細項</span>
+                    <span class="text-center">修改細項</span>
                 </div>
                 <form action="" class="bg-white my-1" method="">
                     <div class="d-flex justify-content-center justify-content-md-between align-items-center px-3 py-1">
@@ -63,10 +63,10 @@
                             <div type="text" class="form-control p-2" name="companySign" id="" placeholder="輸入您的公司口號/標語"><?php ?></div>
                             <label for="companySign" class="mt-2"><span class="text-danger p-1">*</span>選擇顏色</label>
                             <div class="d-flex justify-content-start px-0">
-                                <div class="badge badge-danger d-inline-block mr-2" style="width: 60px; height:38px;"></div>
-                                <!-- <div class="badge badge-danger d-inline-block mr-2" style="width: 60px; height:38px; background-color: #<?php?>;></div> -->
-                                <!-- <div class="badge badge-danger d-inline-block mr-2" style="width: 60px; height:38px; background-color: #<?php?>;></div> -->
-                                <!-- <div class="badge badge-danger d-inline-block mr-2" style="width: 60px; height:38px; background-color: #<?php?>;></div> -->
+                                <div class="badge badge-danger d-inline-block mr-2 chooColor"></div>
+                                <div class="badge d-inline-block mr-2 chooColor" style="background-color: #<?php echo "38D3CA"?>;"></div>
+                                <!-- <div class="badge d-inline-block mr-2 chooColor" style="background-color: #<?php?>;"></div> -->
+                                <!-- <div class="badge d-inline-block mr-2 chooColor" style="background-color: #<?php?>;"></div> -->
                             </div>
                         </div>
                         <div class="col-6 col-md-3 order-0 order-md-1 p-5 p-md-4 p-lg-5 shadow m-0 m-md-5 mt-4 rounded">

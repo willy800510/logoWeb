@@ -5,22 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb carts</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
     <div class="container-fluid">
-        <div class="container-sm clearfix" style="padding-top: 70px;">
+        <div class="container-sm clearfix mToTop">
             <div class="d-flex justify-content-between p-1">
                 <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
                 <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
@@ -41,18 +38,18 @@
                     <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white">
                         <img src="images/logo.svg" alt="" class="logoIcon col-2">
                         <div class="col-5">商品名稱</div>
-                        <div class="col-5 text-right" style="color: #FF4141;">金額 NT$200</div>
+                        <div class="col-5 text-right text-pink">金額 NT$200</div>
                     </div>    
                     <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white rounded-bottom">
                         <img src="images/logo.svg" alt="" class="logoIcon col-2">
                         <div class="col-5">商品名稱</div>
-                        <div class="col-5 text-right" style="color: #FF4141;">金額 NT$200</div>
+                        <div class="col-5 text-right text-pink">金額 NT$200</div>
                     </div>
                     <div class="d-md-none bg-white p-3 border-bottom rounded-top">
                         <h5 class="mt-2">訂單總額</h5>
                         <div class="d-flex justify-content-between align-items-center">
-                            <span style="color: #ADADAD; font-size:.5rem;">小記</span>
-                            <span class="col-5 text-right" style="color: #FF4141;">金額 NT$400</span>
+                            <span style="font-size:.5rem;" class="text-black-50">小記</span>
+                            <span class="col-5 text-right text-pink">金額 NT$400</span>
                         </div>
                     </div> 
                     <div class="d-md-none bg-white text-center rounded-bottom">
@@ -71,7 +68,7 @@
                     </div>
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom">
                         <h5 class="">訂單總額</h5>
-                        <span class="text-right" style="color: #FF4141;">金額 NT$400</span>
+                        <span class="text-right text-pink">金額 NT$400</span>
                     </div>
                     <div class="d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white rounded-bottom">
                         <!-- <button type="submit" class="btn btn-pink">確認訂單</button> -->

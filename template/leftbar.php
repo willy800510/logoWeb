@@ -19,7 +19,7 @@
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock py-4" style="border-top: solid 1px #9a9a9a;">
         <h5>幫助中心</h5>
-        <a href="#">常見問題</a>
+        <a href="helpCenter.php">常見問題</a>
         <a href="contact.php">聯絡我們</a>
     </div>
 </div>

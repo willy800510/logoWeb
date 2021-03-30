@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb order</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,25 +13,24 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container">
-        <div class="row" style="margin-top: 70px;">
+        <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-auto col-xl-10 px-0 px-xl-3">
-                <div class="d-flex align-items-center justify-content-around bg-white p-4">
-                    <span style="width: 305px; text-align:center;">全部</span>
-                    <span style="width: 305px; text-align:center;">修改中</span>
-                    <span style="width: 305px; text-align:center;">完成</span>
+                 <div class="list-group flex-row align-items-center justify-content-around" role="tablist">
+                    <a class="text-center col-4 bg-white p-4 orderTab" data-toggle="list" role="tab">全部</a>
+                    <a class="text-center col-4 bg-white p-4 orderTab" data-toggle="list" role="tab">修改中</a>
+                    <a class="text-center col-4 bg-white p-4 orderTab" data-toggle="list" role="tab">完成</a>
                 </div>
                 <div class="d-flex flex-column justify-content-center align-items-stretch mt-1">
-                    <div class="order bg-white p-3 mb-1">
+                    <div class="w-100 bg-white p-3 mb-1">
                         <ul class="d-flex justify-content-around align-items-center">
                             <li class="font-weight-bolder">商品圖式</li> 
                             <li class="font-weight-bolder">訂單編號</li> 
@@ -79,6 +76,4 @@
     </div>
 </div>
 
-<?php
-    include("template/footer.php");
-?>
+<?php include("template/footer.php"); ?>

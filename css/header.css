@@ -9,6 +9,8 @@ padding: 10px;
 .logo {
     background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
+    width: 40px; 
+    height: 40px;
 }
 
 @media(max-width: 1999px){

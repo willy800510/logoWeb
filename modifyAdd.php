@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb modify</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <!-- color picker -->
     <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5.4.0/dist/iro.min.js"></script>
     <script src="js/iro.js"></script>
@@ -19,14 +17,13 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container">
-        <div class="row" style="margin-top: 70px;">
+        <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
@@ -66,13 +63,13 @@
                             <input type="text" class="form-control p-2" name="companySign" id="" placeholder="輸入您的公司口號/標語">
                             <label for="companySign" class="mt-2"><span class="text-danger p-1">*</span>選擇顏色</label>
                             <div class="d-flex justify-content-start px-0">
-                                <div class="badge badge-danger d-inline-block mr-2" style="width: 60px; height:38px;"></div>
-                                <div class="badge badge-info d-inline-block mr-2" style="width: 60px; height:38px;"></div>
-                                <div class="badge badge-warning d-inline-block mr-2" style="width: 60px; height:38px;"></div>
-                                <div class="badge badge-success d-inline-block mr-2" style="width: 60px; height:38px;"></div>
-                                <div class="badge badge-primary d-inline-block mr-2" style="width: 60px; height:38px;"></div>
+                                <div class="badge badge-danger d-inline-block mr-2 chooColor"></div>
+                                <div class="badge badge-info d-inline-block mr-2 chooColor"></div>
+                                <div class="badge badge-warning d-inline-block mr-2 chooColor"></div>
+                                <div class="badge badge-success d-inline-block mr-2 chooColor"></div>
+                                <div class="badge badge-primary d-inline-block mr-2 chooColor"></div>
                                 <!-- <button type="button" class="addColor btn d-flex align-items-center justify-content-center mr-2 border border-secondary" style="width: 60px; height:38px;" data-toggle="modal" data-target="#colorPkModal">+</button> -->
-                                <button type="button" class="addColor btn d-flex align-items-center justify-content-center mr-2 border border-secondary" style="width: 60px; height:38px;" data-toggle="modal" data-target="#colorPk">+</button>
+                                <button type="button" class="addColor btn d-flex align-items-center justify-content-center mr-2 border border-secondary chooColor" data-toggle="modal" data-target="#colorPk">+</button>
                             </div>
                         </div>
                         <div class="col-6 col-md-3 order-0 order-md-1 p-5 p-md-4 p-lg-5 shadow m-0 m-md-5 mt-4 rounded">

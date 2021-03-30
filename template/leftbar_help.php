@@ -3,7 +3,7 @@
         <span class="material-icons">chevron_left</span>
         <span>常見問題</span>
     </div>
-    <div class="d-flex flex-column align-items-center justify-content-center leftblock pt-4" style="border-top: solid 1px #9a9a9a;">
+    <div class="d-flex flex-column align-items-center justify-content-center leftblock pt-4 border-top border-secondary">
         <h5>COMPANY</h5>
         <a href="#about" id="guide_about" class="d-none d-xl-block" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="about">關於品牌</a>
     </div>
@@ -33,12 +33,12 @@
         <a href="#pvcPoli" id="guide_pvcPoli" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="pvcPoli">隱私條款</a>
     </div>
 </div>
-<nav class="d-none col-3 leftbar bg-light navbar overflow-auto d-xl-none flex-column align-items-stretch justify-content-start mb-1 position-fixed" style="z-index: 1;">
+<nav class="d-none col-3 leftbar bg-light navbar overflow-auto d-xl-none flex-column align-items-stretch justify-content-start mb-1 position-fixed z-index-1">
     <div class="d-flex align-items-center justify-content-around my-4">
         <span class="material-icons">chevron_left</span>
         <span>常見問題</span>
     </div>
-    <div class="d-flex flex-column align-items-center justify-content-center leftblock pt-4" style="border-top: solid 1px #9a9a9a;">
+    <div class="d-flex flex-column align-items-center justify-content-center leftblock pt-4 border-top border-secondary">
         <h5>COMPANY</h5>
         <a href="#about" id="guide_about" class="d-block d-xl-none" role="button" aria-controls="about">關於品牌</a>
     </div>

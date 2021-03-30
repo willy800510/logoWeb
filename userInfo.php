@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb user info</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,20 +13,19 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container">
-        <div class="row" style="margin-top: 70px;">
+        <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
                 <div class="d-flex align-items-center justify-content-around bg-white p-4">
-                    <span style="text-align:center;">個人資訊</span>
+                    <span class="text-center">個人資訊</span>
                 </div>
                 <form action="" class="bg-white my-1">
                     <div class="text-center p-3">基本資料</div>
@@ -92,7 +89,4 @@
         </div>
     </div>
 </div>
-
-<?php
-    include("template/footer.php");
-?>
+<?php include("template/footer.php"); ?>

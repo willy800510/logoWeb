@@ -37,10 +37,6 @@ button{
   background-color: transparent;
 }
 
-.bg-white{
-  background-color: #fff;
-}
-
 /* .vam {
   font-size: 0;
 } */
@@ -68,6 +64,14 @@ h1, h2{
 }
 .m5{
   margin: 5px;
+}
+
+.z-index-1{
+  z-index: 1;
+}
+
+.opacity-3{
+  opacity: 0.3;
 }
 
 .marbot {
@@ -104,8 +108,14 @@ h1, h2{
 .bg-pinkLight{
   background-color:#FFD6D6;
 }
-.text-pink{
+.text-alert{
   color: #ff4646;
+}
+.text-pink{
+  color: #FF9292;
+}
+.text-lightGray{
+  color: #DBDBDB;
 }
 
 
@@ -193,4 +203,26 @@ h1, h2{
   counter-increment: section;
 }
 
+.height-500{
+  height: 520px;
+}
+
+.height-200{
+  height: 200px;
+}
+.height-400{
+  height: 400px;
+}
+
+
+@media(min-width:0px){
+  .mToTop{
+    margin-top: 70px;
+  }
+}
+@media(min-width:1200px){
+  .mToTop{
+    margin-top: 78px;
+  }
+}
 

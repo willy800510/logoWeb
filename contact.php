@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb contact</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -15,20 +13,19 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
+    <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container-sm">
-        <div class="row" style="margin-top: 70px;">
+        <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
                 <div class="d-flex align-items-center justify-content-around bg-white p-4">
-                    <span style="text-align:center;">聯絡我們</span>
+                    <span class="text-center">聯絡我們</span>
                 </div>
                 <form action="" class="bg-white my-1 contactForm" method="post">
                     <div class="form-group p-3">
@@ -62,7 +59,7 @@
                     </div>
                 </form>
                 <div class="bg-white text-center py-3 my-1 sendSuccess">
-                    <i class="far fa-check-circle fa-3x p-2" style="color: #FF9292;"></i>
+                    <span class="material-icons md-48 p-2 text-pink">check_circle_outline</span>
                     <h4>表單送出成功</h4>
                     <h4>我們將盡快與您聯絡</h4>
                     <h4>謝謝</h4>
@@ -72,10 +69,4 @@
         </div>
     </div>
 </div>
-<?php
-    include("template/footer.php");
-?>
-<script>
-    $(document).ready(function(){
-    });
-</script>
+<?php include("template/footer.php"); ?>

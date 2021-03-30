@@ -6,11 +6,21 @@
     /* border: solid 1px; */
     border-radius: 50%;
 }
-.order{
-    width: 100%;
+
+.cardSize{
+    width: 400px; 
+    height: 550px;
+}
+.logoSize{
+    width: 69px; 
+    height: 69px;
 }
 
-/* orderNum */
+.orderTab:hover{
+    background-color: #F8F8F8 !important;
+}
+
+/* ORDERNUMBER*/
 .odflot{
     font-size: .5rem !important;
 }
@@ -52,10 +62,13 @@
     
 }
 
+/* LOGIN REGIST */
 .fbColor{
     color: #3B5998;
 }
 
-.space{
-    
+/* MODIFY */
+.chooColor{
+    width: 60px;
+    height:38px;
 }
