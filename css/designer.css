@@ -1,0 +1,92 @@
+.color-sample {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 2px;
+	float: right;
+}
+.page-title {
+	background-color: #fff;
+	padding: 18px;
+	margin-bottom: 4px;
+	text-align: center;
+	font-size: 14px;
+}
+@media (min-width: 576px) {
+	.page-title {
+		background-color: transparent;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		font-size: 20px;
+	}
+}
+.logo-img {
+	width: 150px;
+	/* height: 150px; */
+}
+.upload-img {
+	width: 200px;
+	/* height: 200px; */
+}
+.error {
+	border: 2px solid #FF4141;
+}
+
+/* ---layout---------------------- */
+@media (max-width: 414px) {
+	.h4 {
+		/* font-size: 16px; */
+	}
+}
+@media (max-width: 575.98px) {
+	.designer-content .container-sm,
+	.designer-content h6,
+	.designer-content .btn {
+		font-size: 14px;
+	}
+}
+@media (max-width: 767.98px) {
+	.designer-content .container-sm {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+/* ---上傳拖曳區塊---------------------- */
+.upload-wrapper {
+	position: relative;
+	min-height: 330px;
+	border: 2px dashed #ff7870;
+	border-radius: 4px;
+	transition: background-color 0.2s;
+}
+
+.upload-wrapper:hover {
+	background-color: #f3f3f3 !important;
+}
+.upload-wrapper.dragging {
+	background-color: #fffcf9 !important;
+}
+#upload {
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+#upload:focus {
+	outline: none;
+}
+
+/* ---覆蓋common---------------------- */
+@media (min-width: 992px) {
+	.offset-lg-2 {
+		margin-left: 16.666667%;
+	}
+}
