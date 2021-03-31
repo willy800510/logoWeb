@@ -38,22 +38,23 @@
                     <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white">
                         <img src="images/logo.svg" alt="" class="logoIcon col-2">
                         <div class="col-5">商品名稱</div>
-                        <div class="col-5 text-right text-pink">金額 NT$200</div>
+                        <div class="col-5 text-right text-alert">金額 NT$200</div>
                     </div>    
                     <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white rounded-bottom">
                         <img src="images/logo.svg" alt="" class="logoIcon col-2">
                         <div class="col-5">商品名稱</div>
-                        <div class="col-5 text-right text-pink">金額 NT$200</div>
+                        <div class="col-5 text-right text-alert">金額 NT$200</div>
                     </div>
                     <div class="d-md-none bg-white p-3 border-bottom rounded-top">
                         <h5 class="mt-2">訂單總額</h5>
                         <div class="d-flex justify-content-between align-items-center">
                             <span style="font-size:.5rem;" class="text-black-50">小記</span>
-                            <span class="col-5 text-right text-pink">金額 NT$400</span>
+                            <span class="col-5 text-right text-alert">金額 NT$400</span>
                         </div>
                     </div> 
                     <div class="d-md-none bg-white text-center rounded-bottom">
-                        <button type="submit" class="col-10 btn btn-pink my-1">確認訂單</button>
+                        <!-- <button type="submit" class="col-10 btn btn-pink my-1">確認訂單</button> -->
+                        <a href="carts_confirm.php" class="col-10 btn btn-pink my-1">確認訂單</a>
                     </div>
                     <div class="d-md-none bg-white p-3 font-weight-lighter mt-1 border-top rounded">
                         <h5>交易注意事項</h5>
@@ -68,7 +69,7 @@
                     </div>
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom">
                         <h5 class="">訂單總額</h5>
-                        <span class="text-right text-pink">金額 NT$400</span>
+                        <span class="text-right text-alert">金額 NT$400</span>
                     </div>
                     <div class="d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white rounded-bottom">
                         <!-- <button type="submit" class="btn btn-pink">確認訂單</button> -->

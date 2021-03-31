@@ -68,3 +68,114 @@
     }
 }
 
+/* logoAnima */
+#greenMouth, #appleMouth{
+    animation: smile 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+#yellowMouth, #orangeMouth{
+    animation: smile 1s ease-in-out infinite alternate-reverse;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+#greeneeFace, #greenee, #greenCheek{
+    animation: sizing 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+#yellowee, #yelloweeFace, #yellowCheek{
+    animation: sizing 2s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+#orangeeFace, #orangee, #orangeCheek {
+    animation: sizing 1s ease-in-out infinite alternate-reverse;
+    transform-origin: bottom;
+}
+#applee, #appleeFace, #appleCheek {
+    animation: sizing 1.5s ease-in-out infinite alternate-reverse;
+    transform-origin: bottom;
+}
+@keyframes smile{
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+@keyframes sizing{
+    from{
+        transform: rotateX(10deg)
+    }
+    to{
+        transform: rotateX(20deg);
+    }
+}
+/* @keyframes cheek{
+    from{
+        transform: rotateX(10deg)
+    }
+    to{
+        transform: rotateX(20deg);
+        fill: rgba(255,146,146,0.2)
+    }
+}
+@keyframes cheek2{
+    from{
+        transform: rotateX(10deg);
+        fill: rgba(255,132,37,0.2);
+    }
+    to{
+        transform: rotateX(20deg);
+        fill: rgba(246,216,97,0.3);
+    }
+} */
+
+@keyframes bump {
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(40deg);
+    }
+}
+@keyframes move1 {
+    from{
+        transform: translateY(5px);
+    }
+    to{
+        transform: translateY(50px);
+    }
+}
+@keyframes bump2 {
+    from{
+        transform: rotate(10deg)
+    }
+    to{
+        transform: rotateX(-40deg);
+    }
+}
+@keyframes bump3 {
+    from{
+        transform: rotate(-10deg)
+    }
+    to{
+        transform: rotateX(40deg);
+    }
+}
+#apple {
+    animation: bump 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+#appleFace {
+    animation: move1 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+#yellow, #yellowFace, #grass, #grassFace {
+    animation: bump2 1s ease-in-out infinite alternate;
+    transform-origin: bottom left;
+}
+#orange, #orangeFace, #pink, #pinkFace {
+    animation: bump3 1s ease-in-out infinite alternate;
+    transform-origin: bottom right;
+}

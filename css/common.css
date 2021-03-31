@@ -6,7 +6,8 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 body{
-  background-color: #E5E5E5;
+  /* background-color: #E5E5E5; */
+  background-color: #f0f0f0;
 }
 
 .row, .col-6, .col-md-4, .col-lg-3{
@@ -117,6 +118,9 @@ h1, h2{
 .text-lightGray{
   color: #DBDBDB;
 }
+.text-orange{
+  color: #FC9545;
+}
 
 
 /* toTop arrow */
@@ -135,7 +139,8 @@ h1, h2{
   background: #DBDBDB;
 }
 .toTop-arrow:hover{
-  background: #D5A178;
+  /* background: #D5A178; */
+  background: #ff8425cc;
 }
 
 .toTop-arrow.showw {

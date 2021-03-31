@@ -41,11 +41,11 @@
                             <img src="images/logo.svg" alt="" class="logoIcon">
                             <a href="orderNum.php">xxxxxxxxxx</a> 
                             <li>商品製作中</li>
-                            <li class="text-danger">NT$200</li>
+                            <li class="text-alert">NT$200</li>
                         </ul>
                         <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="#" class="btn btn-danger mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-danger mx-3">查看詳細檔案</a>
+                            <a  href="#" class="btn btn-outline-info mx-3">查看檔案</a>
+                            <a  href="orderCheck.php" class="btn btn-outline-pink mx-3">查看詳細檔案</a>
                         </div>
                     </div>
                     <div class="w-100 bg-white p-3 mb-1">
@@ -53,11 +53,11 @@
                             <img src="images/logo.svg" alt="" class="logoIcon">
                             <a href="orderNum.php">xxxxxxxxxx</a>
                             <li>商品製作中</li>
-                            <li class="text-danger">NT$200</li>
+                            <li class="text-alert">NT$200</li>
                         </ul>
                         <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="#" class="btn btn-danger mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-danger mx-3">查看詳細檔案</a>
+                            <a  href="#" class="btn btn-outline-info mx-3">查看檔案</a>
+                            <a  href="orderCheck.php" class="btn btn-outline-pink mx-3">查看詳細檔案</a>
                         </div>
                     </div>
                     <div class="w-100 bg-white p-3 mb-1">
@@ -65,11 +65,11 @@
                             <img src="images/logo.svg" alt="" class="logoIcon">
                             <a href="orderNum.php">xxxxxxxxxx</a>
                             <li>商品製作中</li>
-                            <li class="text-danger">NT$200</li>
+                            <li class="text-alert">NT$200</li>
                         </ul>
                         <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="#" class="btn btn-danger mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-danger mx-3">查看詳細檔案</a>
+                            <a  href="#" class="btn btn-outline-info mx-3">查看檔案</a>
+                            <a  href="orderCheck.php" class="btn btn-outline-pink mx-3">查看詳細檔案</a>
                         </div>
                     </div>
                     <div class="w-100 bg-white p-3 mb-1">
@@ -77,11 +77,11 @@
                             <img src="images/logo.svg" alt="" class="logoIcon">
                             <a href="orderNum.php">xxxxxxxxxx</a>
                             <li>商品製作中</li>
-                            <li class="text-danger">NT$200</li>
+                            <li class="text-alert">NT$200</li>
                         </ul>
                         <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="#" class="btn btn-danger mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-danger mx-3">查看詳細檔案</a>
+                            <a  href="#" class="btn btn-outline-info mx-3">查看檔案</a>
+                            <a  href="orderCheck.php" class="btn btn-outline-pink mx-3">查看詳細檔案</a>
                         </div>
                     </div>
                     <div class="w-100 bg-white p-3 mb-1">
@@ -89,11 +89,11 @@
                             <img src="images/logo.svg" alt="" class="logoIcon">
                             <a href="orderNum.php">xxxxxxxxxx</a>
                             <li>商品製作中</li>
-                            <li class="text-danger">NT$200</li>
+                            <li class="text-alert">NT$200</li>
                         </ul>
                         <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="#" class="btn btn-danger mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-danger mx-3">查看詳細檔案</a>
+                            <a  href="#" class="btn btn-outline-info mx-3">查看檔案</a>
+                            <a  href="orderCheck.php" class="btn btn-outline-pink mx-3">查看詳細檔案</a>
                         </div>
                     </div>
                 </div>

@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="text-center bg-white py-3">
-                    <button class="btn btn-outline-primary">前往購物袋</button>
+                    <a href="carts_lists.php" class="btn btn-outline-primary">前往購物袋</a>
                 </div>
             </div>
         </div>

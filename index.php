@@ -18,7 +18,7 @@
 <body>
 <?php include("template/header.php"); ?>
 <!-- 商品預覽 -->
-<?php include("template/logoDisplay.php"); ?>
+<?php include("template/logoDisplayT.php"); ?>
 <!-- BANNER -->
     <div class="container-fluid banner mb-3">
         <div class="container-sm clearfix baninform">
