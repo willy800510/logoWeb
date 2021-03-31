@@ -24,9 +24,6 @@
         .carousel-inner{
             height: 75vh;
         }
-        .slick-slide {
-            width: 20vw;
-        }
     </style>	
 
 </head>
