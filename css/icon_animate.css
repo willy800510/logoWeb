@@ -25,6 +25,25 @@
     transform-origin: center;
     transform-box: fill-box;
 }
+#greenBlock{
+    animation: xMove1 1s ease-in-out infinite alternate;
+}
+#appleBlock{
+    animation: xMove1 1s ease-in-out infinite alternate-reverse;
+}
+#orangeBlock{
+    animation: xMove2 1s ease-in-out infinite alternate;
+}
+#yellowBlock{
+    animation: xMove3 2s ease-in-out infinite alternate-reverse;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+#pinkBlock{
+    animation: xMove3 1.5s ease-in-out infinite alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
 @keyframes wave {
     from{
         transform: rotate(-5deg);
@@ -71,5 +90,29 @@
     }
     to{
         transform: rotateX(0deg);
+    }
+}
+@keyframes xMove1 {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(20px);
+    }
+}
+@keyframes xMove2 {
+    from{
+        transform: translateX(-10px);
+    }
+    to{
+        transform: translateX(5px);
+    }
+}
+@keyframes xMove3 {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
     }
 }

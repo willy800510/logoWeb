@@ -1,0 +1,14 @@
+<svg width="226" height="544" viewBox="0 0 226 544" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="moveBlock" clip-path="url(#clip0)">
+<rect id="greenBlock" x="-131.693" width="319.528" height="108.8" rx="54.4" fill="#7DE290"/>
+<rect id="yellowBlock" x="-107.642" y="108.8" width="319.528" height="108.8" rx="54.4" fill="#F8D751"/>
+<rect id="appleBlock" x="-142" y="217.6" width="319.528" height="108.8" rx="54.4" fill="#DEE453"/>
+<rect id="orangeBlock" x="-124.821" y="326.4" width="319.528" height="108.8" rx="54.4" fill="#FF8425"/>
+<rect id="pinkBlock" x="-93.8989" y="435.2" width="319.528" height="108.8" rx="54.4" fill="#FF9393"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="226" height="544" fill="white"/>
+</clipPath>
+</defs>
+</svg>
