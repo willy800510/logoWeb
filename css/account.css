@@ -72,3 +72,10 @@
     width: 60px;
     height:38px;
 }
+
+
+/* carts_payPick */
+.btn-outline-pink.active{
+    background: #FF9292;
+    color: white;
+}

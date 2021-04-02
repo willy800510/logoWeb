@@ -28,8 +28,8 @@
                     <div class="d-flex justify-content-between align-items-center p-3 border-bottom rounded-top bg-white">
                         <h5 class="mt-2">付款選項</h5>
                         <div>
-                            <button type="submit" class="btn btn-outline-secondary">銀行轉帳</button>
-                            <button type="submit" class="btn btn-danger">銀行卡/金融卡</button>
+                            <button type="submit" id="bankTransfer" class="payPick btn btn-outline-pink active">銀行轉帳</button>
+                            <button type="submit" id="cardPay" class="payPick btn btn-outline-pink">銀行卡/金融卡</button>
                         </div>
                     </div>  
                     <div class="p-3 bg-white">
@@ -65,7 +65,7 @@
                 <div class="d-none d-md-flex flex-md-column col-md-3 px-0 px-md-1">
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom rounded-top">
                         <h5 class="">付款方式</h5>
-                        <button type="submit" class="btn btn-outline-danger">銀行卡/金融卡</button>
+                        <button type="submit" id="payPicked" class="btn btn-outline-danger">銀行卡/金融卡</button>
                     </div>
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom">
                         <h5 class="">訂單總額</h5>
@@ -89,3 +89,20 @@
 <?php
     include("template/footer.php");
 ?>
+<script>
+    $(document).ready(function(){
+        // if($('#bankTransfer,#cardPay').hasClass('btn-pink')){
+        //     var chooseBtnText = $(this).text();
+        //     $('#payChoose').text(chooseBtnText);
+        // }
+        // $('#bankTransfer,#cardPay').click(function(){
+        //     $(this).removeClass('btn-outline-secondary').addClass('btn-pink')
+        //     $(this).siblings('.btn-pink').removeClass('btn-pink').addClass('btn-outline-secondary')
+        // })
+        $(".payPick").click(function() {
+            $(".payPick").removeClass("active");
+            $(this).addClass("active");
+        });
+
+    })
+</script>
