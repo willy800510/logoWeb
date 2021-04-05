@@ -100,7 +100,7 @@ h1, h2{
   border: solid 2px;
   border-color: #FF9292;
 }
-.btn-outline-pink:hover{
+.btn.btn-outline-pink:hover{
   color: white;
   background-color: #FF9292;
   border: solid 2px;

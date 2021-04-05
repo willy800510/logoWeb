@@ -117,16 +117,12 @@
     <?php include("template/header.php"); ?>
     <!-- < md -->
     <div class="container-fluid mToTop d-md-none">
-        <!-- <ul id="enterAd-md" class="position-fixed z-index-2 carousel-indicators d-block ml-4" data-aos="fade-down" data-aos-easing="ease-in-sine">
-            <li class=" my-3 active"><a href="#welcome-md">首頁</a></li>
-            <li class=" my-3"><a href="#shopFlow-md">購買流程</a></li>
-            <li class=" my-3"><a href="#moreProduct-md">熱門商品</a></li>
-        </ul> -->
         <nav id="enterAd-md" class="navbar position-fixed z-index-2" data-aos="fade-down" data-aos-easing="ease-in-sine" style="top: 20%; left:0%;">
             <div class="nav nav-pills flex-column">
-                <a href="#welcome-md" class="nav-link">首頁</a>
-                <a href="#shopFlow-md" class="nav-link">購買流程</a>
-                <a href="#moreProduct-md" class="nav-link">熱門商品</a>
+                <a href="#welcome-md" id="nav_welcome" class="nav-link">首頁</a>
+                <a href="#shopFlow-md" id="nav_shopFlow" class="nav-link">購買流程</a>
+                <a href="#moreProduct-md" id="nav_moreProduct" class="nav-link">熱門商品</a>
+                <a href="#enterIndex-md" id="nav_enterIndex" class="nav-link">Get Started</a>
             </div>
         </nav>
         <div data-spy="scroll" data-target="#enterAd-md" data-offset="-20">
@@ -331,7 +327,7 @@
                     </div>
                 </div>
             </div>
-            <a href="index.php" class="d-flex justify-content-center align-items-center font-weight-bolder text-pink display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="8000" data-aos-anchor-placement="center-bottom">Get Started</a>
+            <a href="index.php" id="enterIndex-md" class="d-flex justify-content-center align-items-center font-weight-bolder text-pink display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="8000" data-aos-anchor-placement="center-bottom">Get Started</a>
         </div>
     </div>
     <!-- > md -->
@@ -740,14 +736,36 @@
             target: '#enterAd-md',
             offset: 105
         });
-        // 嘗試讓scrollSpy 滑動
-        var offset = 100;
-        $('.navbar .nav a').click(function(){
-            event.preventDefault();
-            $($(this).attr('href'))[0].scrollIntoView();
-            scrollBy(0, -offset);
+        
+        //  <md nav a click scroll to
+        $('#nav_welcome').click(function(){
+            event.preventDefault(); //有沒有寫這個的意義？
+            $('html,body').animate({scrollTop: $('#welcome-md').offset().top-105},800);
+        });
+        $('#nav_shopFlow').click(function(){
+            event.preventDefault(); //有沒有寫這個的意義？
+            $('html,body').animate({scrollTop: $('#shopFlow-md').offset().top-105},800);
+        });
+        $('#nav_moreProduct').click(function(){
+            event.preventDefault(); //有沒有寫這個的意義？
+            $('html,body').animate({scrollTop: $('#moreProduct-md').offset().top-65},800);
+        });
+        $('#nav_enterIndex').click(function(){
+            event.preventDefault(); //有沒有寫這個的意義？
+            $('html,body').animate({scrollTop: $('#enterIndex-md').offset().top-65},500);
+        });
+
+        // get started show
+        $(document).scroll(function () {
+            var y = $(this).scrollTop();
+            if (y > 900) {
+                $('#nav_enterIndex').fadeIn();
+            } else {
+                $('#nav_enterIndex').fadeOut();
+            }
         });
     });
+
 
     
     // >md 導覽列的粉紅圓點

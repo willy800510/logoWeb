@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
+    <style>
+        .payPick:checked + label {
+            background: #FF9292;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <?php include("template/header.php"); ?>
@@ -24,12 +30,14 @@
                 <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle">
             </div>
             <div class="row py-2">
-                <form action="" class="col-12 flex-column col-md-9 px-0 px-md-1">
+                <form action="carts_confirm.php" method="POST" id="payTypeForm" class="col-12 flex-column col-md-9 px-0 px-md-1">
                     <div class="d-flex justify-content-between align-items-center p-3 border-bottom rounded-top bg-white">
                         <h5 class="mt-2">付款選項</h5>
                         <div>
-                            <button type="submit" id="bankTransfer" class="payPick btn btn-outline-pink active">銀行轉帳</button>
-                            <button type="submit" id="cardPay" class="payPick btn btn-outline-pink">銀行卡/金融卡</button>
+                            <input type="radio" name="payType" id="bankTransfer" value="銀行轉帳" class="d-none payPick" checked>
+                            <label for="bankTransfer" class="btn btn-outline-pink">銀行轉帳</label>
+                            <input type="radio" name="payType" id="cardPay" value="銀行卡/金融卡" class="d-none payPick">
+                            <label for="cardPay" class="btn btn-outline-pink">銀行卡/金融卡</label>
                         </div>
                     </div>  
                     <div class="p-3 bg-white">
@@ -38,12 +46,12 @@
                     <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white">
                         <img src="images/logo.svg" alt="" class="logoIcon col-2">
                         <div class="col-5">商品名稱</div>
-                        <div class="col-5 text-right text-alert">金額 NT$200</div>
+                        <div class="col-5 text-right text-alert">金額 NT$<?php echo "200"?></div>
                     </div>    
                     <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white rounded-bottom">
                         <img src="images/logo.svg" alt="" class="logoIcon col-2">
                         <div class="col-5">商品名稱</div>
-                        <div class="col-5 text-right text-alert">金額 NT$200</div>
+                        <div class="col-5 text-right text-alert">金額 NT$<?php echo "200"?></div>
                     </div>
                     <div class="d-md-none bg-white p-3 border-bottom rounded-top">
                         <h5 class="mt-2">訂單總額</h5>
@@ -53,8 +61,8 @@
                         </div>
                     </div> 
                     <div class="d-md-none bg-white text-center rounded-bottom">
-                        <!-- <button type="submit" class="col-10 btn btn-pink my-1">確認訂單</button> -->
-                        <a href="carts_confirm.php" class="col-10 btn btn-pink my-1">確認訂單</a>
+                        <button type="submit" class="col-10 btn btn-pink my-1">確認訂單</button>
+                        <!-- <a href="carts_confirm.php" class="col-10 btn btn-pink my-1">確認訂單</a> -->
                     </div>
                     <div class="d-md-none bg-white p-3 font-weight-lighter mt-1 border-top rounded">
                         <h5>交易注意事項</h5>
@@ -65,15 +73,15 @@
                 <div class="d-none d-md-flex flex-md-column col-md-3 px-0 px-md-1">
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom rounded-top">
                         <h5 class="">付款方式</h5>
-                        <button type="submit" id="payPicked" class="btn btn-outline-danger">銀行卡/金融卡</button>
+                        <button id="payPicked" class="btn btn-outline-danger">銀行轉帳</button>
                     </div>
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom">
                         <h5 class="">訂單總額</h5>
-                        <span class="text-right text-alert">金額 NT$400</span>
+                        <span class="text-right text-alert">金額 NT$<?php echo "400"?></span>
                     </div>
                     <div class="d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white rounded-bottom">
-                        <!-- <button type="submit" class="btn btn-pink">確認訂單</button> -->
-                        <a href="carts_confirm.php" class="btn btn-pink">確認訂單</a>
+                        <button type="submit" form="payTypeForm" class="btn btn-pink">確認訂單</button>
+                        <!-- <a href="carts_confirm.php" class="btn btn-pink">確認訂單</a> -->
                     </div>
                 </div>
                 <div class="d-none d-md-block col-12 px-0 px-md-1 font-weight-lighter">
@@ -91,18 +99,10 @@
 ?>
 <script>
     $(document).ready(function(){
-        // if($('#bankTransfer,#cardPay').hasClass('btn-pink')){
-        //     var chooseBtnText = $(this).text();
-        //     $('#payChoose').text(chooseBtnText);
-        // }
-        // $('#bankTransfer,#cardPay').click(function(){
-        //     $(this).removeClass('btn-outline-secondary').addClass('btn-pink')
-        //     $(this).siblings('.btn-pink').removeClass('btn-pink').addClass('btn-outline-secondary')
-        // })
         $(".payPick").click(function() {
-            $(".payPick").removeClass("active");
-            $(this).addClass("active");
+            var chooseBtnText = $(this).next('label').text();
+            $('#payPicked').text(chooseBtnText);
+            // console.log(chooseBtnText);
         });
-
     })
 </script>

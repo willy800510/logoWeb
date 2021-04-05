@@ -46,7 +46,8 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center p-3 border-bottom bg-white">
                         <h6 class="mt-2 col-4 text-center">付款資訊</h6>
-                        <button type="submit" class="btn btn-outline-pink col-4 text-center">銀行卡/金融卡</button>
+                        <!-- <button type="submit" class="btn btn-outline-pink col-4 text-center">銀行卡/金融卡</button> -->
+                        <button class="btn-outline-pink py-2 rounded col-4 text-center"><?php echo $_POST['payType']; ?></button>
                         <div class="px-3 col-4 text-center text-alert">總額 NT$400</div>
                     </div>  
                     <div class="bg-white text-center rounded-bottom p-3">
