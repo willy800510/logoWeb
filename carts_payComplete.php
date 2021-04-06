@@ -22,10 +22,10 @@
 ?>
     <div class="container-fluid">
         <div class="container-sm clearfix mToTop">
-            <div class="d-flex justify-content-around p-1">
-                <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
-                <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
-                <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle">
+            <div class="d-flex justify-content-between p-1 stepper step-final">
+                <a href="carts_lists.php"><img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle"></a>
+                <a href="carts_payPick.php"><img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle"></a>
+                <a href=""><img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle"></a>
             </div>
             <div class="row py-2">
                 <form action="" class="col-12 flex-column px-0 px-md-1">
@@ -43,14 +43,14 @@
                         <img src="images/logo.svg" alt="" class="logoIcon col-3 col-md-2">
                         <div class="col-3 col-md-3 text-center">商品名稱</div>
                         <div class="col-3 col-md-3 text-center">NT$200</div>
-                        <a href="#" class="col-3 col-md-4 text-center">a$bcxxx123</a>
+                        <a href="orderNum.php" class="col-3 col-md-4 text-center">a$bcxxx123</a>
                         
                     </div>    
                     <div class="row justify-content-between align-items-center p-3 border-bottom bg-white">
                         <img src="images/logo.svg" alt="" class="logoIcon col-3 col-md-2">
                         <div class="col-3 col-md-3 text-center">商品名稱</div>
                         <div class="col-3 col-md-3 text-center">NT$200</div>
-                        <a href="#" class="col-3 col-md-4 text-center">a$bcxxx123</a>
+                        <a href="orderNum.php" class="col-3 col-md-4 text-center">a$bcxxx123</a>
                     </div>
                     <div class="bg-white p-3 font-weight-normal my-1 border-top rounded text-alert">
                         <span>◇付款成功後，網站後台人員將為您聯繫該商標商品之設計師，與您溝通討論商標需要進行的必要設計修改。

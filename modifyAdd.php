@@ -31,7 +31,7 @@
                 <div class="d-flex align-items-center justify-content-around bg-white p-4">
                     <span style="text-align:center;">修改細項</span>
                 </div>
-                <form action="" class="bg-white my-1" method="">
+                <form action="" method="post" class="bg-white my-1">
                     <div class="d-flex justify-content-center justify-content-md-between align-items-center px-3 py-1">
                         <span class="d-none d-md-flex align-items-end odflot pt-3">訂單遍號：<a href="#" class="text-primary">xxxxxxxxxx</a></span>
                         <div class="">
@@ -77,8 +77,8 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <!-- <button type="submit" class="btn btn-outline-pink">送出修改</button> -->
-                        <a href="modifyView.php" type="submit" class="btn btn-outline-pink">送出修改</a>
+                        <button type="submit" class="btn btn-outline-pink">送出修改</button>
+                        <!-- <a href="modifyView.php" type="submit" class="btn btn-outline-pink">送出修改</a> -->
                     </div>
                     <!-- Modal color picker -->
                     <div class="modal fade" id="colorPk" tabindex="-1">

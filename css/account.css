@@ -79,3 +79,31 @@
     background: #FF9292;
     color: white;
 }
+
+/* carts_lists */
+.stepper { /*流程狀態的外層加class*/
+    position: relative;
+ }
+ .stepper::before,.stepper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: calc(100% - 0.5rem); /*減掉父層兩邊的padding距離，避免凸出去*/
+    height: 3px;
+    top: calc(50% - 2px);/*減掉一半的線的高度*/
+    left: 0.25rem; /*父層的padding距離*/
+ }
+ .stepper::before{
+    background: #ADADAD;
+ }
+ .stepper::after { 
+    background: #FF7870;
+    width: 0%;
+ }
+ .stepper.step-half::after { /*步驟2的時候 加上step-half的class名稱*/
+    width: 50%;
+ }
+ .stepper.step-final::after { /*步驟3的時候 加上step-final的class名稱*/
+    width: calc(100% - 0.5rem);
+ }

@@ -30,6 +30,7 @@
             height: 8px;
             border-radius: 8px;
             background-color: #FF9292;
+            top: 64px;
         }
 
         .carousel-indicators li::after, .nav-pills .nav-link::before{
@@ -145,7 +146,7 @@
                             <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
                         </div>
                     </div>
-                    <div class="col-5 text-dark text-center my-auto">
+                    <div class="col-6 text-center text-orange my-auto">
                         <h5 class="font-weight-normal py-1" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">超過1000多種Logo挑選</h5>
                         <h5 class="font-weight-normal py-1" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1200">為您的公司打造專屬Logo</h5>
                     </div>
@@ -774,12 +775,12 @@
     var easeNameInit = 'easeOutElastic';
 
     window.onload=function(){
-        noX = $('.carousel-indicators .active').offset().left;
+        noX = $('.carousel-indicators .active').offset().left+12;
         noY = $('.carousel-indicators .active').offset().top;
         $('#trackDot').stop().animate({left:noX},300,easeNameInit);
         $('.carousel-indicators li').hover(
             function(){
-                noXhover = $(this).offset().left;
+                noXhover = $(this).offset().left+28;
                 $('#trackDot').stop().animate({left:noXhover},500,easeName);
             },
             function(){

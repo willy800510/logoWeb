@@ -19,7 +19,7 @@
     <div class="container-fluid">
         <div class="container-sm clearfix mToTop">
         <!-- 訂單流程狀態 -->
-            <div class="d-flex justify-content-between p-1">
+            <div class="d-flex justify-content-between p-1 stepper">
                 <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
                 <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
                 <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle">

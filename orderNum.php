@@ -67,7 +67,7 @@
                         </div>
                         <div class="mt-3 pt-3 border-top border-secondary text-center">
                             <a href="#" class="btn btn-outline-primary">下載報價單</a>
-                            <a href="order.php" class="btn btn-outline-danger px-4">返回</a>
+                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-danger px-4">
                         </div>
                     </div>
                 </div>

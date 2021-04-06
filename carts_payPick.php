@@ -24,7 +24,7 @@
 <?php include("template/header.php"); ?>
     <div class="container-fluid">
         <div class="container-sm clearfix mToTop">
-            <div class="d-flex justify-content-between p-1">
+            <div class="d-flex justify-content-between p-1 stepper step-half">
                 <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
                 <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
                 <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle">
@@ -79,7 +79,7 @@
                         <h5 class="">訂單總額</h5>
                         <span class="text-right text-alert">金額 NT$<?php echo "400"?></span>
                     </div>
-                    <div class="d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white rounded-bottom">
+                    <div class="d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom rounded-bottom">
                         <button type="submit" form="payTypeForm" class="btn btn-pink">確認訂單</button>
                         <!-- <a href="carts_confirm.php" class="btn btn-pink">確認訂單</a> -->
                     </div>

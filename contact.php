@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
+    <style>
+        .sendSuccess { display: none; }
+    </style>
 </head>
 <body>
 <?php include("template/header.php"); ?>
@@ -27,32 +30,50 @@
                 <div class="d-flex align-items-center justify-content-around bg-white p-4">
                     <span class="text-center">聯絡我們</span>
                 </div>
-                <form action="" class="bg-white my-1 contactForm" method="post">
+                <form action="getContact.php" method="post" id="contactForm" class="bg-white my-1 needs-validation" novalidate>
                     <div class="form-group p-3">
                         <span class="text-danger d-block"><span class="text-danger pr-1">*</span>號為必填項目</span>
-                        <label for="useName" class="mt-2"><span class="text-danger pr-1">*</span>姓名</label>
-                        <input type="text" class="form-control col-6" name="useName" id="">
-                        <label for="phone" class="mt-2"><span class="text-danger pr-1">*</span>電話</label>
-                        <input type="text" class="form-control col-6" name="phone" id="">
-                        <label for="mail" class="mt-2"><span class="text-danger pr-1">*</span>E-mail</label>
-                        <input type="text" class="form-control col-6" name="mail" id="">
-                        <label for="quest" class="mt-2"><span class="text-danger pr-1">*</span>問題類別</label>
-                        <select name="quest" id="" class="form-control col-6">
-                            <option value="">----購買問題（退換）----</option>
-                            <option value="">----金流刷卡問題----</option>
-                            <option value="">----修改相關疑問----</option>
-                            <option value="">----其他----</option>
-                            <option value="">----購買問題（退換）----</option>
-                            <option value="">----購買問題（退換）----</option>
-                            <option value="">----金流刷卡問題----</option>
-                            <option value="">----修改相關疑問----</option>
-                            <option value="">----其他----</option>
-                            <option value="">----購買問題（退換）----</option>
-                        </select>
-                        <label for="orderNum" class="mt-2"><span class="text-danger pr-1">*</span>訂單編號（如已建立訂單）</label>
-                        <input type="text" class="form-control col-6" name="orderNum" id="">
-                        <label for="content" class="mt-2"><span class="text-danger pr-1">*</span>說明敘述</label>
-                        <textarea name="content" id="" cols="30" rows="10" class="form-control"></textarea>
+                        <div class="position-relative">
+                            <label for="useName" class="mt-2"><span class="text-danger pr-1">*</span>姓名</label>
+                            <input type="text" class="form-control col-6" name="useName" id="" required>
+                            <span class="invalid-feedback position-absolute" style="bottom: 0;left: 51%;">請填寫姓名</span>
+                        </div>
+                        <div class="position-relative">
+                            <label for="phone" class="mt-2"><span class="text-danger pr-1">*</span>電話</label>
+                            <input type="text" class="form-control col-6" name="phone" id="" required>
+                            <span class="invalid-feedback position-absolute" style="bottom: 0;left: 51%;">請填寫電話</span>
+                        </div>
+                        <div class="position-relative">
+                            <label for="mail" class="mt-2"><span class="text-danger pr-1">*</span>E-mail</label>
+                            <input type="email" class="form-control col-6" name="mail" id="" required>
+                            <span class="invalid-feedback position-absolute" style="bottom: 0;left: 51%;">請輸入正確Email格式</span>
+                        </div>
+                        <div class="position-relative">
+                            <label for="quest" class="mt-2"><span class="text-danger pr-1">*</span>問題類別</label>
+                            <select name="quest" id="" class="form-control col-6" required>
+                                <option value="">----購買問題（退換）----</option>
+                                <option value="">----金流刷卡問題----</option>
+                                <option value="">----修改相關疑問----</option>
+                                <option value="">----其他----</option>
+                                <option value="">----購買問題（退換）----</option>
+                                <option value="">----購買問題（退換）----</option>
+                                <option value="">----金流刷卡問題----</option>
+                                <option value="">----修改相關疑問----</option>
+                                <option value="">----其他----</option>
+                                <option value="">----購買問題（退換）----</option>
+                            </select>
+                            <span class="invalid-feedback position-absolute" style="bottom: 0;left: 51%;">請選擇問題類別</span>
+                        </div>
+                        <div class="position-relative">
+                            <label for="orderNum" class="mt-2"><span class="text-danger pr-1">*</span>訂單編號（如已建立訂單）</label>
+                            <input type="text" class="form-control col-6" name="orderNum" id="" required>
+                            <span class="invalid-feedback position-absolute" style="bottom: 0;left: 51%;">請填寫訂單編號</span>
+                        </div>
+                        <div class="position-relative">
+                            <label for="content" class="mt-2"><span class="text-danger pr-1">*</span>說明敘述</label>
+                            <textarea name="content" id="" cols="30" rows="10" class="form-control" required></textarea>
+                            <span class="invalid-feedback position-absolute" style="top: 100%; right: 0;">請敘述您的問題</span>
+                        </div>
                         <div class="text-center mt-3">
                             <button type="submit" class="btn btn-outline-primary col-3" id="contSend">送出</button>
                         </div>
@@ -69,4 +90,35 @@
         </div>
     </div>
 </div>
+<script>
+    $(function() {
+        $('#contactForm').submit(function(){
+            var form = document.getElementById('contactForm');
+            form.classList.add('was-validated');
+            if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+            }else{
+                event.preventDefault();
+                $.ajax({
+                    url:'getContact.php', //送資料到此頁面處理，成功的話會回傳1
+                    type:'post',
+                    data:$('#contactForm').serialize(),
+                    error:function(){
+                        alert('傳送失敗!');
+                    },
+                    success:function(result){
+                        if(result==1){
+                            $('#contactForm').slideUp(400,function(){
+                                $('.sendSuccess').delay(200).fadeIn(800);
+                            });
+                        }else{
+                            alert('發生錯誤!');
+                        }
+                    }
+                })
+            }
+        })
+    })
+</script>
 <?php include("template/footer.php"); ?>
