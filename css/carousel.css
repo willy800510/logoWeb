@@ -29,3 +29,13 @@
         top:   126px;
     }
 }
+.carousel-control-next-icon {
+    background-image: url(../images/svg/chevron_right_black_36dp.svg);
+}
+.carousel-control-prev-icon {
+    background-image: url(../images/svg/chevron_left_black_36dp.svg);
+}
+
+.carousel-indicators {
+    bottom: 2%;
+}

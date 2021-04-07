@@ -1,4 +1,4 @@
-<div class="col-2 leftbar bg-white d-none d-xl-flex flex-column align-items-stretch justify-content-start mb-1">
+<div class="col-2 leftbar bg-cloud d-none d-xl-flex flex-column align-items-stretch justify-content-start mb-1">
     <div class="d-flex align-items-center justify-content-around my-4">
         <span class="material-icons">chevron_left</span>
         <span>常見問題</span>
@@ -33,38 +33,38 @@
         <a href="#pvcPoli" id="guide_pvcPoli" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="pvcPoli">隱私條款</a>
     </div>
 </div>
-<nav class="d-none col-3 leftbar bg-light navbar overflow-auto d-xl-none flex-column align-items-stretch justify-content-start mb-1 position-fixed z-index-1">
+<nav id="helper_guide" class="d-xl-none col-3 leftbar leftbar-s navbar flex-nowrap flex-column align-items-stretch justify-content-start mb-1 position-fixed z-index-1 collapse overflow-auto">
     <div class="d-flex align-items-center justify-content-around my-4">
         <span class="material-icons">chevron_left</span>
         <span>常見問題</span>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock pt-4 border-top border-secondary">
         <h5>COMPANY</h5>
-        <a href="#about" id="guide_about" class="d-block d-xl-none" role="button" aria-controls="about">關於品牌</a>
+        <a href="" id="guide_about_s" class="d-block" role="button" aria-controls="about">關於品牌</a>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock">
         <h5>新手須知</h5>
-        <a href="#howToBuy" id="guide_howToBuy" class="d-block d-xl-none" role="button" aria-controls="howToBuy">如何購物</a>
+        <a href="#howToBuy" id="guide_howToBuy_s" class="d-block" role="button" aria-controls="howToBuy">如何購物</a>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock">
         <h5>交易付款</h5>
-        <a href="#tradeQues" id="guide_tradeQues" role="button" aria-controls="tradeQues">交易問題</a>
-        <a href="#odrQues" id="guide_odrQues" role="button" aria-controls="odrQues">訂單問題</a>
-        <a href="#domOvertrade" id="guide_domOvertrade" role="button" aria-controls="domOvertrade">國內/外交易須知</a>
+        <a href="#tradeQues" id="guide_tradeQues_s" role="button" aria-controls="tradeQues">交易問題</a>
+        <a href="#odrQues" id="guide_odrQues_s" role="button" aria-controls="odrQues">訂單問題</a>
+        <a href="#domOvertrade" id="guide_domOvertrade_s" role="button" aria-controls="domOvertrade">國內/外交易須知</a>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock">
         <h5>會員相關</h5>
-        <a href="#mbNotice" id="guide_mbNotice" role="button" aria-controls="mbNotice">會員須知</a>
-        <a href="#acontQues" id="guide_acontQues" role="button" aria-controls="acontQues">帳戶問題</a>
+        <a href="#mbNotice" id="guide_mbNotice_s" role="button" aria-controls="mbNotice">會員須知</a>
+        <a href="#acontQues" id="guide_acontQues_s" role="button" aria-controls="acontQues">帳戶問題</a>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock">
         <h5>售後服務</h5>
-        <a href="#aftrBuy" id="guide_aftrBuy" role="button" aria-controls="aftrBuy">售後須知</a>
-        <a href="#ctmrServe" id="guide_ctmrServe" role="button" aria-controls="ctmrServe">客服相關</a>
+        <a href="#aftrBuy" id="guide_aftrBuy_s" role="button" aria-controls="aftrBuy">售後須知</a>
+        <a href="#ctmrServe" id="guide_ctmrServe_s" role="button" aria-controls="ctmrServe">客服相關</a>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock">
         <h5>條款聲明</h5>
-        <a href="#tmOfServe" id="guide_tmOfServe" role="button" aria-controls="tmOfServe">服務條款</a>
-        <a href="#pvcPoli" id="guide_pvcPoli" role="button" aria-controls="pvcPoli">隱私條款</a>
+        <a href="#tmOfServe" id="guide_tmOfServe_s" role="button" aria-controls="tmOfServe">服務條款</a>
+        <a href="#pvcPoli" id="guide_pvcPoli_s" role="button" aria-controls="pvcPoli">隱私條款</a>
     </div>
 </nav>

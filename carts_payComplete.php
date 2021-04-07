@@ -30,7 +30,7 @@
             <div class="row py-2">
                 <form action="" class="col-12 flex-column px-0 px-md-1">
                     <div class="bg-white rounded text-center py-3 my-1">
-                        <span class="material-icons md-48 p-2 text-pink">check_circle_outline</span>
+                        <span class="material-icons md-48 p-2 text-color2">check_circle_outline</span>
                         <h3>付款成功</h3>
                     </div>
                     <div class="row justify-content-between align-items-center p-3 bg-white rounded-top">
@@ -56,10 +56,10 @@
                         <span>◇付款成功後，網站後台人員將為您聯繫該商標商品之設計師，與您溝通討論商標需要進行的必要設計修改。
                         <br>◇務必確認【個人資訊】已經填妥相關聯絡資訊，我們會儘快與您聯繫</span>
                     </div> 
-                    <div class="bg-white text-center rounded-bottom p-3">
-                        <a href="index.php" type="submit" class="btn btn-outline-pink my-1 col-3">返回首頁</a>
-                        <a href="modifyAdd.php" type="submit" class="btn btn-pink my-1 col-3">客製修改</a>
-                        <a href="order.php" type="submit" class="btn btn-pink my-1 col-3">查看訂單</a>
+                    <div class="bg-white text-center rounded p-3">
+                        <a href="index.php" type="submit" class="btn btn-outline-orange my-1 col-3">返回首頁</a>
+                        <a href="modifyAdd.php" type="submit" class="btn btn-orange my-1 col-3">客製修改</a>
+                        <a href="order.php" type="submit" class="btn btn-orange my-1 col-3">查看訂單</a>
                     </div>
                     <div class="bg-white p-3 font-weight-lighter mt-1 border-top rounded">
                         <h6>交易注意事項</h6>

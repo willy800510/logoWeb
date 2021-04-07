@@ -17,7 +17,7 @@
 }
 
 .orderTab:hover{
-    background-color: #F8F8F8 !important;
+    background-color: #ffffff !important;
 }
 
 /* ORDERNUMBER*/
@@ -73,13 +73,6 @@
     height:38px;
 }
 
-
-/* carts_payPick */
-.btn-outline-pink.active{
-    background: #FF9292;
-    color: white;
-}
-
 /* carts_lists */
 .stepper { /*流程狀態的外層加class*/
     position: relative;
@@ -95,10 +88,10 @@
     left: 0.25rem; /*父層的padding距離*/
  }
  .stepper::before{
-    background: #ADADAD;
+    background: rgba(255, 255, 255, 0.5);
  }
  .stepper::after { 
-    background: #FF7870;
+    background: #FC9545;
     width: 0%;
  }
  .stepper.step-half::after { /*步驟2的時候 加上step-half的class名稱*/
@@ -107,3 +100,6 @@
  .stepper.step-final::after { /*步驟3的時候 加上step-final的class名稱*/
     width: calc(100% - 0.5rem);
  }
+ .list-group-item+.list-group-item {
+    border-top-width: 1px;
+}

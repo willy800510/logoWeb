@@ -84,7 +84,7 @@
                         <input type="checkbox" name="allProduct" id="" class="mb-2 mx-2">
                         <label for="allProduct">全部選取</label>
                     </div>
-                    <a href="carts_payPick.php" class="btn btn-pink col-12 col-md-6">前往付款</a>
+                    <a href="carts_payPick.php" class="btn btn-orange col-12 col-md-6">前往付款</a>
                 </div>
                 <div class="bg-white p-3 font-weight-lighter mt-1 mx-1 rounded">
                     <h6>交易注意事項</h6>
@@ -98,67 +98,67 @@
             </div>
             <div class="row pt-1 pb-3">
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-white rounded text-center">
+                    <div class="d-block p-4 bg-cloud rounded text-center">
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-danger mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-orange mt-3">加入購物袋</button>
                     </div>
                 </div>
             </div>

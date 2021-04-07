@@ -24,61 +24,61 @@
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
-                <div class="d-flex align-items-center justify-content-around bg-white p-4">
+                <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">全部</span>
                     <span class="text-center">未讀</span>
                 </div>
                 <div class="d-flex flex-column mt-1">
-                    <div class="d-flex bg-white mb-1 justify-content-around align-items-center p-5 rounded">
+                    <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
                         <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
                         <span class="ml-4 ml-md-0">
                             <div>商品初稿完成</div>
                             <span class="text-black-50">
                                 訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
                             </span>
-                            <div class="text-danger d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
+                            <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-info d-none d-md-flex">查看檔案</button>
-                        <div class="text-danger d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
+                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
-                    <div class="d-flex bg-white mb-1 justify-content-around align-items-center p-5 rounded">
+                    <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
                         <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
                         <span class="ml-4 ml-md-0">
                             <div>商品初稿完成</div>
                             <span class="text-black-50">
                                 訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
                             </span>
-                            <div class="text-danger d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
+                            <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-info d-none d-md-flex">查看檔案</button>
-                        <div class="text-danger d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
+                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
-                    <div class="d-flex bg-white mb-1 justify-content-around align-items-center p-5 rounded">
+                    <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
                         <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
                         <span class="ml-4 ml-md-0">
                             <div>商品初稿完成</div>
                             <span class="text-black-50">
                                 訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
                             </span>
-                            <div class="text-danger d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
+                            <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-info d-none d-md-flex">查看檔案</button>
-                        <div class="text-danger d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
+                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
-                    <div class="d-flex bg-white mb-1 justify-content-around align-items-center p-5 rounded">
+                    <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
                         <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
                         <span class="ml-4 ml-md-0">
                             <div>商品初稿完成</div>
                             <span class="text-black-50">
                                 訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
                             </span>
-                            <div class="text-danger d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
+                            <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-info d-none d-md-flex">查看檔案</button>
-                        <div class="text-danger d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
+                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
                 </div>

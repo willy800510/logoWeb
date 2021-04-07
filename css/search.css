@@ -24,3 +24,29 @@
       height: 270px;
   }
 }
+.list-group-item.active {
+  background-color: #FC9545;
+  border-color: #FC9545;
+}
+.list-group-item {
+  background-color: transparent;
+  border: 0px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.list-group-item-action:active {
+  background-color: white;
+}
+.page-link {
+  line-height: 0;
+  color: #fff0dc;
+  background-color: transparent;
+  border: 0;
+}
+.page-link:hover {
+  z-index: 2;
+  color: #0056b3;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #dee2e6;
+}

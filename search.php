@@ -18,19 +18,6 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="js/uicons-regular-rounded/css/uicons-regular-rounded.css">
     <?php include("template/materialDesign.php"); ?>
-
-    <style>
-        .list-group-item {
-            background-color: transparent;
-            border: 0px;
-            border-top-left-radius: inherit;
-            border-top-right-radius: inherit;
-        }
-        /* .list-group-item-action.active { */
-        .list-group-item-action:active {
-            background-color: white;
-        }
-    </style>
 </head>
 <body>
 <?php include("template/header.php"); ?>
@@ -181,7 +168,7 @@
     <!-- 商品搜尋結果 -->
         <div class="row pt-1 pb-3 justify-content-center">
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -191,14 +178,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -208,14 +195,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -225,14 +212,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -242,14 +229,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -259,14 +246,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -276,14 +263,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -293,14 +280,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -310,14 +297,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -327,14 +314,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -344,14 +331,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -361,14 +348,14 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 bg-white rounded">
+                <div class="d-block p-4 lgdp-bg rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -378,27 +365,28 @@
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
                     <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons md-dark md-36">favorite_border</span>
+                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <!-- <button type="submit" class="btn btn-outline-primary mt-2 px-5">更多</button> -->
             <nav aria-label="Page navigation">
-                <ul class="pagination mt-3">
+                <ul class="pagination align-items-center mt-3">
                     <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <!-- <span aria-hidden="true">&laquo;</span> -->
+                            <span class="material-icons md-36">arrow_left</span>
+                        </a>
                     </li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
                     <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
+                        <a class="page-link" href="#" aria-label="Next">
+                            <!-- <span aria-hidden="true">&raquo;</span> -->
+                            <span class="material-icons md-36">arrow_right</span>
+                        </a>
                     </li>
                 </ul>
             </nav>

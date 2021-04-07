@@ -26,10 +26,10 @@
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
-                <div class="d-flex align-items-center justify-content-around bg-white p-4">
+                <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">密碼變更</span>
                 </div>
-                <form action="" class="bg-white my-1" method="post">
+                <form action="" class="bg-cloud my-1 rounded" method="post">
                     <div class="text-center p-3 text-alert">小提醒：請不要與他人分享密碼</div>
                     <div class="form-group row d-flex align-items-stretch text-center">
                         <div class="col-12 col-lg-9 p-5">

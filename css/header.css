@@ -1,6 +1,7 @@
 header {
     /* background-color: #DFCCBD; */
-    background-color: #ff8425cc;
+    /* background-color: #ff8425cc; */
+    background-color: transparent;
     background-blend-mode: darken;
     backdrop-filter: blur(5px);
   }
@@ -65,14 +66,14 @@ padding: 15px;
     background-color: white;
 }
 
-.sideMenuBtn{
+.sideMenuBtn, .sideMenuBtn-L{
   cursor: pointer;
 }
 
-.menuBurger {
+.menuBurger, .menuBurger-L {
     width: 20px;
     height: 2px;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 5px;
     transition: all .3s ease-in-out;
   }
@@ -82,8 +83,18 @@ padding: 15px;
     position: absolute;
     width: 15px;
     height: 2px;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 5px;
+    transition: all .3s ease-in-out;
+  }
+  .menuBurger-L::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    transform: translate(5px , -7px);
     transition: all .3s ease-in-out;
   }
 
@@ -92,8 +103,18 @@ padding: 15px;
     position: absolute;
     width: 10px;
     height: 2px;
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 5px;
+    transition: all .3s ease-in-out;
+  }
+  .menuBurger-L::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    transform: translate(10px , 7px);
     transition: all .3s ease-in-out;
   }
   
@@ -112,31 +133,13 @@ padding: 15px;
   }
   
   .MenuBtnOpen::before {
-    /* transform: translate(50px, -7px); */
-    /* background-color: transparent; */
     width: 20px;
     transform: rotate(45deg) translate(35px, -35px);
-  }
-  
-  @keyframes MeBuOpBf{
-    0%{}
-    100%{transform: rotate(45deg) translate(35px, -35px);}
   }
   
   .MenuBtnOpen::after {
     width: 20px;
     transform: rotate(-45deg) translate(35px, 35px);
-  }
-
-  .mask {
-    position: fixed;
-    z-index: 11;
-    width: 100vw;
-    height: 100vh;
-    display: none;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.7);
-    /* transition: .7s; */
   }
 
   .font8rem{
@@ -146,9 +149,10 @@ padding: 15px;
   #collapseMenu-sm{
     max-height: 75vh;
     overflow-y: auto;
-    top: 58px; 
+    top: 65px; 
     margin:0px -15px; 
-    background: rgba(255, 255, 255, 0.95)
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
   }
 
   .menulist:hover path{

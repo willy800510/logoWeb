@@ -23,11 +23,11 @@
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
-            <div class="col-12 col-xl-10 px-0 px-xl-3">
-                <div class="d-flex align-items-center justify-content-around bg-white p-4">
+            <div class="col-12 col-xl-10 px-0 px-xl-3 ">
+                <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">個人資訊</span>
                 </div>
-                <form action="" class="bg-white my-1">
+                <form action="" class="bg-cloud rounded my-1 flex-grow-1">
                     <div class="text-center p-3">基本資料</div>
                     <div class="form-group row d-flex align-items-stretch text-center">
                         <div class="col-12 col-md-9 p-2 p-md-5">
@@ -42,8 +42,10 @@
                             </div>
                             <div class="form-group row my-2">
                                 <label for="myName" class="col-4">真實姓名</label>
-                                <input type="text" class="col-3 form-control" name="myName" placeholder="名字">
-                                <input type="text" class="col-3 form-control" name="myName" placeholder="姓氏">
+                                <div class="col-6 d-flex justify-content-between">
+                                    <input type="text" class="form-control mr-1" name="myName" placeholder="名字">
+                                    <input type="text" class="form-control" name="myName" placeholder="姓氏">
+                                </div>
                             </div>
                             <div class="form-group row my-2">
                                 <label for="phone" class="col-4">聯絡電話</label>
@@ -76,7 +78,7 @@
                                     <option>南投市</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-outline-primary my-4">更新</button>
+                            <button type="submit" class="btn btn-outline-orange my-4 px-3">更新</button>
                         </div>
                         <div class="col-md-3 text-center d-none d-md-flex flex-column justify-content-center align-items-center">
                             <img src="images/headerIcon/usery.svg" width="25px" alt="" class="logoIcon p-2 m-3">

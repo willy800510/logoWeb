@@ -25,12 +25,12 @@
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
                 <div class="list-group flex-row align-items-center justify-content-around" role="tablist">
-                    <a class="text-center col-4 bg-white p-4 orderTab" data-toggle="list" role="tab">全部</a>
-                    <a class="text-center col-4 bg-white p-4 orderTab" data-toggle="list" role="tab">修改中</a>
-                    <a class="text-center col-4 bg-white p-4 orderTab" data-toggle="list" role="tab">完成</a>
+                    <a class="text-center col-4 bg-cloud p-4 orderTab" data-toggle="list" role="tab">全部</a>
+                    <a class="text-center col-4 bg-cloud p-4 orderTab" data-toggle="list" role="tab">修改中</a>
+                    <a class="text-center col-4 bg-cloud p-4 orderTab" data-toggle="list" role="tab">完成</a>
                 </div>
                 <div class="d-flex flex-column justify-content-center align-items-stretch mt-1">
-                    <div class="w-100 bg-white p-3 mb-1">
+                    <div class="w-100 bg-cloud p-3 mb-1 rounded">
                         <ul class="d-flex justify-content-around align-items-center">
                             <li class="font-weight-bolder">商品圖式</li> 
                             <li class="font-weight-bolder">訂單編號</li> 
@@ -41,41 +41,41 @@
                             <img src="images/logo.svg" alt="" class="logoIcon">
                             <a href="orderNum.php">xxxxxxxxxx</a> 
                             <li>商品製作中</li>
-                            <li class="text-danger">NT$200</li>
+                            <li class="text-alert">NT$200</li>
                         </ul>
                         <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="#" class="btn btn-danger mx-3">查看檔案</a>
-                            <a  href="order.php" class="btn btn-outline-danger mx-3">返回</a>
+                            <a  href="#" class="btn btn-outline-primary mx-3">查看檔案</a>
+                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-orange mx-3 px-4">
                         </div>
                         <div class="d-flex justify-content-center align-items-center mt-3 pt-3 border-top border-secondary">
                             <div class="d-flex flex-column align-items-center mx-3">
                                 <img src="images/orderflowIcon/order.svg" alt="">
                                 <div class="mt-3">訂單建立</div>
-                                <div class="odflot text-danger"><?php echo date("Y-m-d"); ?></div>
+                                <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
                                 <img src="images/orderflowIcon/orderPay.svg" alt="">
                                 <div class="mt-3">付款確認</div>
-                                <div class="odflot text-danger"><?php echo date("Y-m-d"); ?></div>
+                                <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
                                 <img src="images/orderflowIcon/designing.svg" alt="">
                                 <div class="mt-3">製作中</div>
-                                <div class="odflot text-danger"><?php echo date("Y-m-d"); ?></div>
+                                <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
                                 <img src="images/orderflowIcon/download.svg" alt="">
                                 <div class="mt-3">訂單完成</div>
-                                <div class="odflot text-danger"><?php echo date("Y-m-d"); ?></div>
+                                <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                         </div>
                         <form action="" method="post" class="mt-3 border-top border-secondary">
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex my-3 align-items-center">修改項目</div>
                                 <div class="list-group flex-row justify-content-end my-3" role="tablist">
-                                    <a href="#modifyContent1" class="list-group-item btn ml-1 btn-outline-secondary active" data-toggle="list">第一次</a>
-                                    <a href="#modifyContent2" class="list-group-item btn ml-1 btn-outline-secondary" data-toggle="list">第二次</a>
-                                    <a href="#modifyContent3" class="list-group-item btn ml-1 btn-outline-secondary disabled" data-toggle="list">第三次</a>
+                                    <a href="#modifyContent1" class="list-group-item btn btn-outline-orange active ml-1" data-toggle="list">第一次</a>
+                                    <a href="#modifyContent2" class="list-group-item btn btn-outline-orange ml-1" data-toggle="list">第二次</a>
+                                    <a href="#modifyContent3" class="list-group-item btn btn-outline-orange disabled ml-1" data-toggle="list">第三次</a>
                                 </div>
                             </div>
                             <div class="tab-content">

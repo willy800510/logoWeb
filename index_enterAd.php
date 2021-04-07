@@ -29,11 +29,11 @@
             width: 8px;
             height: 8px;
             border-radius: 8px;
-            background-color: #FF9292;
+            background-color: #ff4646;
             top: 64px;
         }
 
-        .carousel-indicators li::after, .nav-pills .nav-link::before{
+        .nav-pills .nav-link::before{
             position: relative;
             content: " ";
             display: inline-block;
@@ -41,20 +41,20 @@
             border-radius: 8px;
             opacity: 0;
         }
-        .carousel-indicators li.active::after, .nav-pills .nav-link.active::before {
+        .nav-pills .nav-link.active::before {
             opacity: 1;
         }
         .nav-pills .nav-link::before{
             width: 5px;
             height: 11px;
-            left: -10%;
+            left: -8px;
         }
-        .carousel-indicators li::after{
+        /* .carousel-indicators li::after{
             width: 8px;
             height: 8px;
             top: 80%;
             right: 50%;
-        }
+        } */
 
         /* <md */
         .nav-pills .nav-link.active{
@@ -244,91 +244,91 @@
             <!-- 更多商品 -->
             <div class="row py-3" id="moreProduct-md">
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>    
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-5 bg-white rounded">
+                    <div class="py-4 bg-0_8 rounded">
                         <a href="product.php">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
                         </a>
                     </div>
                 </div>
             </div>
-            <a href="index.php" id="enterIndex-md" class="d-flex justify-content-center align-items-center font-weight-bolder text-pink display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="8000" data-aos-anchor-placement="center-bottom">Get Started</a>
+            <a href="index.php" id="enterIndex-md" class="d-flex justify-content-center align-items-center font-weight-bolder text-white display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="8000" data-aos-anchor-placement="center-bottom">Get Started</a>
         </div>
     </div>
     <!-- > md -->
@@ -563,7 +563,7 @@
                     </svg>
                 </div>
                 <div class="carousel-item float-none" data_no="2">
-                    <a href="index.php" style="writing-mode: vertical-lr; top:30%; right:1%;" class="font-weight-bolder text-pink position-absolute z-index-2">Get Started</a>
+                    <a href="index.php" style="writing-mode: vertical-lr; top:30%; right:1%;" class="font-weight-bolder position-absolute z-index-2 text-white">Get Started</a>
                     <div class="container-sm mToTop mb-5">
                         <div class="row py-3">
                             <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
@@ -765,28 +765,37 @@
                 $('#nav_enterIndex').fadeOut();
             }
         });
-    });
+        // >md 導覽列的粉紅圓點
+        var noX;
+        var easeName = 'easeOutExpo';
+        var easeNameInit = 'easeOutElastic';
+        var dot = $('#trackDot');
 
+        // 設定粉紅圓點位置的function
+        function moveDot (no, easeNameInit) {
+            var curr = $('.carousel-indicators li').eq(no);  //設定curr(當前項目)是.carousel-indicators li的第幾個
+            
+            noX = curr.offset().left + curr.width() / 2 - dot.width();  //元素最左邊坐標+整個元素的一半寬-圓點寬度
+            dot.stop().animate({left:noX},300,easeNameInit);
+        }
+        // 一進頁面先執行一次 設定粉紅圓點位置
+        moveDot(0, easeNameInit);
 
-    
-    // >md 導覽列的粉紅圓點
-    var noX,noY;
-    var easeName = 'easeOutExpo';
-    var easeNameInit = 'easeOutElastic';
+        // 當輪播內容切換時
+        $('.carousel').on('slide.bs.carousel', function  (ev) {
+            // ev.to 是要切換到的那個區塊的編號，也就是即將被加上.active的那個編號
+            // 這個編號剛好和第幾個(eq())所需要的值相同，所以直接拿來使用
+            moveDot(ev.to, easeNameInit);
+        })
 
-    window.onload=function(){
-        noX = $('.carousel-indicators .active').offset().left+12;
-        noY = $('.carousel-indicators .active').offset().top;
-        $('#trackDot').stop().animate({left:noX},300,easeNameInit);
         $('.carousel-indicators li').hover(
             function(){
-                noXhover = $(this).offset().left+28;
-                $('#trackDot').stop().animate({left:noXhover},500,easeName);
+                noXhover = $(this).offset().left + $(this).width() / 2 - dot.width();
+                dot.stop().animate({left:noXhover},500,easeName);
             },
             function(){
-                $('#trackDot').stop().animate({left:noX},500,easeNameInit);
+                dot.stop().animate({left:noX},500,easeNameInit);
             }
         );
-    }
-
+    });
 </script>

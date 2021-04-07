@@ -49,7 +49,10 @@
     </div>
     <!-- sm/md -->
     <div class="container-sm d-block d-sm-block d-xl-none">
-        <div class="d-flex justify-content-between align-items-center p-2">
+        <div class="d-flex justify-content-between align-items-center p-2 pl-3">
+            <div class="sideMenuBtn-L py-4" data-toggle="collapse" data-target="#helper_guide" aria-expanded="false" aria-controls="helper_guide">
+                <div class="menuBurger-L"></div>
+            </div>
             <a href="index.php" class="logo"></a>
             <!-- <div class="sidebar"><img src="images/headerIcon/md-rightbar.svg" alt=""></div> -->
             <div class="sideMenuBtn py-4" data-toggle="collapse" data-target="#collapseMenu-sm" aria-expanded="false" aria-controls="collapseMenu-sm">
@@ -58,7 +61,7 @@
         </div>
     </div>
     <!-- sm/md menu -->
-    <div class="container-fluid position-fixed d-xl-none flex-column align-items-start py-3 collapse" id="collapseMenu-sm">
+    <div class="container-fluid position-fixed d-xl-none flex-column align-items-start py-3 overflow-auto collapse" id="collapseMenu-sm">
         <div class="container-sm px-1">
             <div class="d-flex flex-column col-12 col-md-3 align-items-center">
                 <a href="index.php" class="text-alert py-1">首頁</a>
@@ -144,12 +147,16 @@
         );
         $('.sideMenuBtn').click(function () {
             $('.menuBurger').toggleClass('MenuBtnOpen');
-            $('.mobile-menu').toggle();
-            $('.mask').fadeToggle();
         })
-        $('.mask').click(function () {
-            $('.menuBurger').trigger('click');
-            $('.mask').fadeOut();
+        $('.sideMenuBtn-L').click(function () {
+            $('.menuBurger-L').toggleClass('MenuBtnOpen');
         })
+        $(document).click(function (event) {
+            var clickover = $(event.target);
+            var _opened = $('#helper_guide').hasClass("show");
+            if (_opened === true && !clickover.hasClass("MenuBtnOpen")) {
+                $(".menuBurger-L").click();
+            }
+        });
     });
 </script>

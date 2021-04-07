@@ -23,7 +23,7 @@
 ?>
 <div class="container-fluid">
     <div class="container-sm mb-1 mToTop">
-        <div class="card m-auto justify-content-between py-4 cardSize">
+        <div class="card m-auto justify-content-between py-4 cardSize bg-cloud">
             <a href="index.php" class="logo mx-auto mt-4 logoSize"></a>
             <h3 class="card-title mx-auto mt-3 font-weight-normal">COMPANY</h3>
             <small class="text-alert mx-auto">重設密碼</small>
@@ -36,13 +36,13 @@
                 <form action="" class="form-group row flex-column align-items-center">
                     <input type="email" class="form-control my-2 col-8" placeholder="Email">
                     <div class="elem-group col-9 ">
-                        <label for="captcha"><small>Please Enter the Captcha Text</small></label>
+                        <label for="captcha" class="px-1"><small>Please Enter the Captcha Text</small></label>
                         <div class="d-flex align-items-center">
                             <input type="text" id="captcha" name="captcha_challenge" pattern="[A-Z]{6}" class="form-control col-6 p-2" placeholder="輸入驗證碼">
                             <img src="captcha.php" alt="CAPTCHA" class="captcha-image p-1"><i class="fas fa-sync-alt refresh-captcha"></i>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-outline-pink my-2">送出</button>
+                    <button type="submit" class="btn btn-outline-orange my-2 px-3">送出</button>
                 </form>
             </div>
         </div>

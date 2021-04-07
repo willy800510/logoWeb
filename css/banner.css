@@ -25,7 +25,7 @@
 .srch{
     border: unset;
     background-color: #FAD06A;
-    color: tomato;
+    color: #FC9545;
 }
 .srch:hover {
     background-color:#20e388;
@@ -179,3 +179,5 @@
     animation: bump3 1s ease-in-out infinite alternate;
     transform-origin: bottom right;
 }
+
+

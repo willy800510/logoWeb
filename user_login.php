@@ -19,19 +19,19 @@
 <?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container-sm mb-1 mToTop">
-        <div class="card m-auto justify-content-between cardSize">
+        <div class="card m-auto justify-content-between cardSize bg-cloud">
             <a href="index.php" class="logo mx-auto mt-4 logoSize"></a>
             <h3 class="card-title mx-auto mt-3 font-weight-normal">COMPANY</h3>
             <div class=" d-flex flex-column justify-content-center">
                 <form action="" class="form-group row flex-column align-items-center">
                     <input type="text" class="form-control my-2 col-9" placeholder="Email/電話號碼/使用者名稱">
-                    <div class="input-group col-10">
+                    <div class="input-group justify-content-center my-2" style="padding: 0 50px;">
                         <input type="password" class="form-control border-right-0" placeholder="密碼">
                         <div class="input-group-append">
                             <img src="images/icon/eye/closed.svg" alt="" class="eye input-group-text border-left-0 bg-white">
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-outline-pink my-2">登入</button>
+                    <button type="submit" class="btn btn-outline-orange my-2 px-3">登入</button>
                 </form>
             </div>
             <a href="user_forgetPw.php" class="text-black-50 mx-auto"><small>忘記密碼</small></a>
