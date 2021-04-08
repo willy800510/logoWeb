@@ -1,6 +1,7 @@
-<div class="col-2 leftbar bg-cloud d-none d-xl-flex flex-column align-items-stretch justify-content-start mb-1">
+<div class="col-12 leftbar bg-cloud d-none d-xl-flex flex-column align-items-stretch justify-content-start mb-1">
     <div class="d-flex align-items-center justify-content-around my-4">
-        <span class="material-icons">chevron_left</span>
+        <button class="material-icons" onclick="change_leftbar()">chevron_left</button>
+        <!-- <button class="material-icons" onclick="change_leftbar('template/leftbar.php')">chevron_left</button> -->
         <span>常見問題</span>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock pt-4 border-top border-secondary">

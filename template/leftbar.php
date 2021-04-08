@@ -1,4 +1,4 @@
-<div class="col-2 leftbar bg-cloud d-none d-xl-flex flex-column align-items-stretch justify-content-start mb-1">
+<div  class="col-2 leftbar bg-cloud d-none d-xl-flex flex-column align-items-stretch justify-content-start mb-1">
     <div class="d-flex align-items-center justify-content-center mt-4">
         <img src="images/headerIcon/usery.svg" alt="" width="25px" style="margin-right: 25px;">
         <h5 class="mt-2">會員名稱</h5>
