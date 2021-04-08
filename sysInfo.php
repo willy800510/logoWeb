@@ -24,9 +24,9 @@
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
-                <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
-                    <span class="text-center">全部</span>
-                    <span class="text-center">未讀</span>
+                <div class="list-group flex-row align-items-center justify-content-around" role="tablist">
+                    <a class="text-center col-6 bg-cloud p-4 orderTab" data-toggle="list" role="tab">全部</a>
+                    <a class="text-center col-6 bg-cloud p-4 orderTab" data-toggle="list" role="tab">未讀</a>
                 </div>
                 <div class="d-flex flex-column mt-1">
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">

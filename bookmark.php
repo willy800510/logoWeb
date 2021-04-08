@@ -35,7 +35,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2 cardImg">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-color2 mx-2 my-1 order-0 order-md-1">加入購物車</button>
+                                <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物車</button>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-color2 mx-2 my-1 order-0 order-md-1">加入購物車</button>
+                                <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物車</button>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-color2 mx-2 my-1 order-0 order-md-1">加入購物車</button>
+                                <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物車</button>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-color2 mx-2 my-1 order-0 order-md-1">加入購物車</button>
+                                <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物車</button>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-color2 mx-2 my-1 order-0 order-md-1">加入購物車</button>
+                                <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物車</button>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-color2 mx-2 my-1 order-0 order-md-1">加入購物車</button>
+                                <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物車</button>
                             </div>
                         </div>
                     </div>

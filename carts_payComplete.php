@@ -30,7 +30,7 @@
             <div class="row py-2">
                 <form action="" class="col-12 flex-column px-0 px-md-1">
                     <div class="bg-white rounded text-center py-3 my-1">
-                        <span class="material-icons md-48 p-2 text-color2">check_circle_outline</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#7DE290" class="m-3"><path d="M0 0h24v24H0V0zm0 0h24v24H0V0z" fill="none"/><path d="M16.59 7.58L10 14.17l-3.59-3.58L5 12l5 5 8-8zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/></svg>
                         <h3>付款成功</h3>
                     </div>
                     <div class="row justify-content-between align-items-center p-3 bg-white rounded-top">
@@ -57,9 +57,9 @@
                         <br>◇務必確認【個人資訊】已經填妥相關聯絡資訊，我們會儘快與您聯繫</span>
                     </div> 
                     <div class="bg-white text-center rounded p-3">
-                        <a href="index.php" type="submit" class="btn btn-outline-orange my-1 col-3">返回首頁</a>
-                        <a href="modifyAdd.php" type="submit" class="btn btn-orange my-1 col-3">客製修改</a>
-                        <a href="order.php" type="submit" class="btn btn-orange my-1 col-3">查看訂單</a>
+                        <a href="index.php" class="btn btn-outline-orange my-1 col-3">返回首頁</a>
+                        <a href="modifyAdd.php" class="btn btn-orange my-1 col-3">客製修改</a>
+                        <a href="order.php" class="btn btn-orange my-1 col-3">查看訂單</a>
                     </div>
                     <div class="bg-white p-3 font-weight-lighter mt-1 border-top rounded">
                         <h6>交易注意事項</h6>

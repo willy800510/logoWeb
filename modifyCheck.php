@@ -28,10 +28,10 @@
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
-                <div class="d-flex align-items-center justify-content-around bg-white p-4">
+                <div class="d-flex align-items-center justify-content-around bg-cloud rounded p-4">
                     <span class="text-center">修改細項</span>
                 </div>
-                <form action="" class="bg-white my-1" method="">
+                <form action="" class="bg-cloud rounded my-1" method="">
                     <div class="d-flex justify-content-center justify-content-md-between align-items-center px-3 py-1">
                         <span class="d-none d-md-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
                         <div class="">

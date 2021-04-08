@@ -8,7 +8,7 @@
             <div class="nav justify-content-end">   
                 <a href="bookmark.php" class="nav-link p-3">
                     <!-- <img src="images/headerIcon/bookmark.svg" alt=""> -->
-                    <span class="material-icons white md-24 pt-1">favorite</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF" class=""><path d="M0 0h24v24H0z" fill="none"/><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
                 </a>
                 <span class="dropdown bagInfo">
                     <a href="carts_lists.php" class="nav-link p-3">
@@ -20,16 +20,15 @@
                             <span class="text-muted">Company Name</span>
                             <span class="text-right text-alert">NT$200</span>
                             <span class="material-icons md-18 text-black-50">clear</span>
-                            <!-- <i class="fas fa-times fa-xs text-black-50"></i> -->
                         </div>
                         <div class="dropdown-item d-flex align-items-center justify-content-around py-3">
                             <a href="#" class="logo"></a>
                             <span class="text-muted">Company Name</span>
                             <span class="text-right text-alert">NT$200</span>
                             <span class="material-icons md-18 text-black-50">clear</span>
-                            <!-- <i class="fas fa-times fa-xs text-black-50"></i> -->
                         </div>
-                        <a href="carts_lists.php" class="btn btn-outline-color2 mr-3" type="button">查看我的購物袋</a>
+                        <!-- <a href="carts_lists.php" class="btn btn-outline-color2 mr-3" type="button">查看我的購物袋</a> -->
+                        <a href="carts_lists.php" class="btn btn-outline-color2 mr-3">查看我的購物袋</a>
                     </div>
                 </span>
                 <a href="sysInfo.php" class="nav-link p-3"><img src="images/headerIcon/message.svg" alt=""></a>

@@ -14,15 +14,14 @@
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/icon_animate.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/material-icon.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/material-icon.css"> -->
+    <!-- Owl -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' integrity='sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==' crossorigin='anonymous'/>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js' integrity='sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==' crossorigin='anonymous'></script>
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- waterfall -->
-    <link rel="stylesheet" href="dist/style/waterfall.min.css">
     <style>
         #trackDot{
             display: block;
@@ -182,7 +181,9 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="material-icons md-36 pink mx-auto pl-5" data-aos="flip-down">arrow_downward</span>
+                    <span class="mx-auto pl-5" data-aos="flip-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
+                    </span>
                     <div class="col-9 d-flex align-items-center justify-content-around mx-3" data-aos="zoom-in-left">
                         <div class="col-6 text-right">Step 2：商品選購</div>
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -195,7 +196,9 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="material-icons md-36 pink mx-auto pl-5" data-aos="flip-down">arrow_downward</span>
+                    <span class="mx-auto pl-5" data-aos="flip-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
+                    </span>
                     <div class="col-9 d-flex align-items-center justify-content-around mx-3" data-aos="zoom-in-left">
                         <div class="col-6 text-right">Step 3：下單付款</div>
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -214,7 +217,9 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="material-icons md-36 pink mx-auto pl-5" data-aos="flip-down">arrow_downward</span>
+                    <span class="mx-auto pl-5" data-aos="flip-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
+                    </span>
                     <div class="col-9 d-flex align-items-center justify-content-around mx-3" data-aos="zoom-in-left">
                         <div class="col-6 text-right">Step 4：必要設計修改</div>
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -228,7 +233,9 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="material-icons md-36 pink mx-auto pl-5" data-aos="flip-down">arrow_downward</span>
+                    <span class="mx-auto pl-5" data-aos="flip-down">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
+                    </span>
                     <div class="col-9 d-flex align-items-center justify-content-around mx-3" data-aos="zoom-in-left">
                         <div class="col-6 text-right">Step 5：稿件收件</div>
                         <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -442,7 +449,7 @@
                             <!-- <img src="images/orderflowIcon/user.svg" alt=""> -->
                             <div class="mt-3">會員註冊</div>
                         </div>
-                        <span class="material-icons md-36 pink">arrow_forward</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                         <div class="d-flex flex-column align-items-center mx-3">
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                 <g id="shopFlowIconSpBag">
@@ -456,7 +463,7 @@
                             <!-- <img src="images/orderflowIcon/shopping.svg" alt=""> -->
                             <div class="mt-3">商品選購</div>
                         </div>
-                        <span class="material-icons md-36 pink">arrow_forward</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                         <div class="d-flex flex-column align-items-center mx-3">
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                 <g id="shopFlowIconOdrPay">
@@ -476,7 +483,7 @@
                             <!-- <img src="images/orderflowIcon/orderPay.svg" alt=""> -->
                             <div class="mt-3">下單付款</div>
                         </div>
-                        <span class="material-icons md-36 pink">arrow_forward</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                         <div class="d-flex flex-column align-items-center mx-3">
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                 <g id="shopFlowIconModify">
@@ -491,7 +498,7 @@
                             <!-- <img src="images/orderflowIcon/modify.svg" alt=""> -->
                             <div class="mt-3">必要設計修改</div>
                         </div>
-                        <span class="material-icons md-36 pink">arrow_forward</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                         <div class="d-flex flex-column align-items-center mx-3">
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                 <g id="shopFlowIconSpBag">

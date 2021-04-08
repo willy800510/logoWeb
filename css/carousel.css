@@ -13,7 +13,7 @@
 
 @media (min-width: 0px){
     #scoll_overlay{
-        top: 118px;
+        top: 49px;
         left: 0px;
         transition: ease-in-out 1s;
     }

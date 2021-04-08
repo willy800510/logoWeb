@@ -27,7 +27,7 @@
         <form action="" style="padding-top: 150px;" class="">
             <div class="d-flex justify-content-center align-items-center overflow-hidden m-2">
                 <a href="#">
-                    <i class="fas fa-search fa-2x text-white mr-2"></i>
+                    <img src="images/icon/MDIcon/search_white_40dp.svg" alt="">
                 </a>
                 <input type="search" id="site-search" name="q" aria-label="Search through site content" size="30" class="m-1 srchtext-2">
             </div>
@@ -177,8 +177,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -194,8 +193,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -211,8 +209,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -228,8 +225,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -245,8 +241,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -262,8 +257,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -279,8 +273,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -296,8 +289,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -313,8 +305,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -330,8 +321,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -347,8 +337,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -364,8 +353,7 @@
                     </a>
                 </div>
                 <div class="bkmk_1 d-block p-4 position-absolute">
-                    <!-- <img src="images/icon/bookMark/bm-default.svg" width="25px" alt="" class="d-block ml-auto bomk"> -->
-                    <span class="hrtCk material-icons orange md-36">favorite_border</span>
+                    <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                 </div>
                 <div class="bkmk_2 d-inline-block p-4 position-absolute">
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
@@ -376,7 +364,8 @@
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Previous">
                             <!-- <span aria-hidden="true">&laquo;</span> -->
-                            <span class="material-icons md-36">arrow_left</span>
+                            <!-- <span class="material-icons md-36">arrow_left</span> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M14 7l-5 5 5 5V7z"/><path d="M24 0v24H0V0h24z" fill="none"/></svg>
                         </a>
                     </li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
@@ -385,7 +374,8 @@
                     <li class="page-item">
                         <a class="page-link" href="#" aria-label="Next">
                             <!-- <span aria-hidden="true">&raquo;</span> -->
-                            <span class="material-icons md-36">arrow_right</span>
+                            <!-- <span class="material-icons md-36">arrow_right</span> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M10 17l5-5-5-5v10z"/><path d="M0 24V0h24v24H0z" fill="none"/></svg>
                         </a>
                     </li>
                 </ul>

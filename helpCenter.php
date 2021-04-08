@@ -80,7 +80,7 @@
                                     您可以選擇常用社群帳號快速登入註冊，或以 Email 帳號註冊並驗證信箱<br>
                                     註冊登入後，請至右上方會員資訊中，詳細填寫個人資料，以便節省下單付款時間。
                                 </p>
-                                <span class="material-icons md-36 pink">arrow_downward</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
                                 <svg class="my-3" width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                     <g id="shopFlowIconSpBag">
                                     <circle id="Ellipse 1" cx="40" cy="40" r="39" stroke="#7DE290" stroke-width="2"/>
@@ -92,7 +92,7 @@
                                 </svg>
                                 <h5>Step 2 商品選購</h5>
                                 <p class="text-center">選擇自己需要的商標商品，並選擇是否加購套餐，將商品加入購物車。</p>
-                                <span class="material-icons md-36 pink">arrow_downward</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
                                 <svg class="my-3" width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                     <g id="shopFlowIconOdrPay">
                                     <circle id="Ellipse 3" cx="40" cy="40" r="39" stroke="#7DE290" stroke-width="2"/>
@@ -113,7 +113,7 @@
                                     確認購物車商品內容是否正確<br>
                                     選擇支付方式：1. 信用卡付款  2. 銀行ATM付款
                                 </p>
-                                <span class="material-icons md-36 pink">arrow_downward</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
                                 <svg class="my-3" class="my-3" width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                     <g id="shopFlowIconModify">
                                     <circle id="Ellipse 53" cx="40" cy="40" r="39" stroke="#7DE290" stroke-width="2"/>
@@ -126,7 +126,7 @@
                                 </svg>
                                 <h5>Step 4 必要設計修改</h5>
                                 <p class="text-center">付款成功後，網站後台人員將為您聯繫該商標商品之設計師，與您溝通討論商標需要進行的必要設計修改。</p>
-                                <span class="material-icons md-36 pink">arrow_downward</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/></svg>
                                 <svg class="my-3" width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                     <g id="shopFlowIconSpBag">
                                     <circle id="Ellipse 2" cx="40" cy="40" r="39" stroke="#7DE290" stroke-width="2"/>
@@ -281,7 +281,7 @@
                                                 <!-- <img src="images/orderflowIcon/user.svg" alt=""> -->
                                                 <div class="mt-3">會員註冊</div>
                                             </div>
-                                            <span class="material-icons md-36 pink">arrow_forward</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                                             <div class="d-flex flex-column align-items-center mx-3">
                                                 <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                                     <g id="shopFlowIconSpBag">
@@ -295,7 +295,7 @@
                                                 <!-- <img src="images/orderflowIcon/shopping.svg" alt=""> -->
                                                 <div class="mt-3">商品選購</div>
                                             </div>
-                                            <span class="material-icons md-36 pink">arrow_forward</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                                             <div class="d-flex flex-column align-items-center mx-3">
                                                 <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                                     <g id="shopFlowIconOdrPay">
@@ -315,7 +315,7 @@
                                                 <!-- <img src="images/orderflowIcon/orderPay.svg" alt=""> -->
                                                 <div class="mt-3">下單付款</div>
                                             </div>
-                                            <span class="material-icons md-36 pink">arrow_forward</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                                             <div class="d-flex flex-column align-items-center mx-3">
                                                 <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                                     <g id="shopFlowIconModify">
@@ -330,7 +330,7 @@
                                                 <!-- <img src="images/orderflowIcon/modify.svg" alt=""> -->
                                                 <div class="mt-3">必要設計修改</div>
                                             </div>
-                                            <span class="material-icons md-36 pink">arrow_forward</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FF9292"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
                                             <div class="d-flex flex-column align-items-center mx-3">
                                                 <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
                                                     <g id="shopFlowIconSpBag">

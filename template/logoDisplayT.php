@@ -3,9 +3,11 @@
     <div class="modal-dialog">
         <div class="container-sm position-relative" style="pointer-events: auto;">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 position-fixed z-index-1" id="scoll_overlay" alt="...">
-                <div class="position-absolute z-index-2 d-flex w-100 justify-content-around left-0" style=" bottom: 4%;">
+                <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 position-absolute z-index-1" id="scoll_overlay" alt="...">
+                <div class="position-absolute z-index-100" style="left:18%; bottom: 4%;">
                     <button class="btn btn-outline-orange">加入購物袋</button>
+                </div>
+                <div class="position-absolute z-index-100" style="right:18%; bottom: 4%;">
                     <a href="product.php" class="btn btn-outline-orange">查看商品</a>
                 </div>
                 <ol class="carousel-indicators align-items-center pt-3">
