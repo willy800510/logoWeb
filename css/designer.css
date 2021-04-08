@@ -81,7 +81,7 @@
 .upload-wrapper:hover {
 	background-color: #fcfaf8 !important;
 }
-/* .upload-wrapper.dragging {
+.upload-wrapper.dragging {
 	background-color: #fffcf9 !important;
 }
 #upload {
@@ -96,13 +96,13 @@
 }
 #upload:focus {
 	outline: none;
-} */
+}
 
+/* dropzonejs */
 .preview-container {
 	background: url("../images/upload cloud.png") no-repeat center top;
 }
 
-/* dropzonejs */
 /* .dropzone .dz-preview.dz-error {
 	background-color: #ffecec !important;
 } */

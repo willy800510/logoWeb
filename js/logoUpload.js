@@ -1,7 +1,7 @@
 $(function(){
 	const upload = document.getElementById('upload'),
 		  validExts = new Array(".png", ".ai"),//可接受的附檔名
-		  maxSize = 3;//檔案大小限制(MB)
+		  maxSize = 10;//檔案大小限制(MB)
 	let oldFiles = new DataTransfer();
 	
 	$('#upload').on('dragenter', function () {
@@ -23,8 +23,14 @@ $(function(){
 		}
 	})
 
+	$('#fileInfo').on('click','.delBtn',function(){
+		let i = $(this).data('idx');
+		removeFile(i);
+		updateInfo();
+	});
+
 function uploadFiles() {
-	// if (oldFiles.files.length > 0) {  //增加檔案
+		// if (oldFiles.files.length > 0) {  //增加檔案
 	// 	for (let i = upload.files.length - 1; i >= 0; i--) {
 	// 		checkFile(i, 'add');
 	// 	}
@@ -74,23 +80,26 @@ function removeFile(i) {
 }
 
 function updateInfo() {
-	const infoBox = document.getElementById('fileInfo');
+	const infoBox = $('#fileInfo');
 	if (upload.value !== '') {
-		let data = '<div class="row bg-white p-3 mb-2"><h6 class="col-4">名稱</h6><h6 class="col-4">格式</h6><h6 class="col-4">動作</h6></div>';
+		infoBox.html('<div class="row bg-white p-3 mb-2"><h6 class="col-3">縮圖</h6><h6 class="col-4">名稱</h6><h6 class="col-2">格式</h6><h6 class="col-3">動作</h6></div>');
 		for (let i = 0; i <  upload.files.length; i++) {
 			const file = upload.files[i],
 				extPos = file.name.lastIndexOf('.'),
 				fileName = file.name.substring(0, extPos),
 				fileExt = file.name.substring(extPos);
-			data += '<div class="row d-flex align-items-center bg-white shadow-sm p-3 mb-1"><div class="col-4 text-left" style="overflow-wrap: break-word;">' + fileName + '</div><div class="col-4">' + fileExt + '</div><div class="col-4"><button class="btn btn-danger delBtn" data-idx="' + i + '">刪除</button></div></div>';
+			
+			// 預覽圖準備
+			var imgReader = new FileReader();
+			imgReader.readAsDataURL(file);
+			imgReader.onload = function (e) {
+				var imgSrc = e.target.result;
+				var img = fileExt == '.ai' ? '<i class="far fa-file-alt fa-3x text-orange"></i>' : '<img class="w-100" src="'+imgSrc+'" alt=""></img>';
+
+				infoBox.append('<div class="row d-flex align-items-center bg-white shadow-sm p-3 mb-1"><div class="col-3">' + img + '</div><div class="col-4 text-left" style="overflow-wrap: break-word;">' + fileName + '</div><div class="col-2">' + fileExt + '</div><div class="col-3"><button type="button" class="btn btn-danger delBtn" data-idx="' + i + '">刪除</button></div></div>');
+			};
 
 		}
-		infoBox.innerHTML = data;
-		$('.delBtn').on('click',function(){
-			let i = $(this).data('idx');
-			removeFile(i);
-			updateInfo();
-		});
 
 		$('#fileInfo').css('pointer-events','');
 		$('.upload-wrapper').addClass('bg-light align-content-between')
@@ -99,13 +108,12 @@ function updateInfo() {
 		$('input[type="submit"]').removeClass('d-none');
 		$('.backBtn').addClass('d-none');
 	} else {
-		infoBox.innerHTML = '<img src="images/upload cloud.png" alt="">';
+		infoBox.html('<img src="images/upload cloud.png" alt="">');
 		$('#fileInfo').css('pointer-events','none');
 		$('.upload-wrapper').removeClass('bg-light align-content-between')
 							.addClass('align-content-center');
 		$('input[type="submit"]').addClass('d-none');
 		$('.backBtn').removeClass('d-none');
-
 	}
 }
 })
