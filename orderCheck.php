@@ -80,8 +80,8 @@
                             </div>
                             <div class="tab-content">
                                 <textarea name="" class="tab-pane form-control active" id="modifyContent1" cols="30" rows="5">
-    1. 商品售出後進行必要性設計修改，修改內容包含：文字修改、顏色修改，修改次數三次為限。
-    2. 商品售出皆不接受退換貨服，付款前，請確認商品品項與付款金額 若有任何疑問，請勿付款，並請立即與客服確認。
+1. 商品售出後進行必要性設計修改，修改內容包含：文字修改、顏色修改，修改次數三次為限。
+2. 商品售出皆不接受退換貨服，付款前，請確認商品品項與付款金額 若有任何疑問，請勿付款，並請立即與客服確認。
                                 </textarea>
                                 <textarea name="" class="tab-pane form-control" id="modifyContent2" cols="30" rows="5">修改第二次</textarea>
                                 <textarea name="" class="tab-pane form-control" id="modifyContent3" cols="30" rows="5">修改第三次</textarea>

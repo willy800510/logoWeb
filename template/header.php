@@ -26,10 +26,10 @@
                             <a href="#" class="logo"></a>
                             <span class="text-muted">Company Name</span>
                             <span class="text-right text-alert">NT$200</span>
-                            <!-- <i class="fas fa-times fa-xs text-black-50"></i> -->
                             <span class="material-icons md-18 text-black-50">clear</span>
+                            <!-- <i class="fas fa-times fa-xs text-black-50"></i> -->
                         </div>
-                        <a href="carts_lists.php" class="btn btn-outline-info mr-3" type="button">查看我的購物袋</a>
+                        <a href="carts_lists.php" class="btn btn-outline-color2 mr-3" type="button">查看我的購物袋</a>
                     </div>
                 </span>
                 <a href="sysInfo.php" class="nav-link p-3"><img src="images/headerIcon/message.svg" alt=""></a>

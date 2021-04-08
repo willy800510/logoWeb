@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 350px;
+    height: 357px;
 }
 .banner h2{
     color: #FC9545;
@@ -42,7 +42,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 350px;
 }
 
 @media(min-width: 0px){
@@ -64,7 +63,7 @@
     }
     .srcBanner{
         background-size: cover;
-        height: 350px;
+        height: 357px;
     }
 }
 
