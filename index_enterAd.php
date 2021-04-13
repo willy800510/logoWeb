@@ -32,7 +32,7 @@
             top: 64px;
         }
 
-        .nav-pills .nav-link::before{
+        .nav-pills .nav-link::before, .carousel-indicators li::after{
             position: relative;
             content: " ";
             display: inline-block;
@@ -40,7 +40,7 @@
             border-radius: 8px;
             opacity: 0;
         }
-        .nav-pills .nav-link.active::before {
+        .nav-pills .nav-link.active::before, .carousel-indicators li.active::after{
             opacity: 1;
         }
         .nav-pills .nav-link::before{
@@ -48,12 +48,12 @@
             height: 11px;
             left: -8px;
         }
-        /* .carousel-indicators li::after{
+        .carousel-indicators li::after{
             width: 8px;
             height: 8px;
             top: 80%;
             right: 50%;
-        } */
+        }
 
         /* <md */
         .nav-pills .nav-link.active{
@@ -110,6 +110,16 @@
 		.owl-dot.active span{
 			opacity: 1;
 		}
+        .zoomOut{
+            transform: scale(0.9);
+            opacity: 0.5;
+        }
+        .zoomIn{
+            transform: scale(1.1);
+            background-color: white;
+        }
+        #moreProduct-md .col-4 a {
+        transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1); }
 
     </style>	
 </head>
@@ -251,88 +261,64 @@
             <!-- 更多商品 -->
             <div class="row py-3" id="moreProduct-md">
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>    
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
-                    <div class="py-4 bg-0_8 rounded">
-                        <a href="product.php">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                        </a>
-                    </div>
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                    </a>
                 </div>
             </div>
             <a href="index.php" id="enterIndex-md" class="d-flex justify-content-center align-items-center font-weight-bolder text-white display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="8000" data-aos-anchor-placement="center-bottom">Get Started</a>
@@ -346,7 +332,7 @@
                 <li data-target="#index_carousel" data-slide-to="1" class=" mx-2 text-center ">購買流程</li>
                 <li data-target="#index_carousel" data-slide-to="2" class=" mx-2 text-center ">熱門商品</li>
             </ol>
-            <div id="trackDot" class="position-absolute"></div>
+            <!-- <div id="trackDot" class="position-absolute"></div> -->
             <div class="carousel-inner">
                 <div class="carousel-item float-none active" data_no="0">
                     <!-- logoMonster1 -->
@@ -804,5 +790,22 @@
                 dot.stop().animate({left:noX},500,easeNameInit);
             }
         );
+        $('#moreProduct-md .col-4 a').hover(
+            function(){
+                $('#moreProduct-md .col-4 a').not(this).addClass('zoomOut');
+                $(this).addClass('zoomIn');
+            },
+            function(){
+                $('#moreProduct-md .col-4 a').removeClass('zoomIn').removeClass('zoomOut');
+            }
+        );
+
+        $(window).scroll(function() {
+            if($(window).scrollTop() + $(window).height() == $(document).height()) {
+                window.setTimeout(function() {
+                    window.location.href = 'index.php';
+                }, 4000);
+            }
+        });
     });
 </script>

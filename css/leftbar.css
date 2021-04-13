@@ -1,4 +1,4 @@
-.leftbar a{
+.leftbar a, .bar_a{
     padding: 2px;
     margin: 5px;
     font-size: 14px;
@@ -20,9 +20,25 @@ h5{
 .bagList{
     left: -250px !important;
 }
-
+.leftbar-ori{
+    /* left: -20%; */
+    min-width: 200px;
+    transition: left 0.5s ease;
+}
 .leftbar-s{
     background-color: rgba(255, 255, 255, 0.95);
     left: 0;
     height: 560px;
+}
+
+.navbar.collapse.show{
+    left: 0;
+    transition: left 300ms ease-in-out;
+}
+.navbar.collapsing{
+    left: -75%;
+    transition: all 0s ease;
+}
+.nav .nav-link.active{
+    color: #ff4646;
 }

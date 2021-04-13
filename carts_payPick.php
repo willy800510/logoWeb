@@ -15,7 +15,7 @@
     <?php include("template/materialDesign.php"); ?>
     <style>
         .payPick:checked + label {
-            background: #FC9545;
+            background: var( --logoColor);
             color: white;
         }
     </style>

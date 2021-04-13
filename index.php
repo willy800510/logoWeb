@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/carousel.css">
-    <?php include("template/materialDesign.php"); ?>
+    <!-- Material Design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/material-icon.css">
+    <!-- <?php #include("template/materialDesign.php"); ?> -->
 </head>
 <body>
 <?php include("template/header.php"); ?>
@@ -95,7 +98,7 @@
             </div>
             <div class="row py-3">
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -111,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -127,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -143,7 +146,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -159,7 +162,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -175,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -191,7 +194,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-md-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -207,7 +210,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-md-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -223,7 +226,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-md-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -239,7 +242,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-lg-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -255,7 +258,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-lg-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -271,7 +274,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-lg-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -294,7 +297,7 @@
             </div>
             <div class="row py-3">
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -310,7 +313,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -326,7 +329,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -342,7 +345,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -358,7 +361,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -374,7 +377,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -390,7 +393,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-md-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -406,7 +409,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-md-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -422,7 +425,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-md-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -438,7 +441,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-lg-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -454,7 +457,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-lg-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
@@ -470,7 +473,7 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp d-none d-lg-block">
-                    <div class="d-block p-4 lgdp-bg rounded">
+                    <div class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>

@@ -16,25 +16,25 @@
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php include("template/header.php"); ?>
+<?php include("template/header-logoCenter.php"); ?>
 <div class="container-fluid">
     <div class="container">
         <div class="row mToTop">
         <!-- 左導覽 -->
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
-            <div class="col-12 col-xl-10 px-0 px-xl-3 ">
+            <div class="col-12 col-xl-10 px-0 px-xl-3">
                 <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">個人資訊</span>
                 </div>
-                <form action="" class="bg-cloud rounded my-1 flex-grow-1">
+                <form action="" class="bg-cloud rounded my-1">
                     <div class="text-center p-3">基本資料</div>
-                    <div class="form-group row d-flex align-items-stretch text-center">
+                    <div class="form-group row d-flex text-center" style="min-height: 520px;">
                         <div class="col-12 col-md-9 p-2 p-md-5">
                             <div class="form-group row px-5 mb-4 d-flex d-md-none flex-column align-items-center">
                                 <img src="images/headerIcon/usery.svg" width="25px" alt="" class="logoIcon p-2 m-3">
                                 <!-- <input type="file" class="form-control-file" id="photoUpload"> -->
-                                <button class="btn btn-outline-success col-2">更換</button>
+                                <button class="btn btn-outline-success col-3">更換</button>
                             </div>
                             <div class="form-group row my-2">
                                 <label for="member" class="col-4">會員代號</label>
@@ -49,13 +49,19 @@
                             </div>
                             <div class="form-group row my-2">
                                 <label for="phone" class="col-4">聯絡電話</label>
-                                <input type="text" name="phone" class="col-6 form-control p-2" placeholder="09xx-xxx-xxx">
-                                <img src="images/icon/add.svg" width="35px" height="35px" class="col-2" alt="">
+                                <div class="col-6">
+                                    <input type="text" name="phone" class="col-12 form-control p-2" placeholder="09xx-xxx-xxx">
+                                    <input type="text" name="phone" class="col-12 form-control p-2 mt-2 phone d-none" placeholder="09xx-xxx-xxx">
+                                </div>
+                                <img width="35px" height="35px" class="col-2 add addBtn" alt="">
                             </div>
                             <div class="form-group row my-2">
                                 <label for="email" class="col-4">電子郵件</label>
-                                <input type="email" name="email" class="col-6 form-control p-2" placeholder="name@logoweb.com">
-                                <img src="images/icon/add.svg" width="35px" height="35px" class="col-2" alt="">
+                                <div class="col-6">
+                                    <input type="email" name="email" class="col-12 form-control p-2" placeholder="name@logoweb.com">
+                                    <input type="email" name="email" class="col-12 form-control p-2 mt-2 mail d-none" placeholder="name@logoweb.com">
+                                </div>
+                                <img width="35px" height="35px" class="col-2 add addBtn" alt="">
                             </div>
                             <div class="form-group row my-2">
                                 <label for="local" class="col-4">所在地</label>
@@ -80,7 +86,7 @@
                             </div>
                             <button type="submit" class="btn btn-outline-orange my-4 px-3">更新</button>
                         </div>
-                        <div class="col-md-3 text-center d-none d-md-flex flex-column justify-content-center align-items-center">
+                        <div class="col-md-3 text-center d-none d-md-flex flex-column mg-70 align-items-center">
                             <img src="images/headerIcon/usery.svg" width="25px" alt="" class="logoIcon p-2 m-3">
                             <!-- <input type="file" class="form-control-file" id="photoUpload"> -->
                             <button class="btn btn-outline-success">更換</button>
@@ -92,3 +98,16 @@
     </div>
 </div>
 <?php include("template/footer.php"); ?>
+<script>
+    $(document).ready(function(){
+        $('.addBtn').click(function(){
+            $(this).toggleClass('minus')
+            $(this).toggleClass('mt-auto')
+            if($(this).siblings('.col-6').children('.form-control').hasClass('mail')){
+                $('.mail').toggleClass('d-none','d-block')
+            }else{
+                $('.phone').toggleClass('d-none','d-block')
+            }
+        })
+    })
+</script>

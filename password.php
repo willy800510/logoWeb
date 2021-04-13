@@ -16,9 +16,7 @@
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header-logoCenter.php"); ?>
 <div class="container-fluid">
     <div class="container">
         <div class="row mToTop">
@@ -31,7 +29,7 @@
                 </div>
                 <form action="" class="bg-cloud my-1 rounded" method="post">
                     <div class="text-center p-3 text-alert">小提醒：請不要與他人分享密碼</div>
-                    <div class="form-group row d-flex align-items-stretch text-center">
+                    <div class="form-group row d-flex flex-grow-1 text-center" style="min-height: 520px;">
                         <div class="col-12 col-lg-9 p-5">
                             <div class="form-group row my-2 align-items-center">
                                 <label for="pwNow" class="col-4 col-lg-3">現在密碼</label>
@@ -64,9 +62,9 @@
                                 <button type="submit" class="btn btn-outline-success col-4">確認變更</button>
                             </div>
                         </div>
-                        <div class="col-3 text-center d-none d-lg-flex flex-column justify-content-center align-items-center">
+                        <div class="col-3 text-center d-none d-lg-flex flex-column align-items-center p-5">
                             <!-- <input type="file" class="form-control-file" id="photoUpload"> -->
-                            <button class="btn btn-outline-success">確認變更</button>
+                            <button class="btn btn-outline-success mt-5">確認變更</button>
                         </div>
                     </div>
                 </form>

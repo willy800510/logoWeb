@@ -1,21 +1,29 @@
 .caroItem_1{
-    transform: scale(0.4) rotate(-24deg) translate(-70px, 330px) !important;
-    transition: transform 1s ease-in-out 1s;
+    transform: scale(0.4) rotate(-23deg) translate(5px, 185px) !important;
+    transition: transform 1s ease-in-out .8s;
 }
 .caroItem_2{
-    transform: scale(0.3) rotate(-12deg) translate(-250px, 340px) !important;
-    transition: transform 1s ease-in-out 1s;
+    transform: scale(0.3) rotate(-12deg) translate(-200px, 135px) !important;
+    transition: transform 1s ease-in-out .8s;
 }
 
 .carousel-caption{
     bottom: 50px;
 }
 
+#scoll_overlay{
+    top: 49px;
+    left: 0px;
+    transition: ease-in-out .8s;
+}
 @media (min-width: 0px){
-    #scoll_overlay{
-        top: 49px;
-        left: 0px;
-        transition: ease-in-out 1s;
+    .addCart{
+        left: 8%; 
+        bottom: 4%;
+    }
+    .prodDetail{
+        right: 8%; 
+        bottom: 4%;
     }
 }
 @media (min-width: 576px){
@@ -23,10 +31,19 @@
         max-width: 700px;
         height: 400px;
     }
+    .addCart{
+        left: 7%; 
+    }
+    .prodDetail{
+        right: 7%; 
+    }
 }
 @media (min-width: 1200px){
-    #scoll_overlay{
-        top:   126px;
+    .addCart{
+        left:18%; 
+    }
+    .prodDetail{
+        right:18%; 
     }
 }
 .carousel-control-next-icon {

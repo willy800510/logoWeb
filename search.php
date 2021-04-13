@@ -32,12 +32,12 @@
                 <input type="search" id="site-search" name="q" aria-label="Search through site content" size="30" class="m-1 srchtext-2">
             </div>
             <div class="d-flex justify-content-center">
-                <a href="#hitTag-1" class="btn btn-light mx-2" data-toggle="tab" data-target="#hitTag-1" aria-controls="hitTag-1">星座</a>
-                <a href="#hitTag-2" class="btn btn-light mx-2" data-toggle="tab" data-target="#hitTag-2" aria-controls="hitTag-2">搖飲</a>
-                <a href="#hitTag-3" class="btn btn-light mx-2" data-toggle="tab" data-target="#hitTag-3" aria-controls="hitTag-3">文青風</a>
-                <a href="#hitTag-4" class="btn btn-light mx-2" data-toggle="tab" data-target="#hitTag-4" aria-controls="hitTag-4">運動</a>
-                <a href="#hitTag-5" class="btn btn-light mx-2" data-toggle="tab" data-target="#hitTag-5" aria-controls="hitTag-5">海</a>
-                <a href="#hitTag-6" class="btn btn-light mx-2" data-toggle="tab" data-target="#hitTag-6" aria-controls="hitTag-6">寵物</a>
+                <a href="#hitTag-1" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-1">星座</a>
+                <a href="#hitTag-2" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-2">搖飲</a>
+                <a href="#hitTag-3" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-3">文青風</a>
+                <a href="#hitTag-4" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-4">運動</a>
+                <a href="#hitTag-5" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-5">海</a>
+                <a href="#hitTag-6" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-6">寵物</a>
             </div>
         </form>
     </div>
@@ -56,8 +56,9 @@
                 <a href="#list-entertain" id="tabEntertain" class="text-center list-group-item list-group-item-action" data-toggle="tab" data-target="#list-entertain" aria-expanded="false" aria-controls="list-entertain">娛樂<br class="d-block d-md-none">收藏</a>
                 <!-- <i class="fas fa-sort-down fa-lg"></i> -->
                 <button data-toggle="collapse" aria-expanded="false" data-target="#formSearch" aria-controls="formSearch">
-                    <i class="fas fa-chevron-down fa-lg ml-2 icon-open"></i>
+                    <!-- <i class="fas fa-chevron-down fa-lg ml-2 icon-open"></i> -->
                     <!-- <i class="fas fa-chevron-up fa-lg ml-2 icon-close"></i> -->
+                    <svg class="icon-open" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24" width="30px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
                 </button>
             </div>
             <form action="" class="bg-white mx-1 pl-3 pl-sm-4 pl-lg-5 py-3 rounded collapse" id="formSearch">
@@ -144,22 +145,22 @@
                     <label for="" class="m-1">NT$151-200</label>
                 </div>
                 <div class="d-flex justify-content-start align-items-center text-alert tab-content">
-                    <div class="tab-pane" id="hitTag-1">
+                    <div class="tab-pane" role="tabpanel" id="hitTag-1">
                         <span>></span><span>星座</span>
                     </div>
-                    <div class="tab-pane" id="hitTag-2">
+                    <div class="tab-pane" role="tabpanel" id="hitTag-2">
                         <span>></span><span>搖飲</span>
                     </div>
-                    <div class="tab-pane" id="hitTag-3">
+                    <div class="tab-pane" role="tabpanel" id="hitTag-3">
                         <span>></span><span>文青風</span>
                     </div>
-                    <div class="tab-pane" id="hitTag-4">
+                    <div class="tab-pane" role="tabpanel" id="hitTag-4">
                         <span>></span><span>運動</span>
                     </div>
-                    <div class="tab-pane" id="hitTag-5">
+                    <div class="tab-pane" role="tabpanel" id="hitTag-5">
                         <span>></span><span>海</span>
                     </div>
-                    <div class="tab-pane" id="hitTag-6">
+                    <div class="tab-pane" role="tabpanel" id="hitTag-6">
                         <span>></span><span>寵物</span>
                     </div>
                 </div>
@@ -168,7 +169,7 @@
     <!-- 商品搜尋結果 -->
         <div class="row pt-1 pb-3 justify-content-center">
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -184,7 +185,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -200,7 +201,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -216,7 +217,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -232,7 +233,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -248,7 +249,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -264,7 +265,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -280,7 +281,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -296,7 +297,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -312,7 +313,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -328,7 +329,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -344,7 +345,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                <div class="d-block p-4 lgdp-bg rounded">
+                <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                         <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                     </a>
@@ -361,23 +362,11 @@
             </div>
             <nav aria-label="Page navigation">
                 <ul class="pagination align-items-center mt-3">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <!-- <span aria-hidden="true">&laquo;</span> -->
-                            <!-- <span class="material-icons md-36">arrow_left</span> -->
-                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M14 7l-5 5 5 5V7z"/><path d="M24 0v24H0V0h24z" fill="none"/></svg>
-                        </a>
-                    </li>
+                    <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><svg id="pre_page" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="var( --logoColor)"><path d="M14 7l-5 5 5 5V7z"/><path d="M24 0v24H0V0h24z" fill="none"/></svg></a></li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
                     <li class="page-item"><a class="page-link" href="#">2</a></li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <!-- <span aria-hidden="true">&raquo;</span> -->
-                            <!-- <span class="material-icons md-36">arrow_right</span> -->
-                            <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#FFFFFF"><path d="M10 17l5-5-5-5v10z"/><path d="M0 24V0h24v24H0z" fill="none"/></svg>
-                        </a>
-                    </li>
+                    <li class="page-item"><a class="page-link" href="#" aria-label="Next"><svg id="next_page" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="var( --logoColor)"><path d="M10 17l5-5-5-5v10z"/><path d="M0 24V0h24v24H0z" fill="none"/></svg></a></li>
                 </ul>
             </nav>
         </div>

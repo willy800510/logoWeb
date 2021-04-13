@@ -31,7 +31,7 @@
                 <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">修改細項</span>
                 </div>
-                <form action="" method="POST" id="modifyForm" class="bg-cloud my-1 needs-validation" novalidate>
+                <form action="" method="post" id="modifyForm" class="bg-cloud rounded my-1 needs-validation" novalidate>
                     <div class="d-flex justify-content-center justify-content-lg-between align-items-center px-3 py-1">
                         <span class="d-none d-lg-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
                         <div class="">

@@ -16,7 +16,7 @@
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php include("template/header.php"); ?>
+<?php include("template/header-logoCenter.php"); ?>
 <div class="container-fluid">
     <div class="container">
         <div class="row mToTop">
@@ -25,8 +25,8 @@
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
                 <div class="list-group flex-row align-items-center justify-content-around" role="tablist">
-                    <a class="text-center col-6 bg-cloud p-4 orderTab" data-toggle="list" role="tab">全部</a>
-                    <a class="text-center col-6 bg-cloud p-4 orderTab" data-toggle="list" role="tab">未讀</a>
+                    <a class="list-group-item text-center col-6 bg-cloud p-4 active" data-toggle="list" role="tab">全部</a>
+                    <a class="list-group-item text-center col-6 bg-cloud p-4" data-toggle="list" role="tab">未讀</a>
                 </div>
                 <div class="d-flex flex-column mt-1">
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
@@ -38,10 +38,10 @@
                             </span>
                             <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <a href="logoDisplay.php" class="btn btn-outline-orange d-none d-md-flex">查看檔案</a>
                         <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
-                    <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
+                    <a href="logoDisplay.php" class="btn btn-orange d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
                         <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
                         <span class="ml-4 ml-md-0">
@@ -51,10 +51,10 @@
                             </span>
                             <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <a href="logoDisplay.php" class="btn btn-outline-orange d-none d-md-flex">查看檔案</a>
                         <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
-                    <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
+                    <a href="logoDisplay.php" class="btn btn-orange d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
                         <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
                         <span class="ml-4 ml-md-0">
@@ -64,10 +64,10 @@
                             </span>
                             <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <a href="logoDisplay.php" class="btn btn-outline-orange d-none d-md-flex">查看檔案</a>
                         <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
-                    <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
+                    <a href="logoDisplay.php" class="btn btn-orange d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
                         <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
                         <span class="ml-4 ml-md-0">
@@ -77,10 +77,10 @@
                             </span>
                             <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
-                        <button class="btn btn-outline-orange d-none d-md-flex">查看檔案</button>
+                        <a href="logoDisplay.php" class="btn btn-outline-orange d-none d-md-flex">查看檔案</a>
                         <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
                     </div>
-                    <button class="btn btn-info d-flex d-md-none p-3 mb-1 justify-content-end">查看檔案</button>
+                    <a href="logoDisplay.php" class="btn btn-orange d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php include("template/header.php"); ?>
+<?php include("template/header-logoCenter.php"); ?>
 <div class="container-fluid">
     <div class="container-sm">
         <div class="row mToTop">

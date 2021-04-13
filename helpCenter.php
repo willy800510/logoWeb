@@ -30,12 +30,12 @@
         .list-group-item.active {
             z-index: 2;
             color: #fff;
-            background-color:#FC9545;
-            /* border-color: #FC9545; */
+            background-color: var( --logoColor);
+            /* border-color: var( --logoColor); */
         }
-        .list-group-item:last-child {
-            border-bottom-right-radius: unset;
-            border-bottom-left-radius: unset;
+        .list-group-item:first-child {
+            border-top-left-radius: inherit;
+            border-top-right-radius: inherit;
         }
     </style>
 </head>
@@ -519,64 +519,13 @@
 <script src="js/allpage.js"></script>
 <script>
     $(document).ready(function(){
-        $('#guide_about_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#about_s').offset().top-60},800);
+        $('.helpMenuBtn').click(function () {
+	        event.preventDefault();
+	        var target = $(this).attr('href');
+	        $('html,body').animate({ scrollTop: $(target).offset().top- 60 }, 800);
         });
-        $('#guide_howToBuy_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#howToBuy_s').offset().top-60},800);
+        $('#helper_guide').click(function (event) {
+	        event.stopPropagation();
         });
-        $('#guide_tradeQues_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#tradeQues_s').offset().top-60},800);
-        });
-        $('#guide_odrQues_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#odrQues_s').offset().top-60},800);
-        });
-        $('#guide_domOvertrade_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#domOvertrade_s').offset().top-60},800);
-        });
-        $('#guide_mbNotice_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#mbNotice_s').offset().top-60},800);
-        });
-        $('#guide_acontQues_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#acontQues_s').offset().top-60},800);
-        });
-        $('#guide_aftrBuy_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#aftrBuy_s').offset().top-60},800);
-        });
-        $('#guide_ctmrServe_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#ctmrServe_s').offset().top-60},800);
-        });
-        $('#guide_tmOfServe_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#tmOfServe_s').offset().top-60},800);
-        });
-        $('#guide_pvcPoli_s').click(function(){
-            event.preventDefault(); //有沒有寫這個的意義？
-            $('html,body').animate({scrollTop: $('#pvcPoli_s').offset().top-60},800);
-        });
-        function change_leftbar() {
-            $('#leftRow').load('template/leftbar.php');
-        }
-        // function change_leftbar(_url){
-        //     $.ajax({
-        //         url : _url,
-        //         type : 'post',
-        //         success: function(data) {
-        //             $('#leftRow').html(data);
-        //         },
-        //         error: function() {
-        //             $('#leftRow').text('An error occurred');
-        //         }
-        //     });
-        // };
     });
 </script>

@@ -5,7 +5,7 @@
     height: 357px;
 }
 .banner h2{
-    color: #FC9545;
+    color: var( --logoColor);
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -24,11 +24,11 @@
 }
 .srch{
     border: unset;
-    background-color: #FAD06A;
-    color: #FC9545;
+    background-color: var( --logoColor_3);
+    color: var( --logoColor);
 }
 .srch:hover {
-    background-color:#20e388;
+    background-color:var( --logoColor_2);
     color: white;
 }
 

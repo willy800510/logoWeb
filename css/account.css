@@ -16,10 +16,6 @@
     height: 69px;
 }
 
-.orderTab:hover{
-    background-color: #ffffff !important;
-}
-
 /* ORDERNUMBER*/
 .odflot{
     font-size: .9rem !important;
@@ -59,7 +55,6 @@
     background-position: center;
     background-size: cover;
     height: 70px;
-    
 }
 
 /* LOGIN REGIST */
@@ -71,6 +66,9 @@
 .chooColor{
     width: 60px;
     height:38px;
+}
+#modifyForm{
+    min-height: 580px;
 }
 
 /* carts_lists */
@@ -91,7 +89,7 @@
     background: rgba(255, 255, 255, 0.5);
  }
  .stepper::after { 
-    background: #FC9545;
+    background: var( --logoColor);
     width: 0%;
  }
  .stepper.step-half::after { /*步驟2的時候 加上step-half的class名稱*/
@@ -102,4 +100,25 @@
  }
  .list-group-item+.list-group-item {
     border-top-width: 1px;
+}
+.list-group-item.active{
+    color: #fff;
+    background-color: var( --logoColor);
+    border: 0;
+}
+.list-group-item:first-child{
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+/* USERINFO */
+.add{
+    content:url(../images/icon/add.svg);
+}
+.minus{
+    content:url(../images/icon/minus.svg);
 }
