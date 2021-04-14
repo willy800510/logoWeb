@@ -29,19 +29,19 @@
                     <a class="text-center col-4 bg-cloud p-4 orderTab" data-toggle="list" role="tab">修改中</a>
                     <a class="text-center col-4 bg-cloud p-4 orderTab" data-toggle="list" role="tab">完成</a>
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-stretch mt-1">
+                <div class="d-flex flex-column align-items-stretch mt-1" style="min-height: 520px;">
                     <div class="w-100 bg-cloud p-3 mb-1 rounded">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <li class="font-weight-bolder">商品圖式</li> 
-                            <li class="font-weight-bolder">訂單編號</li> 
-                            <li class="font-weight-bolder">訂單狀態</li> 
-                            <li class="font-weight-bolder">訂單總額</li> 
+                            <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單編號</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單狀態</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon">
-                            <a href="#">xxxxxxxxxx</a> 
-                            <li>商品製作中</li>
-                            <li>NT$200</li>
+                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
+                            <li class="col-3 text-center">商品製作中</li>
+                            <li class="col-3 text-center text-alert">NT$200</li>
                         </ul>
                         <div class="d-flex justify-content-center align-items-center mt-3 pt-3 border-top border-white">
                             <div class="d-flex flex-column align-items-center mx-3">

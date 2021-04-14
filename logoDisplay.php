@@ -26,10 +26,10 @@
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 position-absolute mg-70 z-index-1" id="scoll_overlay" alt="...">
             <div class="position-absolute z-index-100 addCart">
-                <button class="btn btn-outline-orange">加入購物袋</button>
+                <button class="btn btn-outline-orange">檔案下載</button>
             </div>
             <div class="position-absolute z-index-100 prodDetail">
-                <a href="product.php" class="btn btn-outline-orange">查看商品</a>
+                <a onclick="history.back()" class="btn btn-outline-orange text-center">返回</a>
             </div>
             <ol class="carousel-indicators align-items-center">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active" id="underBar1"></li>

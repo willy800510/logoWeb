@@ -2,7 +2,7 @@
 <header class="container-fluid position-fixed fixed-top">
     <!-- xl -->
     <div class="container-sm d-none d-xl-block">
-        <div class="d-flex justify-content-between align-items-center p-1 pl-3">
+        <div class="d-flex justify-content-between align-items-center p-1">
             <a href="index.php" class="logo"></a>
             <!-- <div class="menu">    -->
             <div class="nav justify-content-end">   
@@ -54,7 +54,7 @@
     </div>
     <!-- sm/md -->
     <div class="container-sm d-block d-sm-block d-xl-none">
-        <div class="d-flex justify-content-between align-items-center p-2 pl-3">
+        <div class="d-flex justify-content-between align-items-center p-2">
             <div class="sideMenuBtn-L py-4" data-toggle="collapse" data-target="#helper_guide" aria-expanded="false" aria-controls="helper_guide">
                 <div class="menuBurger-L"></div>
             </div>

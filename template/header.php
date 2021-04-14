@@ -2,7 +2,7 @@
 <header class="container-fluid position-fixed fixed-top">
     <!-- xl -->
     <div class="container-sm d-none d-xl-block">
-        <div class="d-flex justify-content-between align-items-center p-1 pl-3">
+        <div class="d-flex justify-content-between align-items-center p-1">
             <a href="index.php" class="logo"></a>
             <!-- <div class="menu">    -->
             <div class="nav justify-content-end">   
@@ -86,9 +86,9 @@
                     </ul>
                     <h6 class="font-weight-normal">我的訂單</h6>
                     <ul>
-                        <li class="my-1 font-weight-light font8rem"><a href="#" class="">全部訂單</a></li>
-                        <li class="my-1 font-weight-light font8rem"><a href="#" class="">修改中訂單</a></li>
-                        <li class="my-1 font-weight-light font8rem"><a href="#" class="">已完成訂單</a></li>
+                        <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">全部訂單</a></li>
+                        <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">修改中訂單</a></li>
+                        <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">已完成訂單</a></li>
                     </ul>
                     <h6 class="font-weight-normal"><a href="customizeCenter.php">客製中心</a></h6>
                     <a href="#" class="nav-link text-secondary">登出</a>

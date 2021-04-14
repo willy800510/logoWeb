@@ -32,9 +32,9 @@
                     <div class="form-group row d-flex text-center" style="min-height: 520px;">
                         <div class="col-12 col-md-9 p-2 p-md-5">
                             <div class="form-group row px-5 mb-4 d-flex d-md-none flex-column align-items-center">
-                                <img src="images/headerIcon/usery.svg" width="25px" alt="" class="logoIcon p-2 m-3">
+                                <img src="images/headerIcon/usery.svg" width="25px" alt="" class="logoIcon p-2 mb-3">
                                 <!-- <input type="file" class="form-control-file" id="photoUpload"> -->
-                                <button class="btn btn-outline-success col-3">更換</button>
+                                <button class="btn btn-outline-success col-4 col-sm-3">更換</button>
                             </div>
                             <div class="form-group row my-2">
                                 <label for="member" class="col-4">會員代號</label>

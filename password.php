@@ -30,7 +30,7 @@
                 <form action="" class="bg-cloud my-1 rounded" method="post">
                     <div class="text-center p-3 text-alert">小提醒：請不要與他人分享密碼</div>
                     <div class="form-group row d-flex flex-grow-1 text-center" style="min-height: 520px;">
-                        <div class="col-12 col-lg-9 p-5">
+                        <div class="col-12 col-lg-9 p-1 p-sm-5">
                             <div class="form-group row my-2 align-items-center">
                                 <label for="pwNow" class="col-4 col-lg-3">現在密碼</label>
                                 <div class="input-group col-8">

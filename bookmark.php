@@ -33,7 +33,7 @@
                 <div class="row justify-content-between mt-1 mt-md-2 mt-xl-1">
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2 cardImg">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2 cardImg">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -60,7 +60,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -114,7 +114,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -123,7 +123,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -132,7 +132,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -141,7 +141,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -150,7 +150,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -168,7 +168,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -177,7 +177,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -186,7 +186,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -195,7 +195,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -204,7 +204,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -213,7 +213,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -222,7 +222,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -231,7 +231,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>
@@ -240,7 +240,7 @@
                     </div>
                     <div class="col-6 col-md-auto d-flex flex-column align-items-center mb-1 mb-md-2 mb-xl-1">
                         <div class="bg-cloud p-md-4 text-center rounded bmlogo ">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" width="140px" alt="" class="p-2 m-2">
+                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
                                 <button class="btn btn-outline-orange mx-2 my-1 order-0 order-md-1">加入購物袋</button>

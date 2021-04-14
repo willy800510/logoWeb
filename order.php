@@ -32,68 +32,93 @@
                 <div class="d-flex flex-column justify-content-center align-items-center mt-1">
                     <div class="w-100 bg-cloud p-3 mb-1">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <li class="font-weight-bolder">商品圖式</li> 
-                            <li class="font-weight-bolder">訂單編號</li> 
-                            <li class="font-weight-bolder">訂單狀態</li> 
-                            <li class="font-weight-bolder">訂單總額</li> 
+                            <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單編號</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單狀態</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon">
-                            <a href="orderNum.php">xxxxxxxxxx</a> 
-                            <li>商品製作中</li>
-                            <li class="text-alert">NT$200</li>
+                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
+                            <li class="col-3 text-center">商品製作中</li>
+                            <li class="col-3 text-center text-alert">NT$200</li>
                         </ul>
-                        <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="logoDisplay.php" class="btn btn-outline-primary mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-orange mx-3">查看詳細檔案</a>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center disabled">檔案預覽</a>
+                            <!-- 當訂單狀態在 1.尚未付款 2.商品製作中 沒有檔案可預覽 要加上disabled -->
+                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon">
-                            <a href="orderNum.php">xxxxxxxxxx</a>
-                            <li>商品製作中</li>
-                            <li class="text-alert">NT$200</li>
+                            <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單編號</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單狀態</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
-                        <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="logoDisplay.php" class="btn btn-outline-primary mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-orange mx-3">查看詳細檔案</a>
+                        <ul class="d-flex justify-content-around align-items-center">
+                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
+                            <li class="col-3 text-center">訂單完成</li>
+                            <li class="col-3 text-center text-alert">NT$200</li>
+                        </ul>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
+                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon">
-                            <a href="orderNum.php">xxxxxxxxxx</a>
-                            <li>商品製作中</li>
-                            <li class="text-alert">NT$200</li>
+                            <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單編號</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單狀態</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
-                        <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="logoDisplay.php" class="btn btn-outline-primary mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-orange mx-3">查看詳細檔案</a>
+                        <ul class="d-flex justify-content-around align-items-center">
+                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
+                            <li class="col-3 text-center">商品製作中</li>
+                            <li class="col-3 text-center text-alert">NT$200</li>
+                        </ul>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
+                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon">
-                            <a href="orderNum.php">xxxxxxxxxx</a>
-                            <li>商品製作中</li>
-                            <li class="text-alert">NT$200</li>
+                            <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單編號</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單狀態</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
-                        <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="logoDisplay.php" class="btn btn-outline-primary mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-orange mx-3">查看詳細檔案</a>
+                        <ul class="d-flex justify-content-around align-items-center">
+                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
+                            <li class="col-3 text-center">商品製作中</li>
+                            <li class="col-3 text-center text-alert">NT$200</li>
+                        </ul>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
+                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon">
-                            <a href="orderNum.php">xxxxxxxxxx</a>
-                            <li>商品製作中</li>
-                            <li class="text-alert">NT$200</li>
+                            <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單編號</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單狀態</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
-                        <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="logoDisplay.php" class="btn btn-outline-primary mx-3">查看檔案</a>
-                            <a  href="orderCheck.php" class="btn btn-outline-orange mx-3">查看詳細檔案</a>
+                        <ul class="d-flex justify-content-around align-items-center">
+                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
+                            <li class="col-3 text-center">商品製作中</li>
+                            <li class="col-3 text-center text-alert">NT$200</li>
+                        </ul>
+                        <div class="d-flex justify-content-around align-items-center">
+                            <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
+                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                 </div>

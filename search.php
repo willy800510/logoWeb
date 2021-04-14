@@ -32,12 +32,12 @@
                 <input type="search" id="site-search" name="q" aria-label="Search through site content" size="30" class="m-1 srchtext-2">
             </div>
             <div class="d-flex justify-content-center">
-                <a href="#hitTag-1" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-1">星座</a>
-                <a href="#hitTag-2" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-2">搖飲</a>
-                <a href="#hitTag-3" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-3">文青風</a>
-                <a href="#hitTag-4" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-4">運動</a>
-                <a href="#hitTag-5" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-5">海</a>
-                <a href="#hitTag-6" class="btn nav-link hitTag  mx-2" data-toggle="tab" data-target="#hitTag-6">寵物</a>
+                <a href="#hitTag-1" class="btn nav-link hitTag mx-1 mx-sm-2 my-auto" data-toggle="tab" data-target="#hitTag-1">星座</a>
+                <a href="#hitTag-2" class="btn nav-link hitTag mx-1 mx-sm-2 my-auto" data-toggle="tab" data-target="#hitTag-2">搖飲</a>
+                <a href="#hitTag-3" class="btn nav-link hitTag mx-1 mx-sm-2 my-auto" data-toggle="tab" data-target="#hitTag-3">文青風</a>
+                <a href="#hitTag-4" class="btn nav-link hitTag mx-1 mx-sm-2 my-auto" data-toggle="tab" data-target="#hitTag-4">運動</a>
+                <a href="#hitTag-5" class="btn nav-link hitTag mx-1 mx-sm-2 my-auto" data-toggle="tab" data-target="#hitTag-5">海</a>
+                <a href="#hitTag-6" class="btn nav-link hitTag mx-1 mx-sm-2 my-auto" data-toggle="tab" data-target="#hitTag-6">寵物</a>
             </div>
         </form>
     </div>

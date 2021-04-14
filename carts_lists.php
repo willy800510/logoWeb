@@ -26,10 +26,10 @@
             </div>
             <form action="carts_payPick.php" method="post" class="d-flex flex-column pb-3">
                 <ul class="row bg-white align-items-center mt-1 mx-1 p-2 rounded">
-                    <div class="col-1 text-center">
+                    <div class="col-1 text-center px-0">
                         <input type="checkbox" name="Checkbox[]">
                     </div>
-                    <img src="images/logo.svg" alt="" class="logoIcon col-2">
+                    <img src="images/logo.svg" alt="" class="logoIcon col-2 px-1">
                     <div class="d-flex flex-column col-8 py-3">
                         <div class="d-flex justify-content-around">
                             <div class="text-center p-2">
@@ -47,16 +47,16 @@
                         </div>
                         <span class="font-weight-lighter text-black-50 text-center pt-3 d-block d-md-none">備註說明:備註說明備註說明備註說明</span>
                     </div>
-                    <button type="submit" class="btn col-1">
+                    <button type="submit" class="btn col-1 px-0">
                         <!-- <i class="fas fa-times"></i> -->
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
                     </button>
                 </ul>
                 <ul class="row bg-white align-items-center mt-1 mx-1 p-2 rounded ">
-                    <div class="col-1 text-center">
+                    <div class="col-1 text-center px-0">
                         <input type="checkbox" name="Checkbox[]">
                     </div>
-                    <img src="images/logo.svg" alt="" class="logoIcon col-2">
+                    <img src="images/logo.svg" alt="" class="logoIcon col-2 px-1">
                     <div class="d-flex flex-column col-8 py-3">
                         <div class="d-flex justify-content-around">
                             <div class="text-center p-2">
@@ -74,19 +74,19 @@
                         </div>
                         <span class="font-weight-lighter text-black-50 text-center pt-3 d-block d-md-none">備註說明:備註說明備註說明備註說明</span>
                     </div>
-                    <button type="submit" class="btn col-1">
+                    <button type="submit" class="btn col-1 px-0">
                         <!-- <i class="fas fa-times"></i> -->
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
                     </button>
                 </ul>
                 <div class="row bg-white align-items-center mt-1 mx-1 p-2 rounded">
-                    <div class="col-1 text-center">
+                    <div class="col-1 px-0 text-center">
                         <input type="checkbox" name="checkAll" id="CheckAll">
                     </div>
-                    <div class="col-2 px-0 text-center">
+                    <div class="col-3 px-0 col-md-2 text-center text-md-left">
                         <label for="checkAll" class="mt-2">全部選取</label>
                     </div>
-                    <button type="submit" class="btn btn-orange col-6 ml-auto py-2">前往付款</button>
+                    <button type="submit" class="btn btn-orange col-6 col-md-8 ml-auto py-2">前往付款</button>
                 </div>
                 <div class="bg-white p-3 font-weight-lighter mt-1 mx-1 rounded">
                     <h6>交易注意事項</h6>

@@ -2,16 +2,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 357px;
+    /* height: 50vh; */
 }
 .banner h2{
     color: var( --logoColor);
-    font-size: 30px;
     font-weight: normal;
     text-align: center;
 }
 .srchtext{
-    width: 365px;
     height: 40px;
     border: unset;
     border-radius: 4px;
@@ -47,12 +45,39 @@
 @media(min-width: 0px){
     .banner{
         background-image: url(../images/banner/logoweb\ color\ face.png);
+        height: 40vh;
+    }
+    .banner h2{
+        font-size: 24px; 
+    }
+    .srchtext{
+        width: 225px;
     }
     .srcBanner{
         height: 300px;
     }
+    .btn.btn-light.mx-1, .hitTag{
+        padding: .4rem .3rem;
+    }
+}
+@media(min-width: 500px){
+    .banner{
+        height: 45vh;
+    }
+    .srchtext{
+        width: 365px;
+    }
+    .btn.btn-light.mx-1, .hitTag{
+        padding: .375rem .75rem;
+    }
 }
 @media(min-width: 768px){
+    .banner{
+        height: 50vh;
+    }
+    .banner h2{
+        font-size: 30px; 
+    }
     .srcBanner{
         height: 360px;
     }

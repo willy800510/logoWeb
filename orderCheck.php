@@ -32,39 +32,40 @@
                 <div class="d-flex flex-column justify-content-center align-items-stretch mt-1">
                     <div class="w-100 bg-cloud p-3 mb-1 rounded">
                         <ul class="d-flex justify-content-around align-items-center">
-                            <li class="font-weight-bolder">商品圖式</li> 
-                            <li class="font-weight-bolder">訂單編號</li> 
-                            <li class="font-weight-bolder">訂單狀態</li> 
-                            <li class="font-weight-bolder">訂單總額</li> 
+                            <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單編號</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單狀態</li> 
+                            <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon">
-                            <a href="orderNum.php">xxxxxxxxxx</a> 
-                            <li>商品製作中</li>
-                            <li class="text-alert">NT$200</li>
+                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
+                            <li class="col-3 text-center">商品製作中</li>
+                            <li class="col-3 text-center text-alert">NT$200</li>
                         </ul>
-                        <div class="d-flex justify-content-end align-items-center mr-4">
-                            <a  href="#" class="btn btn-outline-primary mx-3">查看檔案</a>
-                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-orange mx-3 px-4">
+                        <div class="d-flex justify-content-around align-items-center px-2">
+                            <a  href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-4 text-center">查看檔案 or 檔案下載</a>
+                            <a  href="quotation.php" class="btn btn-outline-color2 mx-1 py-2 col-4 text-center">報價單</a>
+                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-orange mx-1 py-2 col-4 text-center">
                         </div>
                         <div class="d-flex justify-content-center align-items-center mt-3 pt-3 border-top border-secondary">
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/order.svg" alt="">
+                                <img src="images/orderflowIcon/order.svg" style="filter: grayscale(100%);" alt="">
                                 <div class="mt-3">訂單建立</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/orderPay.svg" alt="">
+                                <img src="images/orderflowIcon/orderPay.svg" style="filter: grayscale(100%);" alt="">
                                 <div class="mt-3">付款確認</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/designing.svg" alt="">
+                                <img src="images/orderflowIcon/designing.svg" style="filter: grayscale(100%);" alt="">
                                 <div class="mt-3">製作中</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/download.svg" alt="">
+                                <img src="images/orderflowIcon/download.svg" style="filter: grayscale(100%);" alt="">
                                 <div class="mt-3">訂單完成</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>

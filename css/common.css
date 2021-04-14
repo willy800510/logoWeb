@@ -125,7 +125,7 @@ h1, h2{
   border-color: var( --logoColor);
 }
 .btn-outline-color2{
-  color: var( --logoColor);
+  color: mediumseagreen;
   background-color: transparent;
   border-color: var( --logoColor_2);
 }
