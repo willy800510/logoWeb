@@ -1,0 +1,11 @@
+a, #shopFlow {
+    cursor: pointer;
+}
+#shopFlow:hover path#box, #shopFlow:hover path#download{
+    fill: var( --logoColor);
+}
+
+.table_bg{
+    background-image: url(../images/bg-dot.png);
+    background-size: cover;
+}
