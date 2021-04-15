@@ -42,7 +42,7 @@
                             <img src="captcha.php" alt="CAPTCHA" class="captcha-image p-1"><i class="fas fa-sync-alt refresh-captcha"></i>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-outline-orange my-2 px-3">送出</button>
+                    <button type="submit" class="btn btn-outline-logoColor my-2 px-3">送出</button>
                 </form>
             </div>
         </div>

@@ -55,7 +55,7 @@
                         <span class="text-center">常見問題</span>
                     </div>
                     <div class="card-body" id="about_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">關於品牌</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">關於品牌</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">品牌故事</h5>
                             <p class="card-text p-2">匯集眾多設計師的作品，提供多元化、快速的商標購買。</p>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="card-body" id="howToBuy_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">如何購物</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">如何購物</h5>
                         <div class="p-2">
                             <div class="d-flex flex-column align-items-center mx-3">
                                 <svg class="my-3" width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +143,7 @@
                         </div>
                     </div>
                     <div class="card-body" id="tradeQues_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">交易問題</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">交易問題</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">交易須知</h5>
                             <ol class="list-group list-group-flush list-group-numbered pb-2">
@@ -167,7 +167,7 @@
                         </div>
                     </div>
                     <div class="card-body" id="odrQues_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">訂單問題</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">訂單問題</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">如何查看訂單?</h5>
                             <p class="card-text p-2">在網站右上角點選「會員中心」→「我的訂單」→「全部訂單」，即可進入頁面查看到所有訂單資訊。</p>
@@ -176,14 +176,14 @@
                         </div>
                     </div>
                     <div class="card-body" id="domOvertrade_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">國內/外交易</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">國內/外交易</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">國內/外交易須知</h5>
                             <p class="card-text p-2">國外交易時，匯率轉換可能會產生匯差，您的發卡銀行也可能向您收取海外交易手續費。</p>
                         </div>
                     </div>
                     <div class="card-body" id="mbNotice_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">會員須知</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">會員須知</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">會員須知</h5>
                             <ol class="list-group list-group-flush list-group-numbered pb-2">
@@ -194,7 +194,7 @@
                         </div>
                     </div>
                     <div class="card-body" id="acontQues_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">帳戶問題</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">帳戶問題</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">如何申請帳號?</h5>
                             <p class="card-text px-2">點擊網站右上角會員專區，即可進行「會員登入」或「會員註冊」流程。</p>
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                     <div class="card-body" id="aftrBuy_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">售後須知</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">售後須知</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">售後服務</h5>
                             <p class="card-text px-2">商品付款後，會進入必要設計修改流程，設計修改次數三次為限，修改次數超過三次，商品便無法再進行修改，直接進入等待收件作業。</p>
@@ -216,21 +216,21 @@
                         </div>
                     </div>
                     <div class="card-body" id="ctmrServe_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">客服相關</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">客服相關</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">如何聯絡客服?</h5>
                             <p class="card-text px-2">點擊網站右上方「會員專區」，網頁左側會出現下拉式選單，點選選單中「幫助中心」→「聯絡我們」，按照提示步驟，填寫您的聯絡資料及問題，點擊「送出」，客服人員將會收到您的信件，並盡快為您提供服務。</p>
                         </div>
                     </div>
                     <div class="card-body" id="tmOfServe_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">服務條款</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">服務條款</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">服務條款聲明</h5>
                             <p class="card-text px-2">......</p>
                         </div>
                     </div>
                     <div class="card-body" id="pvcPoli_s">
-                        <h5 class="card-title bg-yellow p-4 text-center font-weight-normal">隱私條款</h5>
+                        <h5 class="card-title bg-logoColor-3 p-4 text-center font-weight-normal">隱私條款</h5>
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">隱私條款聲明</h5>
                             <p class="card-text px-2">......</p>

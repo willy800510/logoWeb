@@ -45,27 +45,27 @@
                         </ul>
                         <div class="d-flex justify-content-around align-items-center px-2">
                             <a  href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-4 text-center">查看檔案 or 檔案下載</a>
-                            <a  href="quotation.php" class="btn btn-outline-color2 mx-1 py-2 col-4 text-center">報價單</a>
-                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-orange mx-1 py-2 col-4 text-center">
+                            <a  href="quotation.php" class="btn btn-outline-logoColor-2 mx-1 py-2 col-4 text-center">報價單</a>
+                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-logoColor mx-1 py-2 col-4 text-center">
                         </div>
                         <div class="d-flex justify-content-center align-items-center mt-3 pt-3 border-top border-secondary">
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/order.svg" style="filter: grayscale(100%);" alt="">
+                                <img src="images/orderflowIcon/order.svg" alt="">
                                 <div class="mt-3">訂單建立</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/orderPay.svg" style="filter: grayscale(100%);" alt="">
+                                <img src="images/orderflowIcon/orderPay.svg" alt="">
                                 <div class="mt-3">付款確認</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/designing.svg" style="filter: grayscale(100%);" alt="">
+                                <img src="images/orderflowIcon/designing.svg" class="filter-gray" alt=""> <!-- 尚未進行到底流程 加上 .filter-gray -->
                                 <div class="mt-3">製作中</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/download.svg" style="filter: grayscale(100%);" alt="">
+                                <img src="images/orderflowIcon/download.svg" class="filter-gray" alt=""> <!-- 尚未進行到底流程 加上 .filter-gray -->
                                 <div class="mt-3">訂單完成</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
@@ -74,9 +74,9 @@
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex my-3 align-items-center">修改項目</div>
                                 <div class="list-group flex-row justify-content-end my-3" role="tablist">
-                                    <a href="#modifyContent1" class="list-group-item btn btn-outline-orange active ml-1" data-toggle="list">第一次</a>
-                                    <a href="#modifyContent2" class="list-group-item btn btn-outline-orange ml-1" data-toggle="list">第二次</a>
-                                    <a href="#modifyContent3" class="list-group-item btn btn-outline-orange disabled ml-1" data-toggle="list">第三次</a>
+                                    <a href="#modifyContent1" class="list-group-item btn btn-outline-logoColor active ml-1" data-toggle="list">第一次</a>
+                                    <a href="#modifyContent2" class="list-group-item btn btn-outline-logoColor ml-1" data-toggle="list">第二次</a>
+                                    <a href="#modifyContent3" class="list-group-item btn btn-outline-logoColor disabled ml-1" data-toggle="list">第三次</a>
                                 </div>
                             </div>
                             <div class="tab-content">

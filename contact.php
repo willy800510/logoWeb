@@ -84,7 +84,7 @@
                     <h4>表單送出成功</h4>
                     <h4>我們將盡快與您聯絡</h4>
                     <h4>謝謝</h4>
-                    <button type="submit" class="btn btn-outline-orange col-3">返回</button>
+                    <button type="submit" class="btn btn-outline-logoColor col-3">返回</button>
                 </div>
             </div>
         </div>

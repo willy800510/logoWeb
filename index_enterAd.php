@@ -28,7 +28,7 @@
             width: 8px;
             height: 8px;
             border-radius: 8px;
-            background-color: #ff4646;
+            background-color: var(--alertColor);
             top: 64px;
         }
 
@@ -36,7 +36,7 @@
             position: relative;
             content: " ";
             display: inline-block;
-            background-color: #ff4646;
+            background-color: var(--alertColor);
             border-radius: 8px;
             opacity: 0;
         }
@@ -57,7 +57,7 @@
 
         /* <md */
         .nav-pills .nav-link.active{
-            color: #ff4646;
+            color: var(--alertColor);
             background-color: transparent;
             opacity: 1;
         }
@@ -79,7 +79,7 @@
             right: 200px;
         }
         .carousel-indicators .active {
-            color: #ff4646;
+            color: var(--alertColor);
         }
         .carousel-indicators li {
             width: auto;
@@ -321,7 +321,7 @@
                     </a>
                 </div>
             </div>
-            <a href="index.php" id="enterIndex-md" class="d-flex justify-content-center align-items-center font-weight-bolder text-white display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="8000" data-aos-anchor-placement="center-bottom">Get Started</a>
+            <a href="index.php" id="enterIndex-md" class="d-flex justify-content-center align-items-center font-weight-bolder text-orange display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="9000" data-aos-anchor-placement="center-bottom">Get Started</a>
         </div>
     </div>
     <!-- > md -->
@@ -556,7 +556,7 @@
                     </svg>
                 </div>
                 <div class="carousel-item float-none" data_no="2">
-                    <a href="index.php" style="writing-mode: vertical-lr; top:30%; right:1%;" class="font-weight-bolder position-absolute z-index-2 text-white">Get Started</a>
+                    <a href="index.php" style="writing-mode: vertical-lr; top:30%; right:1%;" class="font-weight-bolder position-absolute z-index-2">Get Started</a>
                     <div class="container-sm mToTop mb-5">
                         <div class="row py-3">
                             <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
@@ -800,12 +800,12 @@
             }
         );
 
-        $(window).scroll(function() {
-            if($(window).scrollTop() + $(window).height() == $(document).height()) {
-                window.setTimeout(function() {
-                    window.location.href = 'index.php';
-                }, 4000);
-            }
-        });
+        // $(window).scroll(function() {
+        //     if($(window).scrollTop() + $(window).height() == $(document).height()) {
+        //         window.setTimeout(function() {
+        //             window.location.href = 'index.php';
+        //         }, 4000);
+        //     }
+        // });
     });
 </script>

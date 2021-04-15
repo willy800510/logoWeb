@@ -35,9 +35,9 @@
                         <h5 class="mt-2">付款選項</h5>
                         <div>
                             <input type="radio" name="payType" id="bankTransfer" value="銀行轉帳" class="d-none payPick" checked>
-                            <label for="bankTransfer" class="btn btn-outline-orange">銀行轉帳</label>
+                            <label for="bankTransfer" class="btn btn-outline-logoColor">銀行轉帳</label>
                             <input type="radio" name="payType" id="cardPay" value="銀行卡/金融卡" class="d-none payPick">
-                            <label for="cardPay" class="btn btn-outline-orange">銀行卡/金融卡</label>
+                            <label for="cardPay" class="btn btn-outline-logoColor">銀行卡/金融卡</label>
                         </div>
                     </div>  
                     <div class="p-3 bg-white">
@@ -61,7 +61,7 @@
                         </div>
                     </div> 
                     <div class="d-md-none bg-white text-center rounded-bottom">
-                        <button type="submit" class="col-10 btn btn-orange my-1">確認訂單</button>
+                        <button type="submit" class="col-10 btn btn-logoColor my-1">確認訂單</button>
                     </div>
                     <div class="d-md-none bg-white p-3 font-weight-lighter mt-1 border-top rounded">
                         <h5>交易注意事項</h5>
@@ -72,14 +72,14 @@
                 <div class="d-none d-md-flex flex-md-column col-md-3 px-0 px-md-1">
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom rounded-top">
                         <h5 class="">付款方式</h5>
-                        <button id="payPicked" class="btn btn-outline-orange">銀行轉帳</button>
+                        <button id="payPicked" class="btn btn-outline-logoColor">銀行轉帳</button>
                     </div>
                     <div class="flex-grow-1 d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom">
                         <h5 class="">訂單總額</h5>
                         <span class="text-right text-alert">金額 NT$<?php echo "400"?></span>
                     </div>
                     <div class="d-flex flex-md-column justify-content-between align-items-stretch p-3 bg-white border-bottom rounded-bottom">
-                        <button type="submit" form="payTypeForm" class="btn btn-orange">確認訂單</button>
+                        <button type="submit" form="payTypeForm" class="btn btn-logoColor">確認訂單</button>
                     </div>
                 </div>
                 <div class="d-none d-md-block col-12 px-0 px-md-1 font-weight-lighter">

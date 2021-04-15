@@ -46,7 +46,7 @@
                         <div class="d-flex justify-content-around align-items-center">
                             <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center disabled">檔案預覽</a>
                             <!-- 當訂單狀態在 1.尚未付款 2.商品製作中 沒有檔案可預覽 要加上disabled -->
-                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
+                            <a href="orderCheck.php" class="btn btn-outline-logoColor mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
@@ -64,7 +64,7 @@
                         </ul>
                         <div class="d-flex justify-content-around align-items-center">
                             <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
-                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
+                            <a href="orderCheck.php" class="btn btn-outline-logoColor mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
@@ -82,7 +82,7 @@
                         </ul>
                         <div class="d-flex justify-content-around align-items-center">
                             <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
-                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
+                            <a href="orderCheck.php" class="btn btn-outline-logoColor mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
@@ -100,7 +100,7 @@
                         </ul>
                         <div class="d-flex justify-content-around align-items-center">
                             <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
-                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
+                            <a href="orderCheck.php" class="btn btn-outline-logoColor mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                     <div class="w-100 bg-cloud p-3 mb-1">
@@ -118,7 +118,7 @@
                         </ul>
                         <div class="d-flex justify-content-around align-items-center">
                             <a href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-6 text-center">檔案預覽</a>
-                            <a href="orderCheck.php" class="btn btn-outline-orange mx-1 py-2 col-6 text-center">查看詳細訂單</a>
+                            <a href="orderCheck.php" class="btn btn-outline-logoColor mx-1 py-2 col-6 text-center">查看詳細訂單</a>
                         </div>
                     </div>
                 </div>

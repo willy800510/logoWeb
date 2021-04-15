@@ -37,7 +37,7 @@
                         <div class="">
                             <!-- <a href="#" class="badge badge-secondary">第一次</a> -->
                             <!-- <a href="#" class="badge badge-light">第二次</a> -->
-                            <a href="#" class="badge badge-orange active">第<?php echo "三" ?>次</a>
+                            <a href="#" class="badge badge-logoColor active">第<?php echo "三" ?>次</a>
                         </div>
                         <div class="d-none d-lg-flex align-items-end">
                             <span class="odflot">Name<span class="mx-1">設計師</span></span>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-3 py-1 border-top border-white">
-                        <span class="odflot text-info">修改(2)完成</span>
+                        <span class="odflot otext-logoColor-2">修改(2)完成</span>
                         <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <div class="row justify-content-center">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <button type="submit" class="btn btn-outline-orange">送出修改</button>
+                        <button type="submit" class="btn btn-outline-logoColor">送出修改</button>
                     </div>
                 </form>
                 <!-- Modal color picker -->

@@ -38,7 +38,7 @@
                             <label for="claim" class="font-weight-light initialism"><u>會員使用規則 & 條款聲明</u></label>
                         </a>
                     </div>
-                    <button type="submit" class="btn btn-outline-orange my-2 px-3">註冊</button>
+                    <button type="submit" class="btn btn-outline-logoColor my-2 px-3">註冊</button>
                 </form>
             </div>
             <a href="user_login.php" class="text-black-50 mx-auto"><small><span class="text-dark">已經有帳號？</span>馬上登入</small></a>

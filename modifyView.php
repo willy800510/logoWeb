@@ -37,7 +37,7 @@
                         <div class="">
                             <!-- <a href="#" class="badge badge-secondary">第一次</a> -->
                             <!-- <a href="#" class="badge badge-light">第二次</a> -->
-                            <a href="#" class="badge badge-orange">第<?php echo "三" ?>次</a>
+                            <a href="#" class="badge badge-logoColor">第<?php echo "三" ?>次</a>
                         </div>
                         <div class="d-none d-md-flex align-items-end">
                             <span class="odflot">Name<span class="mx-1">設計師</span></span>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-3 py-1 border-top border-white">
-                        <span class="odflot text-info">修改(2)完成</span>
+                        <span class="odflot otext-logoColor-2">修改(2)完成</span>
                         <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <div class="row justify-content-center">
@@ -74,9 +74,9 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <a href="index.php" class="btn btn-outline-orange px-4">首頁</a>
-                        <a href="customizeCenter.php" class="btn btn-outline-orange">客製中心</a>
-                        <a href="order.php" class="btn btn-outline-orange">我的訂單</a>
+                        <a href="index.php" class="btn btn-outline-logoColor px-4">首頁</a>
+                        <a href="customizeCenter.php" class="btn btn-outline-logoColor">客製中心</a>
+                        <a href="order.php" class="btn btn-outline-logoColor">我的訂單</a>
                     </div>
                 </form>
             </div>

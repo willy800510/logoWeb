@@ -5,10 +5,10 @@
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 position-absolute mg-70 z-index-1" id="scoll_overlay" alt="...">
                 <div class="position-absolute z-index-100 addCart">
-                    <button class="btn btn-outline-orange px-2">加入購物袋</button>
+                    <button class="btn btn-outline-logoColor px-2">加入購物袋</button>
                 </div>
                 <div class="position-absolute z-index-100 prodDetail">
-                    <a href="product.php" class="btn btn-outline-orange px-3">查看商品</a>
+                    <a href="product.php" class="btn btn-outline-logoColor px-3">查看商品</a>
                 </div>
                 <ol class="carousel-indicators align-items-center pt-3">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active" id="underBar1"></li>

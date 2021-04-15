@@ -35,8 +35,8 @@
                     <div class="d-flex justify-content-center justify-content-md-between align-items-center px-3 py-1">
                         <span class="d-none d-md-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
                         <div class="">
-                            <a href="#" class="badge badge-orange active">第一次</a>
-                            <a href="#" class="badge badge-orange">第二次</a>
+                            <a href="#" class="badge badge-logoColor active">第一次</a>
+                            <a href="#" class="badge badge-logoColor">第二次</a>
                             <a href="modifyAdd.php" class="badge badge-light px-3 border">+</a>
                         </div>
                         <div class="d-none d-md-flex align-items-end">
@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <div class="text-center p-4">
-                        <a href="customizeCenter.php" class="btn btn-outline-orange">返回客製中心</a>
+                        <a href="customizeCenter.php" class="btn btn-outline-logoColor">返回客製中心</a>
                     </div>
                 </form>
             </div>

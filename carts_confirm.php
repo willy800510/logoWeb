@@ -46,12 +46,12 @@
                     </div>
                     <div class="d-flex justify-content-between align-items-center p-3 border-bottom bg-white">
                         <h6 class="mt-2 col-4 text-center">付款資訊</h6>
-                        <button class="btn-outline-orange py-2 rounded col-4 text-center"><?php echo $_POST['payType']; ?></button>
+                        <button class="btn-outline-logoColor py-2 rounded col-4 text-center"><?php echo $_POST['payType']; ?></button>
                         <div class="px-3 col-4 text-center text-alert">總額 NT$400</div>
                     </div>  
                     <div class="bg-white text-center rounded-bottom p-3">
-                        <a href="carts_payPick.php" class="btn btn-outline-orange my-1 col-5">返回修改</a>
-                        <a href="carts_payComplete.php" class="btn btn-orange my-1 col-5">確認訂單</a>
+                        <a href="carts_payPick.php" class="btn btn-outline-logoColor my-1 col-5">返回修改</a>
+                        <a href="carts_payComplete.php" class="btn btn-logoColor my-1 col-5">確認訂單</a>
                     </div>
                     <div class="bg-white p-3 font-weight-lighter mt-1 border-top rounded">
                         <h6>交易注意事項</h6>

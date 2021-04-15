@@ -31,7 +31,7 @@
                             <img src="images/icon/eye/closed.svg" alt="" class="eye input-group-text border-left-0 bg-white">
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-outline-orange my-2 px-3">登入</button>
+                    <button type="submit" class="btn btn-outline-logoColor my-2 px-3">登入</button>
                 </form>
             </div>
             <a href="user_forgetPw.php" class="text-black-50 mx-auto"><small>忘記密碼</small></a>

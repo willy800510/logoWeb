@@ -35,9 +35,9 @@
                 </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <div class="d-flex justify-content-between align-items-center">
-                    <a href="#" class="btn btn-outline-orange d-block px-4 btn-sm">加入收藏</a>
-                    <a href="#" class="btn btn-outline-orange d-block px-3 btn-sm">加入購物袋</a>
-                    <a href="carts_lists.php" class="btn btn-orange d-block px-4 btn-sm">立即購買</a>
+                    <a href="#" class="btn btn-outline-logoColor d-block px-4 btn-sm">加入收藏</a>
+                    <a href="#" class="btn btn-outline-logoColor d-block px-3 btn-sm">加入購物袋</a>
+                    <a href="carts_lists.php" class="btn btn-logoColor d-block px-4 btn-sm">立即購買</a>
                 </div>
             </div>
         </div>

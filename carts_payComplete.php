@@ -57,9 +57,9 @@
                         <br>◇務必確認【個人資訊】已經填妥相關聯絡資訊，我們會儘快與您聯繫</span>
                     </div> 
                     <div class="bg-white text-center rounded p-3">
-                        <a href="index.php" class="btn btn-outline-orange my-1 col-3">返回首頁</a>
-                        <a href="modifyAdd.php" class="btn btn-orange my-1 col-3">客製修改</a>
-                        <a href="order.php" class="btn btn-orange my-1 col-3">查看訂單</a>
+                        <a href="index.php" class="btn btn-outline-logoColor my-1 col-3">返回首頁</a>
+                        <a href="modifyAdd.php" class="btn btn-logoColor my-1 col-3">客製修改</a>
+                        <a href="order.php" class="btn btn-logoColor my-1 col-3">查看訂單</a>
                     </div>
                     <div class="bg-white p-3 font-weight-lighter mt-1 border-top rounded">
                         <h6>交易注意事項</h6>

@@ -55,19 +55,19 @@
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/designing.svg" alt="">
+                                <img src="images/orderflowIcon/designing.svg" class="filter-gray" alt=""> <!-- 尚未進行到底流程 加上 .filter-gray -->
                                 <div class="mt-3">製作中</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                             <div class="d-flex flex-column align-items-center mx-3">
-                                <img src="images/orderflowIcon/download.svg" alt="">
+                                <img src="images/orderflowIcon/download.svg" class="filter-gray" alt=""> <!-- 尚未進行到底流程 加上 .filter-gray -->
                                 <div class="mt-3">訂單完成</div>
                                 <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                             </div>
                         </div>
                         <div class="mt-3 pt-3 border-top border-white text-center">
                             <a href="#" class="btn btn-outline-primary">下載報價單</a>
-                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-orange px-4">
+                            <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-logoColor px-4">
                         </div>
                     </div>
                 </div>

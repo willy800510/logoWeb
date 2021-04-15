@@ -84,7 +84,7 @@
                                     <option>南投市</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-outline-orange my-4 px-3">更新</button>
+                            <button type="submit" class="btn btn-outline-logoColor my-4 px-3">更新</button>
                         </div>
                         <div class="col-md-3 text-center d-none d-md-flex flex-column mg-70 align-items-center">
                             <img src="images/headerIcon/usery.svg" width="25px" alt="" class="logoIcon p-2 m-3">
