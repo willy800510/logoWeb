@@ -32,7 +32,7 @@
         <a href="#pvcPoli" id="guide_pvcPoli" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="pvcPoli">隱私條款</a>
     </div>
 </div>
-<nav id="helper_guide" class="d-xl-none col-3 leftbar leftbar-s navbar flex-nowrap flex-column align-items-stretch justify-content-start mb-1 position-fixed z-index-1 collapse overflow-auto">
+<nav id="helper_guide" class="d-xl-none col-3 leftbar leftbar-ori leftbar-s navbar flex-nowrap flex-column align-items-stretch justify-content-start mb-1 position-fixed z-index-1 collapse overflow-auto">
     <div class="d-flex align-items-center justify-content-around my-4">
         <span>常見問題</span>
     </div>

@@ -17,9 +17,21 @@ $(document).ready(function(){
         var current = _this.attr("src");
         var swap = _this.attr("data-swap");     
        _this.attr('src', swap).attr("data-swap",current);
+       $('.sideMenuBtnCall').toggleClass('show');
+       $('.calling').toggleClass('call');
     });
+    $('.sideMenuBtn').click(function () {
+        $('.menuBurger').toggleClass('MenuBtnOpen');
+        $('.sideMenuBtnCall').toggleClass('ckx');
+        $('.call').toggleClass('show');
+    })
 
-    var numHeart =  $('.pink').length
+    // 嘗試只要有
+    // if($('.bkmk_1 img').is("[src^='images/icon/MDIcon/favorite_orange_36dp.svg']")){
+    //     $('.sideMenuBtnCall').addClass('show');
+    // }
+
+
 
     // logo輪播
     $(".carousel-control-next").click(function(){
@@ -86,6 +98,33 @@ $(document).ready(function(){
             $logo.addClass("caroItem_2");
         }
     })
+
+    $("body").keydown(function(e) {
+        if(e.keyCode == 37) { 
+            var $logo = $("#scoll_overlay");
+                if($logo.hasClass("caroItem_2")){
+                    $logo.removeClass("caroItem_2");
+                    $logo.addClass("caroItem_1");
+                }else if($logo.hasClass("caroItem_1")){
+                    $logo.removeClass("caroItem_1");
+                    $logo.addClass("caroItem_3");
+                }else{ 
+                    $logo.addClass("caroItem_2");
+                }
+        }
+        else if(e.keyCode == 39) {
+            var $logo = $("#scoll_overlay");
+            if($logo.hasClass("caroItem_2")){
+                $logo.removeClass("caroItem_2");
+                $logo.addClass("caroItem_3");
+            }else if($logo.hasClass("caroItem_1")){
+                $logo.removeClass("caroItem_1");
+                $logo.addClass("caroItem_2");
+            }else{
+                $logo.addClass("caroItem_1");
+            }
+        }
+    });
 
     // hover輪播停止
     $('.carousel.slide').carousel({

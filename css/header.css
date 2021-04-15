@@ -67,6 +67,64 @@ padding: 15px;
 .sideMenuBtn, .sideMenuBtn-L{
   cursor: pointer;
 }
+.sideMenuBtnCall::before{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  display: block;
+  z-index: 2;
+  border: 2px solid var( --alertColor);
+  background-color: var( --logoColor_3); 
+  top: 37%;
+  right: -80%;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: all .3s ease-in-out;
+}
+.sideMenuBtnCall.show::before{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.sideMenuBtnCall.show.ckx::before{
+  transform: translateY(0px) translateX(-50px);
+  opacity: 0;
+  background-color: transparent;
+}
+.call::before{
+  content: '';
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 22px;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  display: block;
+  z-index: 2;
+  background-color: var( --logoColor_ob_0); 
+  top: -35%;
+  left: 13%;
+  transform: scale(0);
+  opacity: 0;
+  transition: all .1s ease-in-out;
+}
+.call.show::before{
+  opacity: 1;
+  transform: scale(1);
+}
+.sysInfo:hover .call.show::before, .carts:hover .call.show::before{
+  content: '1';
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: -35%;
+  left: 12.5%;
+  background-color: var( --alertColor);
+}
 
 .menuBurger, .menuBurger-L {
     width: 20px;

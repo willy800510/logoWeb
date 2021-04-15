@@ -30,8 +30,8 @@
                             <!-- <span class="material-icons md-18 text-black-50">clear</span> -->
                             <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px" fill="rgba(0,0,0,.5)"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
                         </div>
-                        <!-- <a href="carts_lists.php" class="btn btn-outline-color2 mr-3" type="button">查看我的購物袋</a> -->
-                        <a href="carts_lists.php" class="btn btn-outline-color2 mt-2 mr-3">查看我的購物袋</a>
+                        <!-- <a href="carts_lists.php" class="btn btn-outline-logoColor-2 mr-3" type="button">查看我的購物袋</a> -->
+                        <a href="carts_lists.php" class="btn btn-outline-logoColor-2 mt-2 mr-3">查看我的購物袋</a>
                     </div>
                 </span>
                 <a href="sysInfo.php" class="nav-link p-3 head_icon">
@@ -58,7 +58,8 @@
         <div class="d-flex justify-content-between align-items-center p-2">
             <a href="index.php" class="logo"></a>
             <!-- <div class="sidebar"><img src="images/headerIcon/md-rightbar.svg" alt=""></div> -->
-            <div class="sideMenuBtn py-4" data-toggle="collapse" data-target="#collapseMenu-sm" aria-expanded="false" aria-controls="collapseMenu-sm">
+            <div class="sideMenuBtn py-4 position-relative" data-toggle="collapse" data-target="#collapseMenu-sm" aria-expanded="false" aria-controls="collapseMenu-sm">
+                <div class="sideMenuBtnCall"></div>
                 <div class="menuBurger"></div>
             </div>
         </div>
@@ -94,12 +95,14 @@
                     <a href="#" class="nav-link text-secondary">登出</a>
                 </div>
             </div>
-            <a href="carts_lists.php" class="d-flex justify-content-between my-3 menulist">
+            <a href="carts_lists.php" class="d-flex justify-content-between my-3 menulist carts position-relative">
+                <div class="call"></div>
                 <svg width="16" height="23" viewBox="0 0 18 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="col-3 icon">
                     <path d="M14.2 6.99539V5.51152C14.2 2.18021 11.6 0 9 0C6.4 0 3.8 2.14643 3.8 5.47774V6.99539H0V19.2241C0 21.3095 0.998973 23 2.97143 23H15.0286C17.001 23 18 21.3095 18 19.2241V6.99539H16.1H14.2ZM5.4 5.47774C5.4 3.35792 7.2 1.48387 9 1.48387C10.8 1.48387 12.6 3.39171 12.6 5.51152V6.99539H5.4V5.47774ZM13.4 10.8111C13 10.8111 12.6 10.3871 12.6 9.96313C12.6 9.53917 13 9.11521 13.4 9.11521C13.8 9.11521 14.2 9.53917 14.2 9.96313C14.2 10.3871 13.8 10.8111 13.4 10.8111ZM4.6 10.8111C4.2 10.8111 3.8 10.4136 3.8 9.96313C3.8 9.53917 4.2 9.11521 4.6 9.11521C5 9.11521 5.4 9.53917 5.4 9.96313C5.4 10.3871 5 10.8111 4.6 10.8111Z" fill="#DBDBDB"/></svg>
                 <span class="col-9">購物袋</span>
             </a>
-            <a href="sysInfo.php" class="d-flex justify-content-between my-3 menulist">
+            <a href="sysInfo.php" class="d-flex justify-content-between my-3 menulist sysInfo position-relative">
+                <div class="call"></div>
                 <svg width="16" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="col-3 icon">
                     <g clip-path="url(#clip0)">
                     <path d="M9.9774 22.9797C11.5506 22.9797 12.8267 21.5691 12.8267 19.8285H7.12806C7.12806 21.5691 8.40419 22.9797 9.9774 22.9797ZM19.5713 15.8295C18.7107 14.8073 17.1005 13.2696 17.1005 8.23265C17.1005 -3.14258 2.85427 -2.2332 2.85427 8.23265C2.85427 13.2696 1.24408 14.8073 0.383536 15.8295C0.116285 16.1471 -0.0021963 16.5267 3.07957e-05 16.8984C0.0049304 17.7059 0.578184 18.474 1.42982 18.474H18.525C19.3766 18.474 19.9503 17.7059 19.9548 16.8984C19.957 16.5267 19.8385 16.1466 19.5713 15.8295Z" fill="#DBDBDB"/>
@@ -111,9 +114,10 @@
                     </defs></svg>
                 <span class="col-9">訊息中心</span>
             </a>
-            <a href="bookmark.php" class="d-flex justify-content-between my-3 menulist">
+            <a href="bookmark.php" class="d-flex justify-content-between my-3 menulist heart position-relative">
                 <!-- <svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="col-3 icon">
                     <path d="M0 23V2.15625C0 0.965371 0.895417 0 2 0H14C15.1046 0 16 0.965371 16 2.15625V23L8 17.9688L0 23Z" fill="#DBDBDB"/></svg> -->
+                <div class="calling"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="23px" height="23px" class="col-3 icon">
                     <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#DBDBDB" />
                 </svg>
@@ -148,9 +152,6 @@
                 $('.bagList').removeClass('show');
             }
         );
-        $('.sideMenuBtn').click(function () {
-            $('.menuBurger').toggleClass('MenuBtnOpen');
-        })
         // $(document).click(function (event) {
         //     var clickover = $(event.target);
         //     var _opened = $('#collapseMenu-sm').hasClass("show");

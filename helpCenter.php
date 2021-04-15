@@ -527,5 +527,10 @@
         $('#helper_guide').click(function (event) {
 	        event.stopPropagation();
         });
+        $('.sideMenuBtn').click(function () {
+            $('.menuBurger').toggleClass('MenuBtnOpen');
+            $('.sideMenuBtnCall').toggleClass('ckx');
+            $('.call').toggleClass('show');
+        })
     });
 </script>
