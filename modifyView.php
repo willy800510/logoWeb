@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb modify</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -18,9 +16,7 @@
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container">
         <div class="row mToTop">
@@ -83,7 +79,5 @@
         </div>
     </div>
 </div>
-
-<?php
-    include("template/footer.php");
-?>
+<?php include("template/footer.php"); ?>
+<script src="js/allpage.js"></script>

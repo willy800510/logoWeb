@@ -29,7 +29,7 @@
                     <a class="text-center col-4 bg-cloud p-4 orderTab" data-toggle="list" role="tab">修改中</a>
                     <a class="text-center col-4 bg-cloud p-4 orderTab" data-toggle="list" role="tab">完成</a>
                 </div>
-                <div class="d-flex flex-column align-items-stretch mt-1" style="min-height: 520px;">
+                <div class="d-flex flex-column align-items-stretch mt-1 mh-520">
                     <div class="w-100 bg-cloud p-3 mb-1 rounded">
                         <ul class="d-flex justify-content-around align-items-center">
                             <li class="font-weight-bolder col-3 text-center">商品圖式</li> 
@@ -75,5 +75,5 @@
         </div>
     </div>
 </div>
-
 <?php include("template/footer.php"); ?>
+<script src="js/allpage.js"></script>

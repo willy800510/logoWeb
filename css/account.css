@@ -1,3 +1,10 @@
+.mh-520{
+    min-height: 520px;
+}
+.mh-400{
+    min-height: 400px;
+}
+
 /* ORDER */
 .logoIcon{
     width: 75px;
@@ -67,6 +74,9 @@
 .fbColor{
     color: #3B5998;
 }
+.p-0-50{
+    padding: 0px 50px;
+}
 
 /* MODIFY */
 .chooColor{
@@ -81,7 +91,7 @@
 .stepper { /*流程狀態的外層加class*/
     position: relative;
  }
- .stepper::before,.stepper::after {
+.stepper::before,.stepper::after {
     content: '';
     display: block;
     position: absolute;
@@ -90,21 +100,25 @@
     height: 3px;
     top: calc(50% - 2px);/*減掉一半的線的高度*/
     left: 0.25rem; /*父層的padding距離*/
- }
- .stepper::before{
+}
+.stepper::before{
     background: rgba(255, 255, 255, 0.5);
- }
- .stepper::after { 
+}
+.stepper::after { 
     background: var( --logoColor);
     width: 0%;
- }
- .stepper.step-half::after { /*步驟2的時候 加上step-half的class名稱*/
+}
+.stepper.step-half::after { /*步驟2的時候 加上step-half的class名稱*/
     width: 50%;
- }
- .stepper.step-final::after { /*步驟3的時候 加上step-final的class名稱*/
+}
+.stepper.step-final::after { /*步驟3的時候 加上step-final的class名稱*/
     width: calc(100% - 0.5rem);
- }
- .list-group-item+.list-group-item {
+}
+.payPick:checked + label {
+    background: var( --logoColor);
+    color: white;
+}
+.list-group-item+.list-group-item {
     border-top-width: 1px;
 }
 .list-group-item.active{
@@ -128,3 +142,6 @@
 .minus{
     content:url(../images/icon/minus.svg);
 }
+
+/* CONTACT */
+.sendSuccess { display: none; }

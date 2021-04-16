@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/icon_animate.css">
     <?php include("template/materialDesign.php"); ?>
-
     <style>
         .list-group-item {
             background-color: transparent;
@@ -245,7 +244,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">關於品牌</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">品牌故事</h5>
                                 <p class="card-text p-2">匯集眾多設計師的作品，提供多元化、快速的商標購買。</p>
@@ -258,7 +257,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">如何購物</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <div class="list-group flex-row " id="" role="tablist">
                                     <a href="#orderSteps" id="tabOrderSteps" class="list-group-item list-group-item-action text-center active" data-toggle="list" data-target="#orderSteps" aria-expanded="true">訂購流程</a>
@@ -383,7 +382,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">交易問題</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">交易須知</h5>
                                 <ol class="list-group list-group-flush list-group-numbered pb-2">
@@ -411,7 +410,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">訂單問題</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">如何查看訂單?</h5>
                                 <p class="card-text p-2">在網站右上角點選「會員中心」→「我的訂單」→「全部訂單」，即可進入頁面查看到所有訂單資訊。</p>
@@ -424,7 +423,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">國內/外交易</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">國內/外交易須知</h5>
                                 <p class="card-text p-2">國外交易時，匯率轉換可能會產生匯差，您的發卡銀行也可能向您收取海外交易手續費。</p>
@@ -435,7 +434,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">會員須知</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">會員須知</h5>
                                 <ol class="list-group list-group-flush list-group-numbered pb-2">
@@ -450,7 +449,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">帳戶問題</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">如何申請帳號?</h5>
                                 <p class="card-text px-2">點擊網站右上角會員專區，即可進行「會員登入」或「會員註冊」流程。</p>
@@ -467,7 +466,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">售後須知</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">售後服務</h5>
                                 <p class="card-text px-2">商品付款後，會進入必要設計修改流程，設計修改次數三次為限，修改次數超過三次，商品便無法再進行修改，直接進入等待收件作業。</p>
@@ -480,7 +479,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">客服相關</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">如何聯絡客服?</h5>
                                 <p class="card-text px-2">點擊網站右上方「會員專區」，網頁左側會出現下拉式選單，點選選單中「幫助中心」→「聯絡我們」，按照提示步驟，填寫您的聯絡資料及問題，點擊「送出」，客服人員將會收到您的信件，並盡快為您提供服務。</p>
@@ -491,7 +490,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">服務條款</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">服務條款聲明</h5>
                                 <p class="card-text px-2">......</p>
@@ -502,7 +501,7 @@
                         <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                             <span class="text-center">隱私條款</span>
                         </div>
-                        <div class="bg-cloud my-1 border-0 rounded" style="min-height:400px;">
+                        <div class="bg-cloud my-1 border-0 rounded mh-400">
                             <div class="card-body">
                                 <h5 class="card-title bg-logoColor rounded text-white p-2">隱私條款聲明</h5>
                                 <p class="card-text px-2">......</p>

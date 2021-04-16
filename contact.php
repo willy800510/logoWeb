@@ -14,9 +14,6 @@
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
-    <style>
-        .sendSuccess { display: none; }
-    </style>
 </head>
 <body>
 <?php include("template/header-logoCenter.php"); ?>
@@ -122,3 +119,4 @@
     })
 </script>
 <?php include("template/footer.php"); ?>
+<script src="js/allpage.js"></script>

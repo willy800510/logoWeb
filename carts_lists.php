@@ -167,17 +167,5 @@
         </div>
     </div>
 <?php include("template/footer.php"); ?>
-<script>
-$(document).ready(function(){
-    if($("input[name='Checkbox[]']").prop("checked",true)){
-        $("#CheckAll").click()
-    }
-    $("#CheckAll").click(function(){
-        if($("#CheckAll").prop("checked")){
-            $("input[name='Checkbox[]']").prop("checked",true);
-        }else{
-            $("input[name='Checkbox[]']").prop("checked",false);
-        }
-    })
-})
-</script> 
+<script src="js/allpage.js"></script>
+<script src="js/carts.js"></script>

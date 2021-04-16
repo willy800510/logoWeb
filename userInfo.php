@@ -29,7 +29,7 @@
                 </div>
                 <form action="" class="bg-cloud rounded my-1">
                     <div class="text-center p-3">基本資料</div>
-                    <div class="form-group row d-flex text-center" style="min-height: 520px;">
+                    <div class="form-group row d-flex text-center mh-520">
                         <div class="col-12 col-md-9 p-2 p-md-5">
                             <div class="form-group row px-5 mb-4 d-flex d-md-none flex-column align-items-center">
                                 <img src="images/headerIcon/usery.svg" width="25px" alt="" class="logoIcon p-2 mb-3">
@@ -98,16 +98,5 @@
     </div>
 </div>
 <?php include("template/footer.php"); ?>
-<script>
-    $(document).ready(function(){
-        $('.addBtn').click(function(){
-            $(this).toggleClass('minus')
-            $(this).toggleClass('mt-auto')
-            if($(this).siblings('.col-6').children('.form-control').hasClass('mail')){
-                $('.mail').toggleClass('d-none','d-block')
-            }else{
-                $('.phone').toggleClass('d-none','d-block')
-            }
-        })
-    })
-</script>
+<script src="js/allpage.js"></script>
+<script src="js/account.js"></script>

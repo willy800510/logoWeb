@@ -25,7 +25,7 @@
             <div class=" d-flex flex-column justify-content-center">
                 <form action="" class="form-group row flex-column align-items-center">
                     <input type="text" class="form-control my-2 col-9" placeholder="Email/電話號碼/使用者名稱">
-                    <div class="input-group justify-content-center my-2" style="padding: 0 50px;">
+                    <div class="input-group justify-content-center my-2 p-0-50">
                         <input type="password" class="form-control border-right-0" placeholder="密碼">
                         <div class="input-group-append">
                             <img src="images/icon/eye/closed.svg" alt="" class="eye input-group-text border-left-0 bg-white">
@@ -48,24 +48,5 @@
     </div>
 </div>
 <?php include("template/footer.php"); ?>
-
-<script>
-    $(document).ready(function(){
-        $(".eye").mousedown(function(){
-            $(this).attr("src", "images/icon/eye/open.svg");
-            $(this).parent().prev().attr("type", "text");
-        });    
-        $(".eye").mouseup(function(){
-            $(this).attr("src", "images/icon/eye/closed.svg");
-            $(this).parent().prev().attr("type", "password");
-        });
-        $(".fa-facebook-f").hover(
-            function(){
-                $(".fbIcon").addClass("fbColor");
-            },
-            function(){
-                $(".fbIcon").removeClass('fbColor');
-            }
-        )
-    });
-</script>
+<script src="js/allpage.js"></script>
+<script src="js/account.js"></script>

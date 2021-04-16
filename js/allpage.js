@@ -20,11 +20,49 @@ $(document).ready(function(){
        $('.sideMenuBtnCall').toggleClass('show');
        $('.calling').toggleClass('call');
     });
-    $('.sideMenuBtn').click(function () {
+    
+    // header sidebar function
+    $('.userInfo').hover(
+        function(){
+            $('.userList').addClass('show');
+        },
+        function(){
+            $('.userList').removeClass('show');
+        }
+    );
+    $('.bagInfo').hover(
+        function(){
+            $('.bagList').addClass('show');
+        },
+        function(){
+            $('.bagList').removeClass('show');
+        }
+    );
+
+    $('.addcarts').click(function(){  // .addcarts from logoDisplayT line8
+        $('.calling-2').addClass('call-2');
+    })
+    $('.sideMenuBtn').click(function () { //header, header-logoCenter
         $('.menuBurger').toggleClass('MenuBtnOpen');
         $('.sideMenuBtnCall').toggleClass('ckx');
         $('.call').toggleClass('show');
     })
+
+    $('.sideMenuBtn-L').click(function () { //header-logoCenter
+        $('.menuBurger-L').toggleClass('MenuBtnOpen');
+    })
+
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        // var _opened_M = $('#collapseMenu-sm').hasClass("show");
+        // if (_opened_M === true && !clickover.hasClass("MenuBtnOpen")) {
+        //     $(".menuBurger").click();
+        // }
+        var _opened = $('#helper_guide').hasClass("show");
+        if (_opened === true && !clickover.hasClass("MenuBtnOpen")) {
+            $(".menuBurger-L").click();
+        }
+    });
 
     // 嘗試只要有
     // if($('.bkmk_1 img').is("[src^='images/icon/MDIcon/favorite_orange_36dp.svg']")){

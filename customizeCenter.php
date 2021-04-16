@@ -104,3 +104,4 @@
     </div>
 </div>
 <?php include("template/footer.php"); ?>
+<script src="js/allpage.js"></script>

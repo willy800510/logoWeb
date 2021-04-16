@@ -36,7 +36,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2 cardImg">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -180,7 +180,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" class="p-2 m-2">
                             <div class="d-flex m-1 flex-column flex-md-row justify-content-center">
                                 <button class="btn btn-outline-danger px-3 mx-2 my-1 order-1 order-md-0" onclick="return confirm('確認取消？')">取消收藏</button>
-                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1">加入購物袋</button>
+                                <button class="btn btn-outline-logoColor mx-2 my-1 order-0 order-md-1 addcarts">加入購物袋</button>
                             </div>
                         </div>
                     </div>
@@ -252,7 +252,5 @@
         </div>
     </div>
 </div>
-
-<?php
-    include("template/footer.php");
-?>
+<?php include("template/footer.php"); ?>
+<script src="js/allpage.js"></script>

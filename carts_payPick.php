@@ -13,12 +13,6 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
-    <style>
-        .payPick:checked + label {
-            background: var( --logoColor);
-            color: white;
-        }
-    </style>
 </head>
 <body>
 <?php include("template/header.php"); ?>
@@ -56,7 +50,7 @@
                     <div class="d-md-none bg-white p-3 border-bottom rounded-top">
                         <h5 class="mt-2">訂單總額</h5>
                         <div class="d-flex justify-content-between align-items-center">
-                            <span style="font-size:.5rem;" class="text-black-50">小記</span>
+                            <small class="text-black-50">小記</small>
                             <span class="col-5 text-right text-alert">金額 NT$400</span>
                         </div>
                     </div> 
@@ -92,15 +86,6 @@
             </div>
         </div>
     </div>
-<?php
-    include("template/footer.php");
-?>
-<script>
-    $(document).ready(function(){
-        $(".payPick").click(function() {
-            var chooseBtnText = $(this).next('label').text();
-            $('#payPicked').text(chooseBtnText);
-            // console.log(chooseBtnText);
-        });
-    })
-</script>
+<?php include("template/footer.php"); ?>
+<script src="js/allpage.js"></script>
+<script src="js/carts.js"></script>

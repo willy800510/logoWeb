@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb log</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -18,9 +16,7 @@
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container-sm mb-1 mToTop">
         <div class="card m-auto justify-content-between py-4 cardSize bg-cloud">
@@ -48,31 +44,6 @@
         </div>
     </div>
 </div>
-
-<?php
-    include("template/footer.php");
-?>
-<script>
-    $(document).ready(function(){
-        $(".eye").mousedown(function(){
-            $(this).attr("src", "images/icon/eye/open.svg");
-            $(this).parent().prev().attr("type", "text");
-        });    
-        $(".eye").mouseup(function(){
-            $(this).attr("src", "images/icon/eye/closed.svg");
-            $(this).parent().prev().attr("type", "password");
-        });
-        $(".fa-facebook-f").hover(
-            function(){
-                $(".fbIcon").addClass("fbColor");
-            },
-            function(){
-                $(".fbIcon").removeClass('fbColor');
-            }
-        )
-    });
-    var refreshButton = document.querySelector(".refresh-captcha");
-        refreshButton.onclick = function() {
-        document.querySelector(".captcha-image").src = 'captcha.php?' + Date.now();
-    }
-</script>
+<?php include("template/footer.php"); ?>
+<script src="js/allpage.js"></script>
+<script src="js/account.js"></script>

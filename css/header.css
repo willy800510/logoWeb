@@ -116,6 +116,24 @@ padding: 15px;
   opacity: 1;
   transform: scale(1);
 }
+.call-2::before{
+  content: '1';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: #ffffff;
+  background-color: var( --alertColor);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 22px;
+  opacity: .8;
+  transition: all .5s ease-in-out;
+}
 .sysInfo:hover .call.show::before, .carts:hover .call.show::before{
   content: '1';
   width: 20px;
