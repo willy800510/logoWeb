@@ -53,7 +53,8 @@
                                     <input type="text" name="phone" class="col-12 form-control p-2" placeholder="09xx-xxx-xxx">
                                     <input type="text" name="phone" class="col-12 form-control p-2 mt-2 phone d-none" placeholder="09xx-xxx-xxx">
                                 </div>
-                                <img width="35px" height="35px" class="col-2 add addBtn" alt="">
+                                <img src="images/icon/add.svg" data-swap="images/icon/minus.svg" data-src="images/icon/add.svg" width="35px" height="35px" class="col-2 addBtn" alt="">
+                                <!-- <img width="35px" height="35px" class="col-2 add addBtn" alt=""> -->
                             </div>
                             <div class="form-group row my-2">
                                 <label for="email" class="col-4">電子郵件</label>
@@ -61,7 +62,8 @@
                                     <input type="email" name="email" class="col-12 form-control p-2" placeholder="name@logoweb.com">
                                     <input type="email" name="email" class="col-12 form-control p-2 mt-2 mail d-none" placeholder="name@logoweb.com">
                                 </div>
-                                <img width="35px" height="35px" class="col-2 add addBtn" alt="">
+                                <img src="images/icon/add.svg" data-swap="images/icon/minus.svg" data-src="images/icon/add.svg" width="35px" height="35px" class="col-2 addBtn" alt="">
+                                <!-- <img width="35px" height="35px" class="col-2 add addBtn" alt=""> -->
                             </div>
                             <div class="form-group row my-2">
                                 <label for="local" class="col-4">所在地</label>

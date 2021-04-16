@@ -136,12 +136,6 @@
 }
 
 /* USERINFO */
-.add{
-    content:url(../images/icon/add.svg);
-}
-.minus{
-    content:url(../images/icon/minus.svg);
-}
 
 /* CONTACT */
 .sendSuccess { display: none; }

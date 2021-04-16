@@ -34,7 +34,7 @@
                         <div class="d-flex justify-content-around">
                             <div class="text-center p-2">
                                 <h6>商品規格</h6>
-                                <li>商品製作中</li>
+                                <li>png,ai</li>
                             </div>
                             <div class="text-center p-2">
                                 <h6>金額</h6>
@@ -61,7 +61,7 @@
                         <div class="d-flex justify-content-around">
                             <div class="text-center p-2">
                                 <h6>商品規格</h6>
-                                <li>商品製作中</li>
+                                <li>png,ai</li>
                             </div>
                             <div class="text-center p-2">
                                 <h6>金額</h6>
@@ -104,7 +104,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
@@ -112,7 +112,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
@@ -120,7 +120,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
@@ -128,7 +128,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
@@ -136,7 +136,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
@@ -144,7 +144,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
@@ -152,7 +152,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
@@ -160,7 +160,7 @@
                         <a href="">
                             <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
                         </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3">加入購物袋</button>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
             </div>
