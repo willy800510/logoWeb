@@ -33,7 +33,7 @@
                 </div>
                 <form action="" id="modifyForm" class="bg-cloud rounded my-1" method="">
                     <div class="d-flex justify-content-center justify-content-md-between align-items-center px-3 py-1">
-                        <span class="d-none d-md-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
+                        <span class="d-none d-md-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary" target="_blank">xxxxxxxxxx</a></span>
                         <div class="">
                             <a href="#" class="badge badge-logoColor active">第一次</a>
                             <a href="#" class="badge badge-logoColor">第二次</a>
@@ -45,14 +45,14 @@
                         </div>
                     </div>
                     <div class="d-flex d-md-none justify-content-between align-items-center px-3 py-1">
-                        <span class="odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
+                        <span class="odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary" target="_blank">xxxxxxxxxx</a></span>
                         <div class="d-flex align-items-end">
                             <span class="odflot">Name<span class="mx-1">設計師</span></span>
                             <img src="images/icon/designer2.png" alt="">
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-3 py-1 border-top">
-                        <span class="odflot text-info">修改(2)完成</span>
+                        <span class="odflot text-logoColor-2">修改(2)完成</span>
                         <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <div class="row justify-content-center">

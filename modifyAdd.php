@@ -18,6 +18,17 @@
     <link rel="stylesheet" href="css/leftbar.css">
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
+    <style>
+        input[name="companyColor"]:checked+.chooColor {
+            border: 2px solid #FF4141 !important;
+        }
+        .colorBox.invalid{
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right calc(.375em + .1875rem) center;
+            background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+        }
+    </style>
 </head>
 <body>
 <?php include("template/header.php"); ?>
@@ -31,7 +42,7 @@
                 <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">修改細項</span>
                 </div>
-                <form action="" method="post" id="modifyForm" class="bg-cloud rounded my-1 needs-validation" novalidate>
+                <form action="modifyView.php" method="post" id="modifyForm" class="bg-cloud rounded my-1 needs-validation" novalidate>
                     <div class="d-flex justify-content-center justify-content-lg-between align-items-center px-3 py-1">
                         <span class="d-none d-lg-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
                         <div class="">
@@ -52,7 +63,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center px-3 py-1 border-top border-white">
-                        <span class="odflot otext-logoColor-2">修改(2)完成</span>
+                        <span class="odflot text-logoColor-2">修改(2)完成</span>
                         <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <div class="row justify-content-center">
@@ -67,7 +78,7 @@
                                 <input type="radio" id="colorRed" name="companyColor" value="dc3545" class="d-none" required>
                                 <label for="colorRed" class="badge badge-danger d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label>
                                 <input type="radio" id="colorCyan" name="companyColor" value="17a2b8" class="d-none">
-                                <label for="colorCyan" class="badge badge-info d-inline-block my-2 mr-0 mr-sm-2 chooColor aa"></label>
+                                <label for="colorCyan" class="badge badge-info d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label>
                                 <input type="radio" id="colorYellow" name="companyColor" value="ffc107" class="d-none">
                                 <label for="colorYellow" class="badge badge-warning d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label>
                                 <input type="radio" id="colorGreen" name="companyColor" value="28a745" class="d-none">
