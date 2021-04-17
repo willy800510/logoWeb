@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>logoWeb designer</title>
-    <?php include("template/bootstrapScript.php"); ?>
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/account.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>logoWeb designer</title>
+	<?php include("template/bootstrapScript.php"); ?>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/banner.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/account.css">
 	<link rel="stylesheet" href="css/designer.css">
-	<script src="js/logoUpload.js"></script>
 </head>
+
 <body>
-<?php include("template/header.php");?>
+	<?php include("template/header.php"); ?>
 
 	<div class="container-fluid designer-content mToTop">
 		<div class="container-sm pb-3 pb-xl-1">
@@ -57,23 +58,45 @@
 					<p class="col-10 small mb-2 mb-md-3">檔案預覽</p>
 					<div class="col-6 p-2 upload-info">
 						<div class="text-center border border-secondary rounded p-2">
-							<img src="images/AdobeStock_250566348 [轉換].svg" class="img-thumbnail shadow-sm border-0 upload-img" alt="">
+							<img src="images/AdobeStock_250566348 [轉換] - 2.svg" class="img-thumbnail shadow-sm border-0 upload-img" alt="">
 						</div>
 						<div class="shadow-sm p-1 p-md-3 mt-2">truckLogo.png</div>
 					</div>
-					<div class="col-6 d-flex flex-column p-2 upload-info">
+					<div class="col-6 p-2 upload-info d-flex flex-column">
 						<div class="text-center border border-secondary rounded p-2 flex-grow-1 d-flex flex-wrap justify-content-center align-content-center">
-							<span class="w-100 h5">上傳失敗</span>
-							<a href="designer_upload.php" class="btn btn-outline-danger backBtn">重新上傳</a>
+							<i class="far fa-file-alt fa-3x text-orange"></i>
 						</div>
-						<div class="shadow-sm p-2 p-md-3 mt-2 error">truckLogo.ai</div>
+						<div class="shadow-sm p-1 p-md-3 mt-2">truckLogo.ai</div>
 					</div>
 				</div>
 				<div class="text-center mt-4">
-					<a href="designer_manage.php" class="btn btn-outline-danger backBtn">返回</a>
+					<a href="designer_upload.php" class="btn btn-outline-orange mr-3">重新上傳</a>
+					<button type="button" class="btn btn-orange" data-toggle="modal" data-target="#confirmModal">確定送出</button>
 				</div>
 			</div>
 		</div>
 	</div>
-    
-<?php include("template/footer.php"); ?>
+
+	<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<!-- <div class="modal-header h5">
+					確認送出以下 2個檔案？
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div> -->
+				<div class="modal-body text-center font-weight-bold py-5">
+					<!-- <div class="shadow-sm p-1 p-md-3 mb-2">truckLogo.png</div>
+					<div class="shadow-sm p-1 p-md-3 mb-2">truckLogo.ai</div> -->
+					確認送出這 2 個檔案給客戶？
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-orange" data-dismiss="modal">取消</button>
+					<a href="#" class="btn btn-danger">送出</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<?php include("template/footer.php"); ?>

@@ -32,9 +32,16 @@
 	/* height: 200px; */
 }
 .error {
-	border: 2px solid #FF4141;
+	border: 2px solid #ff4141;
 }
-
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+}
 /* ---layout---------------------- */
 @media (max-width: 575.98px) {
 	.designer-content .container-sm,
@@ -51,7 +58,7 @@
 }
 /* ---切換修改資訊(carousel)------------ */
 
-@media (max-width:767.98px) {
+@media (max-width: 767.98px) {
 	#modify_carousel .row.carousel-item {
 		margin-right: -100%;
 	}
@@ -63,7 +70,7 @@
 	bottom: 50%;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
 	#modify_carousel .row.carousel-item {
 		display: flex;
 	}
@@ -100,7 +107,7 @@
 
 /* dropzonejs */
 .preview-container {
-	background: url("../images/upload cloud.png") no-repeat center top;
+	background: url('../images/upload cloud.png') no-repeat center top;
 }
 
 /* .dropzone .dz-preview.dz-error {
