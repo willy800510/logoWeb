@@ -31,9 +31,6 @@
 	width: 200px;
 	/* height: 200px; */
 }
-.error {
-	border: 2px solid #ff4141;
-}
 .overlay {
 	position: absolute;
 	top: 0;
@@ -110,9 +107,6 @@
 	background: url('../images/upload cloud.png') no-repeat center top;
 }
 
-/* .dropzone .dz-preview.dz-error {
-	background-color: #ffecec !important;
-} */
 
 /* ---覆蓋common---------------------- */
 @media (min-width: 992px) {

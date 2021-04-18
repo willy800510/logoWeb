@@ -39,7 +39,7 @@
 					</div>
 					<div class="col-3 d-flex justify-content-center align-items-center text-info">尚未新增修改內容</div>
 					<div class="col-3 d-flex justify-content-center align-items-center ">
-						<a href="designer_checkModify.php" class="btn btn-outline-secondary disabled">查看修改</a>
+						<a href="designer_details.php" class="btn btn-outline-secondary disabled">查看修改</a>
 					</div>
 				</div>
 				<div class="row border-top border-secondary">
@@ -49,7 +49,7 @@
 					</div>
 					<div class="col-3 d-flex justify-content-center align-items-center text-info">客戶新增修改 (1)</div>
 					<div class="col-3 d-flex justify-content-center align-items-center ">
-						<a href="designer_checkModify.php" class="btn btn-outline-primary">查看修改</a>
+						<a href="designer_details.php" class="btn btn-outline-primary">查看修改</a>
 					</div>
 				</div>
 				<div class="row border-top border-secondary">
@@ -59,7 +59,7 @@
 					</div>
 					<div class="col-3 d-flex justify-content-center align-items-center text-info">修改 (1) 等待確認</div>
 					<div class="col-3 d-flex justify-content-center align-items-center ">
-						<a href="designer_checkModify.php" class="btn btn-outline-primary">查看修改</a>
+						<a href="designer_details.php" class="btn btn-outline-primary">查看修改</a>
 					</div>
 				</div>
 				<div class="row border-top border-secondary">
@@ -69,7 +69,7 @@
 					</div>
 					<div class="col-3 d-flex justify-content-center align-items-center text-info">修改 (2) 尚未上傳</div>
 					<div class="col-3 d-flex justify-content-center align-items-center ">
-						<a href="designer_checkModify.php" class="btn btn-outline-primary">查看修改</a>
+						<a href="designer_details.php" class="btn btn-outline-primary">查看修改</a>
 					</div>
 				</div>
 				<div class="row border-top border-secondary">
@@ -79,7 +79,7 @@
 					</div>
 					<div class="col-3 d-flex justify-content-center align-items-center text-info">修改 (3) 確認</div>
 					<div class="col-3 d-flex justify-content-center align-items-center ">
-						<a href="designer_checkModify.php" class="btn btn-outline-secondary disabled">訂單完成</a>
+						<a href="designer_details.php" class="btn btn-outline-secondary disabled">訂單完成</a>
 					</div>
 				</div>
 			</div>

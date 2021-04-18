@@ -97,7 +97,7 @@ $(function () {
 				imgReader.readAsDataURL(file);
 				imgReader.onload = function (e) {
 					var imgSrc = e.target.result;
-					var img = fileExt == '.ai' ? '<i class="far fa-file-alt fa-3x text-orange"></i>' : '<img class="w-100" src="' + imgSrc + '" alt=""></img>';
+					var img = fileExt == '.ai' ? '<i class="far fa-file-alt fa-3x text-secondary"></i>' : '<img class="w-100" src="' + imgSrc + '" alt=""></img>';
 
 					infoBox.append('<div class="row d-flex align-items-center bg-white shadow-sm p-3 mb-1"><div class="col-3">' + img + '</div><div class="col-4 text-left" style="overflow-wrap: break-word;">' + fileName + '</div><div class="col-2">' + fileExt + '</div><div class="col-3"><button type="button" class="btn btn-danger delBtn" data-idx="' + i + '">刪除</button></div></div>');
 				};

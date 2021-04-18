@@ -15,25 +15,6 @@
   <link rel="stylesheet" href="css/account.css">
   <link rel="stylesheet" href="css/designer.css">
   <script src="js/logoUpload.js"></script>
-  <style>
-    @media (max-width:767.98px) {
-      .row.carousel-item {
-        margin-right: -100%;
-      }
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-      width: 30%;
-      bottom: 50%;
-    }
-
-    @media (min-width:768px) {
-      .row.carousel-item {
-        display: flex;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -62,8 +43,8 @@
             </div>
           </div>
           <div class="col-12 text-center">
-            <button type="button" class="btn btn-outline-orange mr-3 backBtn" onclick="history.back()">返回</button>
-            <input type="submit" value="確認上傳" class="btn btn-outline-orange d-none">
+            <button type="button" class="btn btn-outline-logoColor mr-3 backBtn" onclick="history.back()">返回</button>
+            <input type="submit" value="確認上傳" class="btn btn-outline-logoColor d-none">
           </div>
         </form>
 

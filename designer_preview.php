@@ -33,21 +33,23 @@
 				<div class="row mb-4">
 					<div class="col-12 col-md-4 col-lg-3 col-xl-2 offset-lg-2 d-flex align-items-center p-2 py-3">
 						<div class="mx-auto mx-md-0 logo-img">
-							<img src="images/AdobeStock_250566348 [轉換].svg" class="img-thumbnail shadow border-0" alt="">
+							<img src="images/logo5.svg" class="img-thumbnail shadow border-0" alt="">
 						</div>
 					</div>
 					<div class="col-12 col-md-8 col-lg-5 col-xl-6 pl-xl-5 row">
 						<div class="col-12 col-sm-6 p-2">
-							<p class="mb-1"><span class="text-danger p-1">*</span>公司名稱</p>
+							<p class="mb-1">公司名稱</p>
 							<div class="bg-light text-muted rounded p-2">company name</div>
 						</div>
 						<div class="col-12 col-sm-6 p-2">
 							<p class="mb-1">公司口號/標語</p>
 							<div class="bg-light text-muted rounded p-2">company slogan</div>
 						</div>
+						<!-- 如果只有一個顏色，col-12 改成 col-6 -->
 						<div class="col-12 p-2">
-							<p class="mb-1"><span class="text-danger p-1">*</span>選擇顏色</p>
+							<p class="mb-1">希望使用的顏色</p>
 							<div class="d-flex">
+							<!-- 如果只有一個顏色，不要加 mr-3 -->
 								<div class="col bg-light text-muted rounded p-2 mr-3">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
 								<div class="col bg-light text-muted rounded p-2">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
 							</div>
@@ -58,20 +60,20 @@
 					<p class="col-10 small mb-2 mb-md-3">檔案預覽</p>
 					<div class="col-6 p-2 upload-info">
 						<div class="text-center border border-secondary rounded p-2">
-							<img src="images/AdobeStock_250566348 [轉換] - 2.svg" class="img-thumbnail shadow-sm border-0 upload-img" alt="">
+							<img src="images/logo5_changeColor.svg" class="img-thumbnail shadow-sm border-0 upload-img" alt="">
 						</div>
 						<div class="shadow-sm p-1 p-md-3 mt-2">truckLogo.png</div>
 					</div>
 					<div class="col-6 p-2 upload-info d-flex flex-column">
 						<div class="text-center border border-secondary rounded p-2 flex-grow-1 d-flex flex-wrap justify-content-center align-content-center">
-							<i class="far fa-file-alt fa-3x text-orange"></i>
+							<i class="far fa-file-alt fa-3x text-secondary"></i>
 						</div>
 						<div class="shadow-sm p-1 p-md-3 mt-2">truckLogo.ai</div>
 					</div>
 				</div>
 				<div class="text-center mt-4">
-					<a href="designer_upload.php" class="btn btn-outline-orange mr-3">重新上傳</a>
-					<button type="button" class="btn btn-orange" data-toggle="modal" data-target="#confirmModal">確定送出</button>
+					<a href="designer_upload.php" class="btn btn-outline-logoColor mr-3">重新上傳</a>
+					<button type="button" class="btn btn-logoColor" data-toggle="modal" data-target="#confirmModal">確定送出</button>
 				</div>
 			</div>
 		</div>
@@ -92,7 +94,7 @@
 					確認送出這 2 個檔案給客戶？
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-orange" data-dismiss="modal">取消</button>
+					<button type="button" class="btn btn-outline-logoColor" data-dismiss="modal">取消</button>
 					<a href="#" class="btn btn-danger">送出</a>
 				</div>
 			</div>
