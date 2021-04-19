@@ -146,21 +146,21 @@
                         <div class="my-1 border-0">
                             <h5 class="card-title bg-logoColor rounded text-white p-2">交易須知</h5>
                             <ol class="list-group list-group-flush list-group-numbered pb-2">
-                                <li class="list-group-item px-2">付款前，請確認下單商品內容、付款帳號、付款金額，若有任何疑問，請勿付款，並請立即來信客服確認，以免受騙。</li>
-                                <li class="list-group-item px-2">本網站採用先收款後製作，請在七日內完成付款，若已超過付款期限，訂單將自動取消。若需再次交易，請重新下單。</li>
-                                <li class="list-group-item px-2">本網站提供之定價及報價，均未含營業稅，正確費用需於下單後，依系統發出之商品報及價Email為準。</li>
+                                <li class="list-group-item pl-5">付款前，請確認下單商品內容、付款帳號、付款金額，若有任何疑問，請勿付款，並請立即來信客服確認，以免受騙。</li>
+                                <li class="list-group-item pl-5">本網站採用先收款後製作，請在七日內完成付款，若已超過付款期限，訂單將自動取消。若需再次交易，請重新下單。</li>
+                                <li class="list-group-item pl-5">本網站提供之定價及報價，均未含營業稅，正確費用需於下單後，依系統發出之商品報及價Email為準。</li>
                             </ol>
                             <h5 class="card-title bg-logoColor rounded text-white p-2">如何知道付款成功</h5>
                             <p class="card-text p-2">請至網站右上角點選「會員中心」→「我的訂單」，查看訂單是否完成付款。</p>
                             <h5 class="card-title bg-logoColor rounded text-white p-2">付款方式</h5>
                             <ol class="list-group list-group-flush list-group-numbered pb-2">
                                 <h5 class="px-2">信用卡付款：</h5>
-                                <li class="list-group-item px-2">本網站與XX銀行合作，當確定付款時，將開啟信用卡付款頁面，填入正確卡片資料即可，逾時匯款，系統將無法接受信用卡付款。</li>
-                                <li class="list-group-item px-2">本網站採用先付款後製作，請在收到付款通知後七日內完成付款，過付款期限，訂單將自動取消，若需再次交易，請重新下單付款。</li>
+                                <li class="list-group-item pl-5">本網站與XX銀行合作，當確定付款時，將開啟信用卡付款頁面，填入正確卡片資料即可，逾時匯款，系統將無法接受信用卡付款。</li>
+                                <li class="list-group-item pl-5">本網站採用先付款後製作，請在收到付款通知後七日內完成付款，過付款期限，訂單將自動取消，若需再次交易，請重新下單付款。</li>
                                 <br>
                                 <h5 class="px-2">ATM付款：</h5>
-                                <li class="list-group-item px-2">本網站與XX銀行合作，點選ATM轉帳後，每筆訂單將產生不同的銀行匯款帳號，請於七日內完成匯款，繳款金額不符或逾期匯款，銀行將不接受匯款。</li>
-                                <li class="list-group-item px-2">本網站採用先付款後製作，請在收到付款通知後七日內完成付款，過付款期限，訂單將自動取消，若需再次交易，請重新下單付款。</li>
+                                <li class="list-group-item pl-5">本網站與XX銀行合作，點選ATM轉帳後，每筆訂單將產生不同的銀行匯款帳號，請於七日內完成匯款，繳款金額不符或逾期匯款，銀行將不接受匯款。</li>
+                                <li class="list-group-item pl-5">本網站採用先付款後製作，請在收到付款通知後七日內完成付款，過付款期限，訂單將自動取消，若需再次交易，請重新下單付款。</li>
                                 <span class="text-alert p-2">若有其他付款問題，請至客服信箱詢問，將有客服專人回覆。</span>
                             </ol>
                         </div>

@@ -27,6 +27,7 @@
             background-repeat: no-repeat;
             background-position: right calc(.375em + .1875rem) center;
             background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+            padding-left: .5rem !important;
         }
     </style>
 </head>
@@ -122,7 +123,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-outline-primary col-4 mx-auto mb-2">送出</button>
+                                <button id="colorDecide" type="submit" class="btn btn-outline-primary col-4 mx-auto mb-2">送出</button>
                             </form>
                         </div>
                     </div>

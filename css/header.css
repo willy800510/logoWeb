@@ -1,13 +1,10 @@
 header {
     /* background-color: #DFCCBD; */
-    /* background-color: #ff8425cc; */
-    background-color: transparent;
+    background-color: #ff8425;
+    /* background-color: transparent; */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
   }
-.sidebar{
-padding: 10px;
-}
 .logo {
     /* background-image: url(../images/logo.svg); */
     background-image: url(../images/svg/logoLogo.svg);
@@ -94,26 +91,26 @@ padding: 15px;
 }
 .call::before{
   content: '';
+  display: block;
   color: #ffffff;
+  background-color: var( --logoColor_ob_0); 
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  line-height: 22px;
-  position: absolute;
+  line-height: 20px;
   width: 10px;
   height: 10px;
   border-radius: 10px;
-  display: block;
-  z-index: 2;
-  background-color: var( --logoColor_ob_0); 
+  position: absolute;
   top: -35%;
   left: 13%;
+  z-index: 2;
   transform: scale(0);
   opacity: 0;
   transition: all .1s ease-in-out;
 }
 .call.show::before{
-  opacity: 1;
+  opacity: 1  ;
   transform: scale(1);
 }
 .call-2::before{
@@ -121,16 +118,16 @@ padding: 15px;
   display: block;
   width: 20px;
   height: 20px;
+  color: #ffffff;
   border-radius: 20px;
+  background-color: var( --alertColor);
   position: absolute;
   top: 10%;
   right: 10%;
-  color: #ffffff;
-  background-color: var( --alertColor);
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  line-height: 22px;
+  line-height: 20px;
   opacity: .8;
   transition: all .5s ease-in-out;
 }

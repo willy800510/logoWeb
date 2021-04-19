@@ -6,14 +6,14 @@
                 <span>
                     <h4>關於品牌</h4>
                     <a href="" class="pt-1">品牌故事</a>
-                    <a href="" class="pt-1">服務條款</a>
-                    <a href="" class="pt-1">隱私條款</a>
+                    <a href="termOf_service.php" class="pt-1">服務條款</a>
+                    <a href="termOf_privacy.php" class="pt-1">隱私條款</a>
                 </span>
                 <span>
                     <h4>會員中心</h4>
                     <a href="user_login.php" class="pt-1">會員註冊/登入</a>
                     <a href="customizeCenter.php" class="pt-1">客製中心</a>
-                    <a href="" class="pt-1">會員條款</a>
+                    <a href="termOf_member.php" class="pt-1">會員條款</a>
                 </span>
                 <span>
                     <h4>幫助中心</h4>
@@ -36,15 +36,15 @@
                 <span class="col-4 px-0 col-sm-3 my-2 my-sm-3">
                     <h4 class="d-none d-sm-block">關於品牌</h4>
                     <a href="" class="pt-1">品牌故事</a>
-                    <a href="" class="pt-1">服務條款</a>
-                    <a href="" class="pt-1">隱私條款</a>
+                    <a href="termOf_service.php" class="pt-1">服務條款</a>
+                    <a href="termOf_privacy.php" class="pt-1">隱私條款</a>
                 </span>
                 <h4 class="col-2 px-0 my-auto d-sm-none text-center bg-logoColor-3 rounded py-2">會員<br>中心</h4>
                 <span class="col-4 px-0 col-sm-3 my-2 my-sm-3">
                     <h4 class="d-none d-sm-block">會員中心</h4>
                     <a href="user_login.php" class="pt-1">會員註冊/登入</a>
                     <a href="customizeCenter.php" class="pt-1">客製中心</a>
-                    <a href="" class="pt-1">會員條款</a>
+                    <a href="termOf_member.php" class="pt-1">會員條款</a>
                 </span>
                 <h4 class="col-2 px-0 my-auto d-sm-none text-center bg-logoColor-3 rounded py-2">幫助<br>中心</h4>
                 <span class="col-4 px-0 col-sm-3 my-2 my-sm-3">

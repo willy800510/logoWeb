@@ -57,11 +57,11 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-7 order-1 order-md-0 row form-group flex-column my-2 p-3 p-md-1">
-                            <label for="company" class="mt-2"><span class="text-alert p-1">*</span>公司名稱</label>
-                            <div type="text" class="form-control p-2" name="company" id="" placeholder="輸入您的公司名稱"><?php ?></div>
-                            <label for="companySign" class="mt-2"><span class="text-alert p-1">*</span>公司口號/標語</label>
-                            <div type="text" class="form-control p-2" name="companySign" id="" placeholder="輸入您的公司口號/標語"><?php ?></div>
-                            <label for="companySign" class="mt-2"><span class="text-alert p-1">*</span>選擇顏色</label>
+                            <label for="company" class="mt-2">公司名稱</label>
+                            <div type="text" class="form-control p-2" name="company" id="" placeholder="輸入您的公司名稱"><?php echo 'COMPANY'?></div>
+                            <label for="companySign" class="mt-2">公司口號/標語</label>
+                            <div type="text" class="form-control p-2" name="companySign" id="" placeholder="輸入您的公司口號/標語"><?php echo 'COMPANY THE BEST' ?></div>
+                            <label for="companySign" class="mt-2">選擇顏色</label>
                             <div class="d-flex justify-content-start px-0">
                                 <div class="badge badge-danger d-inline-block mr-2 chooColor"></div>
                                 <!-- <div class="badge badge-danger d-inline-block mr-2 chooColor"></div> -->

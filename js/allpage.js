@@ -18,7 +18,7 @@ $(document).ready(function(){
         var swap = _this.attr("data-swap");     
        _this.attr('src', swap).attr("data-swap",current);
        $('.sideMenuBtnCall').toggleClass('show');
-       $('.calling').toggleClass('call');
+       $('.calling').toggleClass('call show');
     });
     
     // header sidebar function
@@ -41,11 +41,12 @@ $(document).ready(function(){
 
     $('.addcarts').click(function(){  // .addcarts from logoDisplayT line8
         $('.calling-2').addClass('call-2');
+        $('.calling-3').addClass('call show');
     })
     $('.sideMenuBtn').click(function () { //header, header-logoCenter
         $('.menuBurger').toggleClass('MenuBtnOpen');
         $('.sideMenuBtnCall').toggleClass('ckx');
-        $('.call').toggleClass('show');
+        // $('.call').toggleClass('show');
     })
 
     $('.sideMenuBtn-L').click(function () { //header-logoCenter
