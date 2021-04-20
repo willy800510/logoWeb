@@ -52,7 +52,7 @@
                 <h5 class="p-4 mt-2">
                     非常歡迎您光臨「LogoWeb」（以下簡稱本網站），為了讓您能夠安心的使用本網站的各項服務與資訊，特此向您說明本網站的隱私權保護政策，以保障您的權益，請您詳閱下列內容：
                 </h5>
-                <ol class="list-group list-group-flush list-group-cjk pb-2 pl-5">
+                <ol class="list-group list-group-flush list-group-cjk pb-2 pl-5 pr-4">
                     <li class="">隱私權保護政策的適用範圍</li>
                     <p class="">隱私權保護政策內容，包括本網站如何處理在您使用網站服務時收集到的個人識別資料。隱私權保護政策不適用於本網站以外的相關連結網站，也不適用於非本網站所委託或參與管理的人員。</p>
                     <li class="">個人資料的蒐集、處理及利用方式</li>
@@ -65,7 +65,7 @@
                     <li class="">與第三人共用個人資料之政策</li>
                     <p class="">本網站絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。</p>
                     <strong>前項但書之情形包括不限於：</strong>
-                    <ul class="dot pl-4">
+                    <ul class="dot px-4">
                         <li>經由您書面同意。</li>
                         <li>法律明文規定。</li>
                         <li>經由您書面同意。</li>

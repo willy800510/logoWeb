@@ -76,7 +76,7 @@
                             <!-- <label class="mt-2"><span class="text-danger p-1">*</span>選擇顏色</label> -->
                             <div class="mt-2"><span class="text-danger p-1">*</span>選擇顏色</div>
                             <div class="d-flex flex-wrap justify-content-between justify-content-sm-start px-0 colorBox">
-                                <input type="radio" id="colorRed" name="companyColor" value="dc3545" class="d-none" required>
+                                <!-- <input type="radio" id="colorRed" name="companyColor" value="dc3545" class="d-none" required>
                                 <label for="colorRed" class="badge badge-danger d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label>
                                 <input type="radio" id="colorCyan" name="companyColor" value="17a2b8" class="d-none">
                                 <label for="colorCyan" class="badge badge-info d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label>
@@ -85,13 +85,15 @@
                                 <input type="radio" id="colorGreen" name="companyColor" value="28a745" class="d-none">
                                 <label for="colorGreen" class="badge badge-success d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label>
                                 <input type="radio" id="colorBlue" name="companyColor" value="007bff" class="d-none">
-                                <label for="colorBlue" class="badge badge-primary d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label>
+                                <label for="colorBlue" class="badge badge-primary d-inline-block my-2 mr-0 mr-sm-2 chooColor"></label> -->
                                 <input type="radio" id="colorCustom" name="companyColor" value="" class="d-none">
                                 <label for="colorCustom" class="addColor btn d-flex align-items-center justify-content-center my-2 mr-0 mr-sm-2 border border-secondary chooColor" data-toggle="modal" data-target="#colorPk">+</label>
                             </div>
                         </div>
-                        <div class="col-6 col-md-4 col-lg-3 order-0 order-lg-1 p-5 p-lg-4 p-lg-5 shadow m-0 m-lg-5 mt-4 rounded bg-0_8">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" class="" alt="">
+                        <div id="pdlogo" class="col-6 col-md-4 col-lg-3 order-0 order-lg-1 p-5 p-lg-4 p-lg-5 shadow m-0 m-lg-5 mt-4 rounded bg-0_8">
+                            <!-- <img src="images/AdobeStock_250566348 [轉換].svg" class="" alt=""> -->
+                            <small class="text-alert"></small>
+                            <?php require_once( 'images//AdobeStock_250566348 [轉換].svg.php' ); ?>
                         </div>
                     </div>
                     <div class="text-center p-4">
@@ -156,20 +158,24 @@
         event.preventDefault();
         // 將自訂的顏色放入要送出的表單，並改變標籤顏色
         var color = $('#hexInput').val();
-        　　$('#colorCustom').val(color);
-        　　$('#colorCustom').next().css('background-color',color);
+            $('#colorCustom').val(color);
+            $('#colorCustom').next().css('background-color',color);
+            $('#pdlogo svg .cls-1').css('fill',color);
 
         // 判斷顏色深淺，決定"+"是黑/白色
         var grayLevel = $('#red').val() * 0.299 + $('#green').val() * 0.587 + $('#blue').val() * 0.114;
         console.log(grayLevel);
         if (grayLevel >= 192) {
-        　　$('#colorCustom').next().css('color','#000000');
+            $('#colorCustom').next().css('color','#000000');
+            $("#pdlogo").css('background-color','rgb(0,0,0,0.8)')
         } else {
             $('#colorCustom').next().css('color','#ffffff');
+            $("#pdlogo").css('background-color','#ffffff')
         }
         // 關閉color picker
         $('#colorPk').modal('hide');
     })
+
 </script>
 <?php include("template/footer.php"); ?>
 <script src="js/allpage.js"></script>

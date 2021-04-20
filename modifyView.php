@@ -52,7 +52,7 @@
                         <div class="odflot text-alert"><?php echo date("Y-m-d"); ?></div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-12 col-md-7 order-1 order-md-0 row form-group flex-column my-2 p-3 p-md-1">
+                        <div class="col-12 col-lg-7 order-1 order-lg-0 row form-group flex-column my-2 p-3 p-lg-1">
                             <label for="company" class="mt-2">公司名稱</label>
                             <div type="text" class="form-control p-2" name="company" id="" placeholder="輸入您的公司名稱"><?php echo$_POST['company'] ?></div>
                             <label for="companySign" class="mt-2">公司口號/標語</label>
@@ -63,8 +63,10 @@
                                 <div class="badge d-inline-block mr-2 chooColor" style="background-color: #<?php $color = trim($_POST['companyColor'],"#"); echo $color ?>;"></div>
                             </div>
                         </div>
-                        <div class="col-6 col-md-3 order-0 order-md-1 p-5 p-md-4 p-lg-5 shadow m-0 m-md-5 mt-4 rounded bg-0_8">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" class="" alt="">
+                        <div id="pdlogo" class="col-6 col-md-4 col-lg-3 order-0 order-lg-1 p-5 p-lg-4 p-lg-5 shadow m-0 m-lg-5 mt-4 rounded bg-0_8">
+                            <!-- <img src="images/AdobeStock_250566348 [轉換].svg" class="" alt=""> -->
+                            <small class="text-alert"></small>
+                            <?php require_once( 'images//AdobeStock_250566348 [轉換].svg.php' ); ?>
                         </div>
                     </div>
                     <div class="text-center p-4">
@@ -78,4 +80,8 @@
     </div>
 </div>
 <?php include("template/footer.php"); ?>
+<script>
+    var color = $(".chooColor").css("background-color")
+    $('#pdlogo svg .cls-1').css('fill',color);
+</script>
 <script src="js/allpage.js"></script>
