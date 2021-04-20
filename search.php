@@ -22,12 +22,12 @@
 <!-- BANNER -->
 <div class="container-fluid srcBanner">
     <div class="contianer-sm">
-        <form action="" style="padding-top: 150px;" class="">
+        <form action="search.php" style="padding-top: 150px;" method="post">
             <div class="d-flex justify-content-center align-items-center overflow-hidden m-2">
-                <a href="#">
-                    <img src="images/icon/MDIcon/search_white_40dp.svg" alt="">
-                </a>
-                <input type="search" id="site-search" name="q" aria-label="Search through site content" size="30" class="m-1 srchtext-2">
+                <button type="submit">
+                        <img src="images/icon/MDIcon/search_white_40dp.svg" alt="">
+                </button>
+                <input type="search" id="site-search" name="keyword" aria-label="Search through site content" size="30" value="<?php echo $_POST['keyword']?>" class="m-1 px-2 srchtext-2">
             </div>
             <div class="d-flex justify-content-center">
                 <a href="#hitTag-1" class="btn nav-link hitTag mx-1 mx-sm-2 my-auto" data-toggle="tab" data-target="#hitTag-1">星座</a>

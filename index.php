@@ -30,12 +30,11 @@
                     <h2>超過1000多種Logo挑選<br>為您的公司打造專屬Logo</h2>
                 </span>
             </div>
-            <div class="d-flex justify-content-center overflow-hidden m-2">
-                <input type="search" id="site-search" name="q" aria-label="Search through site content" size="30" class="m-1 srchtext">
-                <!-- <button type="submit" value="搜尋" class="m-1 rounded-right srch"></button> -->
-                <a href="search.php" value="搜尋" class="m-1 rounded-right srch btn"><img src="images/icon/MDIcon/search_white_24dp.svg" alt="" class="mx-2"></a>
-                <!-- <a href="search.php" type="submit" value="搜尋" class="m-1 rounded-right srch btn"><img src="images/icon/MDIcon/search_white_24dp.svg" alt="" class="mx-2"></a> -->
-            </div>
+            <form action="search.php" method="post" class="d-flex justify-content-center overflow-hidden m-2">
+                <input type="search" id="site-search" name="keyword" aria-label="Search through site content" size="30" class="m-1 px-2 srchtext">
+                <!-- <a href="search.php" value="搜尋" class="m-1 rounded-right srch btn"><img src="images/icon/MDIcon/search_white_24dp.svg" alt="" class="mx-2"></a> -->
+                <button type="submit" value="搜尋" class="btn m-1 rounded-right srch "><img src="images/icon/MDIcon/search_white_24dp.svg" alt="" class="mx-2"></button>
+            </form>
             <div class="d-flex justify-content-center">
                 <a href="search.php" class="btn btn-light mx-1 mx-sm-2 my-auto">星座</a>
                 <a href="search.php" class="btn btn-light mx-1 mx-sm-2 my-auto">搖飲</a>

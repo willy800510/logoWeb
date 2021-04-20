@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
 </head>
-<body>
+<body data-no="1">
 <?php include("template/header-logoCenter.php"); ?>
 <div class="container-fluid">
     <div class="container">
@@ -24,7 +24,7 @@
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
-                <div class="d-flex align-items-center justify-content-around bg-cloud p-4">
+                <div class="user-info d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">個人資訊</span>
                 </div>
                 <form action="" class="bg-cloud rounded my-1">
@@ -102,3 +102,7 @@
 <?php include("template/footer.php"); ?>
 <script src="js/allpage.js"></script>
 <script src="js/account.js"></script>
+<!-- <script>
+    var no = $('body').attr('data-no');
+    $('.linka').eq(no).addClass('active');
+</script> -->

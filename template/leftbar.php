@@ -6,40 +6,40 @@
     <div class="nav flex-column align-items-center justify-content-center leftblock py-4 mt-3">
         <h5>帳戶管理</h5>
         <div class="nav-item">
-            <a class="nav-link active" href="userInfo.php">個人資訊</a>
+            <a class="nav-link linka" href="userInfo.php">個人資訊</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="password.php">密碼變更</a>
+            <a class="nav-link linka" href="password.php">密碼變更</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="sysInfo.php">系統消息</a>
+            <a class="nav-link linka" href="sysInfo.php">系統消息</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="bookmark.php">我的收藏</a>
+            <a class="nav-link linka" href="bookmark.php">我的收藏</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="customizeCenter.php">客製中心</a>
+            <a class="nav-link linka" href="customizeCenter.php">客製中心</a>
         </div>
     </div>
     <div class="nav flex-column align-items-center justify-content-center leftblock py-4">
         <h5>我的訂單</h5>
         <div class="nav-item">
-            <a class="nav-link" href="order.php">全部訂單</a>
+            <a class="nav-link linka" href="order.php">全部訂單</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="order.php">修改訂單</a>
+            <a class="nav-link linka" href="order.php">修改訂單</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="order.php">已完成訂單</a>
+            <a class="nav-link linka" href="order.php">已完成訂單</a>
         </div>
     </div>
     <div class="nav flex-column align-items-center justify-content-center leftblock py-4">
         <h5>幫助中心</h5>
         <div class="nav-item">
-            <a class="nav-link" href="helpCenter.php">常見問題</a>
+            <a class="nav-link linka" href="helpCenter.php">常見問題</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="contact.php">聯絡我們</a>
+            <a class="nav-link linka" href="contact.php">聯絡我們</a>
         </div>
     </div>
 </div>
@@ -51,40 +51,46 @@
     <div class="nav flex-column align-items-center justify-content-center leftblock py-3 mt-3">
         <h5>帳戶管理</h5>
         <div class="nav-item">
-            <a class="nav-link active" href="userInfo.php">個人資訊</a>
+            <a class="nav-link linka" href="userInfo.php">個人資訊</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="password.php">密碼變更</a>
+            <a class="nav-link linka" href="password.php">密碼變更</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="sysInfo.php">系統消息</a>
+            <a class="nav-link linka" href="sysInfo.php">系統消息</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="bookmark.php">我的收藏</a>
+            <a class="nav-link linka" href="bookmark.php">我的收藏</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="customizeCenter.php">客製中心</a>
+            <a class="nav-link linka" href="customizeCenter.php">客製中心</a>
         </div>
     </div>
     <div class="nav flex-column align-items-center justify-content-center leftblock py-3">
         <h5>我的訂單</h5>
         <div class="nav-item">
-            <a class="nav-link" href="order.php">全部訂單</a>
+            <a class="nav-link linka" href="order.php">全部訂單</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="order.php">修改訂單</a>
+            <a class="nav-link linka" href="order.php">修改訂單</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="order.php">已完成訂單</a>
+            <a class="nav-link linka" href="order.php">已完成訂單</a>
         </div>
     </div>
     <div class="nav flex-column align-items-center justify-content-center leftblock py-3">
         <h5>幫助中心</h5>
         <div class="nav-item">
-            <a class="nav-link" href="helpCenter.php">常見問題</a>
+            <a class="nav-link linka" href="helpCenter.php">常見問題</a>
         </div>
         <div class="nav-item">
-            <a class="nav-link" href="contact.php">聯絡我們</a>
+            <a class="nav-link linka" href="contact.php">聯絡我們</a>
         </div>
     </div>
 </nav>
+
+<script>
+    var no = $('body').attr('data-no');
+    $('.linka').eq(no-1).addClass('active');
+    $('#helper_guide .linka').eq(no-1).addClass('active');
+</script>

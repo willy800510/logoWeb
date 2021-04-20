@@ -86,6 +86,13 @@
 #modifyForm{
     min-height: 580px;
 }
+#pdlogo small::after{
+    content: "*此處為示意圖,商品以檔案為主";
+    position: absolute;
+    bottom: -12%;
+    left: 11%;
+    
+}
 
 /* carts_lists */
 .stepper { /*流程狀態的外層加class*/

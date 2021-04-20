@@ -18,7 +18,6 @@ $(document).ready(function(){
         var swap = _this.attr("data-swap");     
        _this.attr('src', swap).attr("data-swap",current);
        $('.sideMenuBtnCall').toggleClass('show');
-       $('.calling').toggleClass('call show');
     });
     
     // header sidebar function
@@ -46,7 +45,6 @@ $(document).ready(function(){
     $('.sideMenuBtn').click(function () { //header, header-logoCenter
         $('.menuBurger').toggleClass('MenuBtnOpen');
         $('.sideMenuBtnCall').toggleClass('ckx');
-        // $('.call').toggleClass('show');
     })
 
     $('.sideMenuBtn-L').click(function () { //header-logoCenter
