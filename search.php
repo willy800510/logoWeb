@@ -45,13 +45,13 @@
     <div class="container-sm clearfix">
     <!-- 類別搜尋 -->
         <div class="d-block mt-1">
-            <div class="list-group flex-row justify-content-around align-items-center overflow-hidden mx-1" id="myList" role="tablist">
-                <a href="#list-food" id="tabFood" class="text-center list-group-item list-group-item-action" data-toggle="tab" data-target="#list-food" aria-expanded="true" aria-controls="list-food">美食<br class="d-block d-md-none">餐廳</a>
-                <a href="#list-clothes" id="tabClothes" class="text-center list-group-item list-group-item-action" data-toggle="tab" data-target="#list-clothes" aria-expanded="false" aria-controls="list-clothes">衣物<br class="d-block d-md-none">配件</a>
-                <a href="#list-living" id="tabLiving" class="text-center list-group-item list-group-item-action" data-toggle="tab" data-target="#list-living" aria-expanded="false" aria-controls="list-living">居家<br class="d-block d-md-none">生活</a>
-                <a href="#list-transport" id="tabTransport" class="text-center list-group-item list-group-item-action" data-toggle="tab" data-target="#list-transport" aria-expanded="false" aria-controls="list-transport">行車<br class="d-block d-md-none">交通</a>
-                <a href="#list-edu" id="tabEdu" class="text-center list-group-item list-group-item-action" data-toggle="tab" data-target="#list-edu"aria-expanded="false" aria-controls="clist-edu">教育<br class="d-block d-md-none">相關</a>
-                <a href="#list-entertain" id="tabEntertain" class="text-center list-group-item list-group-item-action" data-toggle="tab" data-target="#list-entertain" aria-expanded="false" aria-controls="list-entertain">娛樂<br class="d-block d-md-none">收藏</a>
+            <div class="list-group rounded-0 flex-row justify-content-around align-items-center overflow-hidden mx-1" id="myList" role="tablist">
+                <a href="#list-food" id="tabFood" class="text-center list-group-item list-group-item-action rounded-top" data-toggle="tab" data-target="#list-food" aria-expanded="true" aria-controls="list-food">美食<br class="d-block d-md-none">餐廳</a>
+                <a href="#list-clothes" id="tabClothes" class="text-center list-group-item list-group-item-action rounded-top" data-toggle="tab" data-target="#list-clothes" aria-expanded="false" aria-controls="list-clothes">衣物<br class="d-block d-md-none">配件</a>
+                <a href="#list-living" id="tabLiving" class="text-center list-group-item list-group-item-action rounded-top" data-toggle="tab" data-target="#list-living" aria-expanded="false" aria-controls="list-living">居家<br class="d-block d-md-none">生活</a>
+                <a href="#list-transport" id="tabTransport" class="text-center list-group-item list-group-item-action rounded-top" data-toggle="tab" data-target="#list-transport" aria-expanded="false" aria-controls="list-transport">行車<br class="d-block d-md-none">交通</a>
+                <a href="#list-edu" id="tabEdu" class="text-center list-group-item list-group-item-action rounded-top" data-toggle="tab" data-target="#list-edu"aria-expanded="false" aria-controls="clist-edu">教育<br class="d-block d-md-none">相關</a>
+                <a href="#list-entertain" id="tabEntertain" class="text-center list-group-item list-group-item-action rounded-top" data-toggle="tab" data-target="#list-entertain" aria-expanded="false" aria-controls="list-entertain">娛樂<br class="d-block d-md-none">收藏</a>
                 <!-- <i class="fas fa-sort-down fa-lg"></i> -->
                 <button data-toggle="collapse" aria-expanded="false" data-target="#formSearch" aria-controls="formSearch">
                     <!-- <i class="fas fa-chevron-down fa-lg ml-2 icon-open"></i> -->

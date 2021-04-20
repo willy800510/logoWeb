@@ -24,7 +24,7 @@
             <?php include("template/leftbar.php"); ?>
         <!-- 右主欄 -->
             <div class="col-12 col-xl-10 px-0 px-xl-3">
-                <div class="list-group flex-row align-items-center justify-content-around" role="tablist">
+                <div id="order-categ" class="list-group rounded-0 flex-row align-items-center justify-content-around" role="tablist">
                     <a class="list-group-item text-center col-4 bg-cloud p-4 active" data-toggle="list" role="tab">全部</a>
                     <a class="list-group-item text-center col-4 bg-cloud p-4" data-toggle="list" role="tab">修改中</a>
                     <a class="list-group-item text-center col-4 bg-cloud p-4" data-toggle="list" role="tab">完成</a>

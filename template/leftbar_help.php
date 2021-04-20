@@ -4,11 +4,11 @@
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock pt-4 border-top border-secondary">
         <h5>COMPANY</h5>
-        <a href="#about" id="guide_about" class="d-none d-xl-block" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="about">關於品牌</a>
+        <a href="#about" id="guide_about" class="" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="about">關於品牌</a>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock">
         <h5>新手須知</h5>
-        <a href="#howToBuy" id="guide_howToBuy" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="howToBuy">如何購物</a>
+        <a href="#howToBuy" id="guide_howToBuy" class="" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="howToBuy">如何購物</a>
     </div>
     <div class="d-flex flex-column align-items-center justify-content-center leftblock">
         <h5>交易付款</h5>

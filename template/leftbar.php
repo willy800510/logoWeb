@@ -93,4 +93,10 @@
     var no = $('body').attr('data-no');
     $('.linka').eq(no-1).addClass('active');
     $('#helper_guide .linka').eq(no-1).addClass('active');
+
+    // order
+    $('#order-categ a').click(function(){ //order.php line 27
+        var no2 = $("#order-categ a").hasClass('active').index();
+        $('body').attr('data-no',no2-1)
+    })
 </script>

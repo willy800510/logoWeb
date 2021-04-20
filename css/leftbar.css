@@ -39,6 +39,6 @@ h5{
     left: -75%;
     transition: all 0s ease;
 }
-.nav .nav-link.active{
+.nav-link.active{
     color: #ff4646;
 }

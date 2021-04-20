@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
 </head>
-<body>
+<body data-no="6">
 <?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container">
@@ -74,9 +74,9 @@
                             <div class="d-flex justify-content-between">
                                 <div class="d-flex my-3 align-items-center">修改項目</div>
                                 <div class="list-group flex-row justify-content-end my-3" role="tablist">
-                                    <a href="#modifyContent1" class="list-group-item btn btn-outline-logoColor active ml-1" data-toggle="list">第一次</a>
-                                    <a href="#modifyContent2" class="list-group-item btn btn-outline-logoColor ml-1" data-toggle="list">第二次</a>
-                                    <a href="#modifyContent3" class="list-group-item btn btn-outline-logoColor disabled ml-1" data-toggle="list">第三次</a>
+                                    <a href="#modifyContent1" class="list-group-item rounded btn btn-outline-logoColor active ml-1" data-toggle="list">第一次</a>
+                                    <a href="#modifyContent2" class="list-group-item rounded btn btn-outline-logoColor ml-1" data-toggle="list">第二次</a>
+                                    <a href="#modifyContent3" class="list-group-item rounded btn btn-outline-logoColor disabled ml-1" data-toggle="list">第三次</a>
                                 </div>
                             </div>
                             <div class="tab-content">
