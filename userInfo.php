@@ -27,7 +27,7 @@
                 <div class="user-info d-flex align-items-center justify-content-around bg-cloud p-4">
                     <span class="text-center">個人資訊</span>
                 </div>
-                <form action="" class="bg-cloud rounded my-1">
+                <form action="" class="bg-cloud rounded my-1" method="">
                     <div class="text-center p-3">基本資料</div>
                     <div class="form-group row d-flex text-center mh-520">
                         <div class="col-12 col-md-9 p-2 p-md-5">

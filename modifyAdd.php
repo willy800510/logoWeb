@@ -45,7 +45,7 @@
                 </div>
                 <form action="modifyView.php" method="post" id="modifyForm" class="bg-cloud rounded my-1 needs-validation" novalidate>
                     <div class="d-flex justify-content-center justify-content-lg-between align-items-center px-3 py-1">
-                        <span class="d-none d-lg-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
+                        <span class="d-none d-lg-flex align-items-end odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary" target="_blank">xxxxxxxxxx</a></span>
                         <div class="">
                             <!-- <a href="#" class="badge badge-secondary">第一次</a> -->
                             <!-- <a href="#" class="badge badge-light">第二次</a> -->
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div class="d-flex d-lg-none justify-content-between align-items-center px-3 py-1">
-                        <span class="odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a></span>
+                        <span class="odflot pt-3">訂單遍號：<a href="orderNum.php" class="text-primary" target="_blank">xxxxxxxxxx</a></span>
                         <div class="d-flex align-items-end">
                             <span class="odflot">Name<span class="mx-1">設計師</span></span>
                             <img src="images/icon/designer2.png" alt="">

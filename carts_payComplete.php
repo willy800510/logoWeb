@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logoWeb carts</title>
-    <?php
-        include("template/bootstrapScript.php");
-    ?>
+    <?php include("template/bootstrapScript.php"); ?>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/index.css">
@@ -17,9 +15,7 @@
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
-<?php
-    include("template/header.php");
-?>
+<?php include("template/header.php"); ?>
     <div class="container-fluid">
         <div class="container-sm clearfix mToTop">
             <div class="d-flex justify-content-between p-1 stepper step-final">

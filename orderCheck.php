@@ -45,6 +45,7 @@
                         </ul>
                         <div class="d-flex justify-content-around align-items-center px-2">
                             <a  href="logoDisplay.php" class="btn btn-outline-primary mx-1 py-2 col-4 text-center">查看檔案 or 檔案下載</a>
+                            <!-- 查看檔案 or 檔案下載 的判斷依照 訂單狀態 ‘訂單完成’的才會出現檔案下載 -->
                             <a  href="quotation.php" class="btn btn-outline-logoColor-2 mx-1 py-2 col-4 text-center">報價單</a>
                             <input type="button" onclick="history.back()" value="返回" class="btn btn-outline-logoColor mx-1 py-2 col-4 text-center">
                         </div>
