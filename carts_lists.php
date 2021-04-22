@@ -24,12 +24,13 @@
                 <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle filter-gray">
                 <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle filter-gray">
             </div>
-            <form action="carts_payPick.php" method="post" class="d-flex flex-column pb-3">
+            <form id="cartLists" action="carts_payPick.php" method="post" class="d-flex flex-column pb-3">
                 <ul class="row bg-white align-items-center mt-1 mx-1 p-2 rounded">
                     <div class="col-1 text-center px-0">
                         <input type="checkbox" name="Checkbox[]">
                     </div>
-                    <img src="images/logo.svg" alt="" class="logoIcon col-2 px-1">
+                    <img src="<?php echo 'images/logo.svg'?>" alt="" class="logoIcon col-2 px-1">
+                    <input type="hidden" name="productImg" value="<?php echo 'images/logo.svg'?>">
                     <div class="d-flex flex-column col-8 py-3">
                         <div class="d-flex justify-content-around">
                             <div class="text-center p-2">
@@ -38,7 +39,8 @@
                             </div>
                             <div class="text-center p-2">
                                 <h6>金額</h6>
-                                <li>NT$200</li>
+                                <li >NT$<?php echo'200'?></li>
+                                <input type="hidden" name="price" value="<?php echo'200' ?>" >
                             </div>
                             <div class="p-2 d-none d-md-block">
                                 <h6 class="text-center">其他</h6>
@@ -47,16 +49,17 @@
                         </div>
                         <span class="font-weight-lighter text-black-50 text-center pt-3 d-block d-md-none">備註說明:備註說明備註說明備註說明</span>
                     </div>
-                    <button type="submit" class="btn col-1 px-0">
+                    <span class="btn col-1 px-0 clear">
                         <!-- <i class="fas fa-times"></i> -->
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-                    </button>
+                    </span>
                 </ul>
-                <ul class="row bg-white align-items-center mt-1 mx-1 p-2 rounded ">
+                <ul class="row bg-white align-items-center mt-1 mx-1 p-2 rounded">
                     <div class="col-1 text-center px-0">
                         <input type="checkbox" name="Checkbox[]">
                     </div>
-                    <img src="images/logo2.svg" alt="" class="logoIcon col-2 px-1">
+                    <img src="<?php echo 'images/logo2.svg'?>" alt="" class="logoIcon col-2 px-1">
+                    <input type="hidden" name="productImg" value="<?php echo 'images/logo2.svg'?>">
                     <div class="d-flex flex-column col-8 py-3">
                         <div class="d-flex justify-content-around">
                             <div class="text-center p-2">
@@ -65,7 +68,8 @@
                             </div>
                             <div class="text-center p-2">
                                 <h6>金額</h6>
-                                <li>NT$200</li>
+                                <li >NT$<?php echo'200'?></li>
+                                <input type="hidden" name="price" value="<?php echo'200' ?>" >
                             </div>
                             <div class="p-2 d-none d-md-block">
                                 <h6 class="text-center">其他</h6>
@@ -74,10 +78,10 @@
                         </div>
                         <span class="font-weight-lighter text-black-50 text-center pt-3 d-block d-md-none">備註說明:備註說明備註說明備註說明</span>
                     </div>
-                    <button type="submit" class="btn col-1 px-0">
+                    <span class="btn col-1 px-0 clear">
                         <!-- <i class="fas fa-times"></i> -->
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-                    </button>
+                    </span>
                 </ul>
                 <div class="row bg-white align-items-center mt-1 mx-1 p-2 rounded">
                     <div class="col-1 px-0 text-center">
@@ -99,7 +103,7 @@
                 <a href="#" class="p-1">我的收藏</a>
             </div>
             <div class="row pt-1 pb-3">
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo5.svg" alt="">
@@ -107,7 +111,7 @@
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo1.svg" alt="">
@@ -115,7 +119,7 @@
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo2.svg" alt="">
@@ -123,7 +127,7 @@
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo3.svg" alt="">
@@ -131,7 +135,7 @@
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo.svg" alt="">
@@ -139,7 +143,7 @@
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo2.svg" alt="">
@@ -147,7 +151,7 @@
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo3.svg" alt="">
@@ -155,7 +159,7 @@
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1">
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
                     <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
                         <a href="" class="d-inline-block m-auto pt-3">
                             <img src="images/logo5.svg" alt="">
