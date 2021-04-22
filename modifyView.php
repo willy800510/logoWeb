@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/account.css">
     <?php include("template/materialDesign.php"); ?>
 </head>
-<body>
+<body data-no="5">
 <?php include("template/header.php"); ?>
 <div class="container-fluid">
     <div class="container">
@@ -60,13 +60,19 @@
                             <label for="companySign" class="mt-2">選擇顏色</label>
                             <div class="d-flex justify-content-start px-0">
                                 <!-- <div class="badge badge-danger d-inline-block mr-2 chooColor"></div> -->
-                                <div class="badge d-inline-block mr-2 chooColor" style="background-color: #<?php $color = trim($_POST['companyColor'],"#"); echo $color ?>;"></div>
+                                <div class="badge d-inline-block mr-2 chooColor" style="background-color: #<?php 
+                                    $color = trim($_POST['companyColor'],"#");
+                                    if($color == ""){
+                                        echo "FC9545"; //這裡是想取得原本圖檔的color，圖目前受到第97-98影響 會改變顏色
+                                    } else{
+                                        echo $color;
+                                    } ?>;"></div>
                             </div>
                         </div>
                         <div id="pdlogo" class="col-6 col-md-4 col-lg-3 order-0 order-lg-1 p-5 p-lg-4 p-lg-5 shadow m-0 m-lg-5 mt-4 rounded bg-0_8">
-                            <!-- <img src="images/AdobeStock_250566348 [轉換].svg" class="" alt=""> -->
+                            <!-- <img src="images/logo5.svg" class="" alt=""> -->
                             <small class="text-alert"></small>
-                            <?php require_once( 'images//AdobeStock_250566348 [轉換].svg.php' ); ?>
+                            <?php require_once( 'images//logo5.svg.php' ); ?>
                         </div>
                     </div>
                     <div class="text-center p-4">
@@ -81,6 +87,13 @@
 </div>
 <?php include("template/footer.php"); ?>
 <script>
+    // var logoColor = $('#pdlogo svg .cls-1').css('fill')
+    // var color = $(".chooColor").css("background-color")
+    // if(color == "rgba(0,0,0,0)"){
+    //     $('#pdlogo svg .cls-1').css('fill');
+    // }else{
+    //     $('#pdlogo svg .cls-1').css('fill',color);
+    // }
     var color = $(".chooColor").css("background-color")
     $('#pdlogo svg .cls-1').css('fill',color);
 </script>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/leftbar.css">
-    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="css/account.css?<?php echo time();?>">
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body data-no="3">
@@ -30,11 +30,28 @@
                 </div>
                 <div class="d-flex flex-column mt-1">
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
+                        <img src="images/logo5.svg" class="logoIcon" alt="">
                         <span class="ml-4 ml-md-0">
                             <div>商品初稿完成</div>
                             <span class="text-black-50">
                                 訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
+                                <!-- 點選訂單編號 導向orderNum.php 圖片要隨著訂單更改-->
+                            </span>
+                            <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
+                        </span>
+                        <a href="logoDisplay.php" class="btn btn-outline-logoColor d-none d-md-flex">查看檔案</a>
+                        <!-- 點選查看檔案 logoDisplay.php 要依照所選的訂單商品 更改圖片 -->
+                        <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
+                    </div>
+                    <a href="logoDisplay.php" class="btn btn-logoColor d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
+                    <!-- 點選查看檔案 logoDisplay.php 要依照所選的訂單商品 更改圖片 -->
+                    <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
+                        <img src="images/logo1.svg" class="logoIcon" alt="">
+                        <span class="ml-4 ml-md-0">
+                            <div>商品初稿完成</div>
+                            <span class="text-black-50">
+                                訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
+                                <!-- 點選訂單編號 導向orderNum.php 圖片要隨著訂單更改-->
                             </span>
                             <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
@@ -43,11 +60,12 @@
                     </div>
                     <a href="logoDisplay.php" class="btn btn-logoColor d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
+                        <img src="images/logo2.svg" class="logoIcon" alt="">
                         <span class="ml-4 ml-md-0">
                             <div>商品初稿完成</div>
                             <span class="text-black-50">
                                 訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
+                                <!-- 點選訂單編號 導向orderNum.php 圖片要隨著訂單更改-->
                             </span>
                             <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>
@@ -56,24 +74,12 @@
                     </div>
                     <a href="logoDisplay.php" class="btn btn-logoColor d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
                     <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
+                        <img src="images/logo3.svg"  class="logoIcon" alt="">
                         <span class="ml-4 ml-md-0">
                             <div>商品初稿完成</div>
                             <span class="text-black-50">
                                 訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
-                            </span>
-                            <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
-                        </span>
-                        <a href="logoDisplay.php" class="btn btn-outline-logoColor d-none d-md-flex">查看檔案</a>
-                        <div class="text-alert d-none d-lg-block"><?php echo date("Y-m-d"); ?></div>
-                    </div>
-                    <a href="logoDisplay.php" class="btn btn-logoColor d-flex d-md-none p-2 mb-1 justify-content-end">查看檔案</a>
-                    <div class="d-flex bg-cloud mb-1 justify-content-around align-items-center p-5 rounded">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" width="60px" height="60px" alt="">
-                        <span class="ml-4 ml-md-0">
-                            <div>商品初稿完成</div>
-                            <span class="text-black-50">
-                                訂單<a href="orderNum.php" class="text-primary">xxxxxxxxxx</a>商品初稿已完成，請您查看
+                                <!-- 點選訂單編號 導向orderNum.php 圖片要隨著訂單更改-->
                             </span>
                             <div class="text-alert d-block d-lg-none"><?php echo date("Y-m-d"); ?></div>
                         </span>

@@ -20,9 +20,9 @@
         <div class="container-sm clearfix mToTop">
         <!-- 訂單流程狀態 -->
             <div class="d-flex justify-content-between p-1 stepper">
-                <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
-                <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
-                <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle">
+                <a href="carts_lists.php"><img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle"></a>
+                <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle filter-gray">
+                <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle filter-gray">
             </div>
             <form action="carts_payPick.php" method="post" class="d-flex flex-column pb-3">
                 <ul class="row bg-white align-items-center mt-1 mx-1 p-2 rounded">
@@ -56,7 +56,7 @@
                     <div class="col-1 text-center px-0">
                         <input type="checkbox" name="Checkbox[]">
                     </div>
-                    <img src="images/logo.svg" alt="" class="logoIcon col-2 px-1">
+                    <img src="images/logo2.svg" alt="" class="logoIcon col-2 px-1">
                     <div class="d-flex flex-column col-8 py-3">
                         <div class="d-flex justify-content-around">
                             <div class="text-center p-2">
@@ -99,66 +99,66 @@
                 <a href="#" class="p-1">我的收藏</a>
             </div>
             <div class="row pt-1 pb-3">
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo5.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo1.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo2.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo3.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo2.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo3.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
-                    <div class="d-block p-4 bg-cloud rounded text-center">
-                        <a href="">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                <div class="col-6 col-md-4 col-lg-3 p-1">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3">
+                            <img src="images/logo5.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>

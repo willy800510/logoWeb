@@ -41,12 +41,12 @@ header {
 }
 
 .userList{
-  left: -110px !important;
+  left: -111px !important;
   text-align: center !important;
   background: rgba(255, 255, 255, 0.8);
 }
 .bagList{
-  left: -238px !important;
+  left: -239px !important;
   text-align: right !important;
   background: rgba(255, 255, 255, 0.8);
   width: 390px;

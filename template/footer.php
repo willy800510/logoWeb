@@ -2,7 +2,7 @@
     <footer class="footer container-fluid">
         <div class="container-sm d-none d-xl-block">
             <div class="d-flex justify-content-between align-items-start p-1 pr-5 pl-3">
-                <a href="index.php" class="logo" style="width: 95px; height: 95px;"></a>
+                <a href="index.php" class="logo footer-logo"></a>
                 <span>
                     <h4>關於品牌</h4>
                     <a href="" class="pt-1">品牌故事</a>
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="container-sm d-block d-xl-none justify-content-around align-items-center flex-column p-1">
-            <a href="index.php" class="logo m-auto d-block" style="width: 95px; height: 95px;"></a>
+            <a href="index.php" class="logo m-auto d-block footer-logo"></a>
             <!-- <div class="d-flex justify-content-around align-items-start my-4"> -->
             <div class="row">
                 <h4 class="col-2 px-0 my-auto d-sm-none text-center bg-cloud rounded py-2">關於<br>品牌</h4>

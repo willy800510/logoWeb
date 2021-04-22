@@ -3,7 +3,7 @@
     <div class="modal-dialog">
         <div class="container-sm position-relative" style="pointer-events: auto;">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 position-absolute mg-70 z-index-1" id="scoll_overlay" alt="...">
+                <img src="images/logo5.svg" class="w-100 height-200 position-absolute mg-70 z-index-1" id="scoll_overlay" alt="...">
                 <div class="position-absolute z-index-100 addCart">
                     <button class="btn btn-outline-logoColor px-2 addcarts">加入購物袋</button>
                 </div>
@@ -18,7 +18,7 @@
                 <div class="carousel-inner mb-2 mb-xl-0 height-500 mToTop">
                     <div class="carousel-item bg-0_8 rounded active">
                         <div class="d-flex justify-content-center p-5 w-100 height-500">
-                            <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 opacity-3 mg-70" alt="...">
+                            <img src="images/logo5.svg" class="w-100 height-200 opacity-3 mg-70" alt="...">
                         </div>
                         <div class="carousel-caption d-none d-md-block text-dark">
                             <h5>First slide label</h5>

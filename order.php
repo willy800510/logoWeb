@@ -57,7 +57,7 @@
                             <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <img src="images/logo1.svg" alt="" class="logoIcon col-3 text-center">
                             <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
                             <li class="col-3 text-center">訂單完成</li>
                             <li class="col-3 text-center text-alert">NT$200</li>
@@ -75,7 +75,7 @@
                             <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <img src="images/logo2.svg" alt="" class="logoIcon col-3 text-center">
                             <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
                             <li class="col-3 text-center">商品製作中</li>
                             <li class="col-3 text-center text-alert">NT$200</li>
@@ -93,7 +93,7 @@
                             <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <img src="images/logo3.svg" alt="" class="logoIcon col-3 text-center">
                             <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
                             <li class="col-3 text-center">商品製作中</li>
                             <li class="col-3 text-center text-alert">NT$200</li>
@@ -111,7 +111,7 @@
                             <li class="font-weight-bolder col-3 text-center">訂單總額</li> 
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
-                            <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <img src="images/logo5.svg" alt="" class="logoIcon col-3 text-center">
                             <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
                             <li class="col-3 text-center">商品製作中</li>
                             <li class="col-3 text-center text-alert">NT$200</li>

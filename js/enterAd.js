@@ -103,6 +103,8 @@ $(document).ready(function(){
         }
     );
 
+    // $('#waterfall').
+
     // $(window).scroll(function() {
     //     if($(window).scrollTop() + $(window).height() == $(document).height()) {
     //         window.setTimeout(function() {

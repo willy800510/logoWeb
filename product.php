@@ -27,7 +27,7 @@
             <a href="#">商品資訊</a>
         </div>
         <div class="card border-0 row flex-md-row justify-content-center align-items-center mb-3 mx-1 p-4 bg-cloud">
-            <img class="logoCard col-auto col-md-5 rounded p-4 p-md-5 my-2" src="images/AdobeStock_250566348 [轉換].svg" alt="Card image cap">
+            <img class="logoCard col-auto col-md-5 rounded p-4 p-md-5 my-2" src="images/logo5.svg" alt="Card image cap">
             <div class="card-body col-auto col-md-7 flex-column justify-content-between bg-cloud rounded">
                 <div class="d-flex justify-content-between d-xl-block">
                     <h5 class="card-title">商品名稱</h5>
@@ -47,10 +47,10 @@
             <a href="#" class="p-1">MORE→</a>
         </div>
         <div class="row py-3">
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -63,10 +63,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -79,10 +79,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -95,10 +95,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -111,10 +111,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -127,10 +127,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -143,10 +143,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -159,10 +159,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="col-6 col-md-4 col-lg-3 p-1 lgdp">
+            <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -175,10 +175,10 @@
                     <a href=""><img src="images/icon/designer1.png" alt=""></a>
                 </div>
             </div>
-            <div class="d-none d-md-block d-lg-none col-md-4 col-lg-3 p-1 lgdp">
+            <div class="d-none d-md-block d-lg-none col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="137px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
                     </a>
                     <a href="#">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>

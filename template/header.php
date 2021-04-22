@@ -2,7 +2,7 @@
 <header class="container-fluid position-fixed fixed-top">
     <!-- xl -->
     <div class="container-sm d-none d-xl-block">
-        <div class="d-flex justify-content-between align-items-center p-1">
+        <div class="d-flex justify-content-between align-items-center px-1 py-2">
             <a href="index.php" class="logo"></a>
             <!-- <div class="menu">    -->
             <div class="nav justify-content-end">   
@@ -46,10 +46,11 @@
                         <svg class="headIcon" width="17" height="23" viewBox="0 0 17 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5875 10.8101C13.5147 9.96508 14.1645 8.85967 14.4515 7.639C14.7386 6.41832 14.6495 5.13945 14.196 3.97028C13.7425 2.80111 12.9457 1.79628 11.9103 1.08772C10.8748 0.379168 9.64916 0 8.39416 0C7.13916 0 5.91349 0.379168 4.87806 1.08772C3.84264 1.79628 3.04585 2.80111 2.59232 3.97028C2.13879 5.13945 2.04971 6.41832 2.33677 7.639C2.62384 8.85967 3.27363 9.96508 4.20084 10.8101C1.69086 11.9401 0 14.05 0 16.4677C0 20.0755 3.75746 23 8.39416 23C13.0309 23 16.7883 20.0755 16.7883 16.4677C16.7883 14.05 15.0975 11.9401 12.5875 10.8101Z" fill= "var( --logoColor_ob_0)"/></svg>
                     </a>
                     <div class="dropdown-menu userList pt-3 pb-2" aria-labelledby="dropdownMenuLink">
-                        <a href="userInfo.php" class="dropdown-item">帳戶管理</a>
-                        <a href="order.php" class="dropdown-item">我的訂單</a>
-                        <a href="customizeCenter.php" class="dropdown-item">客製中心</a>
-                        <a href="#" class="dropdown-item">登出</a>
+                        <a href="userInfo.php" class="dropdown-item logIn">帳戶管理</a>
+                        <a href="order.php" class="dropdown-item logIn">我的訂單</a>
+                        <a href="customizeCenter.php" class="dropdown-item logIn">客製中心</a>
+                        <a href="#" class="dropdown-item logOut">登出</a>
+                        <a href="user_login.php" class="dropdown-item logSwitch" style="display: none;">登入</a>
                     </div>
                 </span>
             </div>
@@ -79,20 +80,23 @@
             </a>
             <div class="collapse my-3" id="userCollapse">
                 <div class="d-flex flex-column col-3 offset-3">
-                    <h6 class="font-weight-normal">帳戶管理</h6>
-                    <ul>
-                        <li class="my-1 font-weight-light font8rem"><a href="userInfo.php" class="">個人資訊</a></li>
-                        <li class="my-1 font-weight-light font8rem"><a href="password.php" class="">密碼變更</a></li>
-                        <li class="my-1 font-weight-light font8rem"><a href="customizeCenter.php" class="">客製中心</a></li>
-                    </ul>
-                    <h6 class="font-weight-normal">我的訂單</h6>
-                    <ul>
-                        <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">全部訂單</a></li>
-                        <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">修改中訂單</a></li>
-                        <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">已完成訂單</a></li>
-                    </ul>
-                    <h6 class="font-weight-normal"><a href="customizeCenter.php">客製中心</a></h6>
-                    <a href="#" class="nav-link text-secondary">登出</a>
+                    <span class="logIn">
+                        <h6 class="font-weight-normal">帳戶管理</h6>
+                        <ul>
+                            <li class="my-1 font-weight-light font8rem"><a href="userInfo.php" class="">個人資訊</a></li>
+                            <li class="my-1 font-weight-light font8rem"><a href="password.php" class="">密碼變更</a></li>
+                            <li class="my-1 font-weight-light font8rem"><a href="customizeCenter.php" class="">客製中心</a></li>
+                        </ul>
+                        <h6 class="font-weight-normal">我的訂單</h6>
+                        <ul>
+                            <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">全部訂單</a></li>
+                            <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">修改中訂單</a></li>
+                            <li class="my-1 font-weight-light font8rem"><a href="order.php" class="">已完成訂單</a></li>
+                        </ul>
+                        <h6 class="font-weight-normal"><a href="customizeCenter.php">客製中心</a></h6>
+                    </span>
+                    <a href="#" class="nav-link text-secondary logOut">登出</a>
+                    <a href="user_login.php" class="nav-link text-secondary logSwitch" style="display: none;">登入</a>
                 </div>
             </div>
             <a href="carts_lists.php" class="d-flex justify-content-between my-3 menulist carts position-relative">
@@ -133,3 +137,10 @@
         </div>
     </div>
 </header>
+<script>
+    $('.logOut').click(function(){
+        $('.logOut').slideUp();
+        $('.logIn').slideUp();
+        $('.logSwitch').fadeIn();
+    })
+</script>

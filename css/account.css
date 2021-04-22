@@ -4,15 +4,19 @@
 .mh-400{
     min-height: 400px;
 }
+.h-140{
+    height: 140px !important;
+}
+.w-36{
+    width: 36px !important;
+}
+
+.logoIcon{
+    width: auto;
+    height: 75px;
+}
 
 /* ORDER */
-.logoIcon{
-    width: 75px;
-    height: 75px;
-    overflow: hidden;
-    /* border: solid 1px; */
-    border-radius: 50%;
-}
 
 .cardSize{
     width: 400px; 
@@ -30,20 +34,22 @@
 
 /* BOOKMARK */
 
+.bmlogo img, .lgdp img{
+    height: 140px;
+}
+
 @media(min-width: 0px){
     .bmlogo{
         width: 98%;
+        min-height: 50vh;
     }
-    .bmlogo img{
-        width: 110px;
+    .lgdp{
+        min-height: 44vh;
     }
 }
 @media(min-width: 576px){
     .bmlogo{
         width: 253px;
-    }
-    .bmlogo img{
-        width: 140px;
     }
 }
 @media(min-width: 768px){

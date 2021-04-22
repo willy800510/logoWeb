@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/account.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/icon_animate.css">
+    <link rel="stylesheet" href="css/index_enterAd.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/material-icon.css"> -->
     <!-- Owl -->
@@ -22,106 +23,7 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <style>
-        #trackDot{
-            display: block;
-            width: 8px;
-            height: 8px;
-            border-radius: 8px;
-            background-color: var(--alertColor);
-            top: 64px;
-        }
 
-        .nav-pills .nav-link::before, .carousel-indicators li::after{
-            position: relative;
-            content: " ";
-            display: inline-block;
-            background-color: var(--alertColor);
-            border-radius: 8px;
-            opacity: 0;
-        }
-        .nav-pills .nav-link.active::before, .carousel-indicators li.active::after{
-            opacity: 1;
-        }
-        .nav-pills .nav-link::before{
-            width: 5px;
-            height: 11px;
-            left: -8px;
-        }
-        .carousel-indicators li::after{
-            width: 8px;
-            height: 8px;
-            top: 80%;
-            right: 50%;
-        }
-
-        /* <md */
-        .nav-pills .nav-link.active{
-            color: var(--alertColor);
-            background-color: transparent;
-            opacity: 1;
-        }
-        .nav-pills .nav-link{
-            opacity: .5;
-        }
-
-        /* >md */
-        .carousel-inner{
-            height: 80vh;
-        }
-        .carousel-item {
-            height: 100%;
-        }
-        .carousel-indicators {
-            bottom: unset;
-            top: 35px;
-            left: -200px;
-            right: 200px;
-        }
-        .carousel-indicators .active {
-            color: var(--alertColor);
-        }
-        .carousel-indicators li {
-            width: auto;
-            height: auto;
-            text-indent: unset;
-            border:none;
-            background-color: transparent;
-        }
-
-        /* owl */
-        .owl-dots {
-			position: absolute;
-			top: 100%;
-			left: 50%;
-			transform: translateX(-50%);
-			margin-top: 10px;
-		}
-		.owl-dot span{
-			display: block;
-			width: 10px;
-			height: 10px;
-			margin: 5px 7px;
-			background: #FFFFFF;
-			opacity: 0.5;
-			transition: opacity .2s ease;
-			border-radius: 30px;
-		}
-		.owl-dot.active span{
-			opacity: 1;
-		}
-        .zoomOut{
-            transform: scale(0.9);
-            opacity: 0.5;
-        }
-        .zoomIn{
-            transform: scale(1.1);
-            background-color: white;
-        }
-        #moreProduct-md .col-4 a {
-        transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1); }
-
-    </style>	
 </head>
 <body>
     <?php include("template/header.php"); ?>
@@ -140,19 +42,19 @@
                 <div class="row justify-content-around">
                     <div class="col-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="logoPlay-sm owl-carousel owl-theme">
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo5.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo3.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo2.svg" class="h-140" alt=""></div>
                         </div>
                         <div class="logoPlay-sm owl-carousel owl-theme">
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo1.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo5.svg" class="h-140" alt=""></div>
                         </div>
                         <div class="logoPlay-sm owl-carousel owl-theme">
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo2.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo5.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo1.svg" class="h-140" alt=""></div>
                         </div>
                     </div>
                     <div class="col-6 text-center text-orange my-auto">
@@ -262,62 +164,62 @@
             <div class="row py-3" id="moreProduct-md">
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>    
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo1.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo2.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo3.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" height="100px" class="d-block m-auto">
+                    </a>
+                </div>    
+                <div class="col-4 p-1" data-aos="zoom-in">
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/logo1.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo2.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo3.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo5.svg" alt="" height="100px" class="d-block m-auto">
+                    </a>
+                </div>    
+                <div class="col-4 p-1" data-aos="zoom-in">
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/logo1.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo2.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                    </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                    </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                        <img src="images/logo3.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
             </div>
@@ -334,7 +236,7 @@
             </ol>
             <!-- <div id="trackDot" class="position-absolute"></div> -->
             <div class="carousel-inner">
-                <div class="carousel-item float-none active" data_no="0">
+                <div class="carousel-item float-none active">
                     <!-- logoMonster1 -->
                     <svg data-aos="fade-up" data-aos-duration="3000" class="position-absolute vw-100" style="bottom: 0;"  viewBox="0 0 1200 470" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="logoMonster2" clip-path="url(#clip0)">
@@ -411,9 +313,9 @@
                     </svg>
                     <div class="row align-items-center justify-content-center position-absolute w-100" style="top:160px;">
                         <div id="logoPlay" class="owl-carousel rounded bg-0_8" style="max-width: 20%;">
-                            <div class="p-5"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-5"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
-                            <div class="p-5"><img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 h-100" alt=""></div>
+                            <div class="p-4 p-lg-5"><img src="images/logo1.svg" class="h-140" alt=""></div>
+                            <div class="p-4 p-lg-5"><img src="images/logo2.svg" class="h-140" alt=""></div>
+                            <div class="p-4 p-lg-5"><img src="images/logo3.svg" class="h-140" alt=""></div>
                         </div>
                         <div class="col-6 text-dark text-center">
                             <h2 class="font-weight-normal py-2">超過1000多種Logo挑選</h2>
@@ -421,7 +323,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item float-none" data_no="1">
+                <div class="carousel-item float-none">
                     <div class="d-flex justify-content-center align-items-center my-5 py-5" id="shopFlow" style="margin-top: 100px !important;">
                         <div class="d-flex flex-column align-items-center mx-3">
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -555,127 +457,175 @@
                         </defs>
                     </svg>
                 </div>
-                <div class="carousel-item float-none" data_no="2">
+                <div class="carousel-item float-none">
                     <a href="index.php" style="writing-mode: vertical-lr; top:30%; right:1%;" class="font-weight-bolder position-absolute z-index-2">Get Started</a>
-                    <div class="container-sm mToTop mb-5">
-                        <div class="row py-3">
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
+                    <div class="container-sm mToTop mb-5 overflow-hidden">
+                        <div id="waterfall" class="row py-3">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp d-none d-md-block">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp d-none d-md-block">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp d-none d-md-block">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp d-none d-lg-block">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp d-none d-lg-block">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
-                                    </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4 col-lg-2 p-1 lgdp d-none d-lg-block">
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/AdobeStock_250566348 [轉換].svg" alt="" width="100px" class="d-block m-auto">
+                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
-                                    <a href="product.php">
-                                        <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>

@@ -20,7 +20,7 @@
 <div id="logoDisplay" class="container-fluid">
     <div class="container-sm position-relative">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 position-absolute mg-70 z-index-1" id="scoll_overlay" alt="...">
+            <img src="images/logo5.svg" class="w-100 height-200 position-absolute mg-70 z-index-1" id="scoll_overlay" alt="...">
             <div class="position-absolute z-index-100 addCart">
                 <button class="btn btn-outline-logoColor">檔案下載</button>
             </div>
@@ -35,7 +35,7 @@
             <div class="carousel-inner mb-2 mb-xl-0 mToTop">
                 <div class="carousel-item bg-cloud rounded active">
                     <div class="d-flex justify-content-center p-5 w-100 height-500">
-                        <img src="images/AdobeStock_250566348 [轉換].svg" class="w-100 height-200 opacity-3 mg-70" alt="...">
+                        <img src="images/logo5.svg" class="w-100 height-200 opacity-3 mg-70" alt="...">
                     </div>
                     <div class="carousel-caption d-none d-md-block text-dark">
                         <h5>First slide label</h5>

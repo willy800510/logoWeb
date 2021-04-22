@@ -19,9 +19,9 @@
     <div class="container-fluid">
         <div class="container-sm clearfix mToTop">
             <div class="d-flex justify-content-between p-1 stepper step-half">
-                <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
+                <a href="carts_lists.php"><img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle"></a>
                 <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
-                <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle">
+                <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle filter-gray">
             </div>
             <div class="row py-2">
                 <form action="" class="col-12 flex-column px-0 px-md-1"> 
@@ -39,7 +39,7 @@
                         
                     </div>    
                     <div class="row justify-content-between align-items-center p-3 border-bottom bg-white">
-                        <img src="images/logo.svg" alt="" class="logoIcon col-3 col-md-2">
+                        <img src="images/logo2.svg" alt="" class="logoIcon col-3 col-md-2">
                         <div class="col-3 col-md-3 text-center">商品名稱</div>
                         <div class="col-3 col-md-3 text-center">NT$200</div>
                         <div class="col-3 col-md-4 text-center">其他備註</div>

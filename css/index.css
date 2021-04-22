@@ -46,7 +46,7 @@
     cursor: pointer !important;
 }
 
-.lgdp:hover .bkmk_1, .lgdp:hover .bkmk_2{
+.logo-display:hover .bkmk_1, .logo-display:hover .bkmk_2{
     opacity: 1;
     transition: .3s;
 }

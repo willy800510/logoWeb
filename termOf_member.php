@@ -15,29 +15,11 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/icon_animate.css">
     <link rel="stylesheet" href="css/quota.css">
+    <link rel="stylesheet" href="css/termsOf.css">
     <!-- Material Design -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/material-icon.css">
     <!-- <?php #include("template/materialDesign.php"); ?> -->
-    <style>
-        .dot li{
-            list-style-type: circle;
-        }
-        .list-group-cjk > li{
-            list-style-type: cjk-ideographic !important;
-            padding: 1rem 0.5rem;
-        }
-        .list-group-numbered>li::before {
-            left: 0%;
-        }
-        .list-group-numbered>li {
-            padding-bottom: 1rem;
-        }
-        .list-group-alpha > li{
-            list-style-type: lower-alpha;
-            padding: .3rem 0.5rem;
-        }
-    </style>
 </head>
 <body>
 <?php include("template/header.php"); ?>

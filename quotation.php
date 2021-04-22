@@ -17,7 +17,6 @@
     <!-- Material Design -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/material-icon.css">
-    <!-- <?php #include("template/materialDesign.php"); ?> -->
 </head>
 <body>
 <?php include("template/header.php"); ?>

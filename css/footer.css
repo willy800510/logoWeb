@@ -22,3 +22,8 @@ footer span{
   justify-content: space-around;
   align-items: center;
 }
+
+.footer-logo{
+  width: 95px;
+  height: 95px;
+}

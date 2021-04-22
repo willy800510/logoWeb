@@ -47,7 +47,7 @@
                         
                     </div>    
                     <div class="row justify-content-between align-items-center p-3 border-bottom bg-white">
-                        <img src="images/logo.svg" alt="" class="logoIcon col-3 col-md-2">
+                        <img src="images/logo2.svg" alt="" class="logoIcon col-3 col-md-2">
                         <div class="col-3 col-md-3 text-center">商品名稱</div>
                         <div class="col-3 col-md-3 text-center">NT$200</div>
                         <a href="orderNum.php" class="col-3 col-md-4 text-center">a$bcxxx123</a>

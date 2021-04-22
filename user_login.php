@@ -42,7 +42,6 @@
                     <i class="fab fa-facebook-f fa-2x d-inline-block p-3"></i>
                 </span>
                 <i class="fab fa-google fa-2x d-inline-block p-3"></i>
-                <!-- <img src="https://img.icons8.com/fluent/30/000000/google-logo.png" class="p-3"/> -->
             </div>
         </div>
     </div>

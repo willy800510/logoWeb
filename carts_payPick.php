@@ -19,9 +19,9 @@
     <div class="container-fluid">
         <div class="container-sm clearfix mToTop">
             <div class="d-flex justify-content-between p-1 stepper step-half">
-                <img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle">
-                <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle">
-                <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle">
+                <a href="carts_lists.php"><img src="images/orderflowIcon/order.svg" alt="" class="bg-white rounded-circle"></a>
+                <img src="images/orderflowIcon/payCheck.svg" alt="" class="bg-white rounded-circle filter-gray">
+                <img src="images/orderflowIcon/designing.svg" alt="" class="bg-white rounded-circle filter-gray">
             </div>
             <div class="row py-2">
                 <form action="carts_confirm.php" method="POST" id="payTypeForm" class="col-12 flex-column col-md-9 px-0 px-md-1">
@@ -43,7 +43,7 @@
                         <div class="col-5 text-right text-alert">金額 NT$<?php echo "200"?></div>
                     </div>    
                     <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white rounded-bottom">
-                        <img src="images/logo.svg" alt="" class="logoIcon col-2">
+                        <img src="images/logo2.svg" alt="" class="logoIcon col-2">
                         <div class="col-5">商品名稱</div>
                         <div class="col-5 text-right text-alert">金額 NT$<?php echo "200"?></div>
                     </div>

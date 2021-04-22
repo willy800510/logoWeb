@@ -15,19 +15,11 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/icon_animate.css">
     <link rel="stylesheet" href="css/quota.css">
+    <link rel="stylesheet" href="css/termsOf.css">
     <!-- Material Design -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/material-icon.css">
     <!-- <?php #include("template/materialDesign.php"); ?> -->
-    <style>
-        .dot li{
-            list-style-type: circle;
-        }
-        .list-group-cjk > li{
-            list-style-type: cjk-ideographic !important;
-            padding: 1rem 0.5rem;
-        }
-    </style>
 </head>
 <body>
 <?php include("template/header.php"); ?>
@@ -35,14 +27,14 @@
         <div class="container-sm mToTop">
             <div class="d-flex bg-cloud justify-content-between align-items-center my-3 px-3">
                 <a onclick="history.back()" class=""><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 24 24 " width="30px" fill="#FC9545"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>返回</a>
-                <div>
+                <button>
                     <svg id="shopFlow" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="shopFlowIconDload">
                         <path id="box" fill-rule="evenodd" clip-rule="evenodd" d="M40.6508 32.207L54.2417 35.8297L55.7808 36.9425V52.9012L54.9047 54.0377L40.3904 58.0392L25.8524 54.0377L25 52.9012V36.9425L26.4443 35.8297L40.0116 32.207H40.6508ZM40.4377 34.5748L30.9667 36.9425L32.269 37.4161L40.3904 39.5471L47.4936 37.6292L49.743 36.9425L40.4377 34.5748V34.5748ZM27.3678 52.0014L39.2065 55.2453V41.678L27.3678 38.5053V52.0014ZM41.5743 41.678V55.2453L53.413 52.0014V38.4342L48.6302 39.7436V45.8216L46.2624 46.4372V40.3924L41.5743 41.678Z" fill="#D5A178"/>
                         <path id="download" d="M46.2375 23.6486L41.75 26.7171V18H39.25V26.7171L34.7625 23.6486L33 24.8571L40.5 30L48 24.8571L46.2375 23.6486Z" fill="#D5A178"/>
                         </g>
                     </svg>
-                </div>
+                </button>
             </div>
             <div class="card p-3">
                 <div class="d-flex align-items-center flex-column border-bottom pb-2">
