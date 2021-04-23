@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="css/banner.css?<?php echo time();?>">
     <link rel="stylesheet" href="css/footer.css?<?php echo time();?>">
     <link rel="stylesheet" href="css/account.css?<?php echo time();?>">
+    <link rel="stylesheet" href="css/carousel.css">
     <?php include("template/materialDesign.php"); ?>
 </head>
 <body>
 <?php include("template/header.php"); ?>
+<?php include("template/logoDisplayT.php"); ?>
     <div class="container-fluid">
         <div class="container-sm clearfix mToTop">
         <!-- 訂單流程狀態 -->
@@ -102,67 +104,67 @@
             <div class="d-flex justify-content-between overflow-hidden">
                 <a href="#" class="p-1">我的收藏</a>
             </div>
-            <div class="row pt-1 pb-3">
+            <div class="row pt-1 pb-3" id="recom-lists">
                 <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
-                            <img src="images/logo5.svg" alt="">
-                        </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
-                            <img src="images/logo1.svg" alt="">
-                        </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
-                            <img src="images/logo2.svg" alt="">
-                        </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
-                            <img src="images/logo3.svg" alt="">
-                        </a>
-                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/logo.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
+                            <img src="images/logo1.svg" alt="">
+                        </a>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/logo2.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/logo3.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
-                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded lgdp">
-                        <a href="" class="d-inline-block m-auto pt-3">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
+                            <img src="images/logo4.svg" alt="">
+                        </a>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
                             <img src="images/logo5.svg" alt="">
+                        </a>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
+                            <img src="images/logo6.svg" alt="">
+                        </a>
+                       <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 p-1 reco-logo">
+                    <div class="d-flex flex-column justify-content-between p-3 bg-cloud rounded logoDpSm lgdp">
+                        <a href="" class="d-inline-block m-auto pt-3" data-toggle="modal" data-target="#logoDisplay">
+                            <img src="images/logo7.svg" alt="">
                         </a>
                        <button type="submit" class="btn btn-outline-logoColor mt-3 addcarts">加入購物袋</button>
                     </div>

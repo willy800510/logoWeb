@@ -42,19 +42,19 @@
                 <div class="row justify-content-around">
                     <div class="col-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="logoPlay-sm owl-carousel owl-theme">
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo5.svg" class="h-140" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo3.svg" class="h-140" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo2.svg" class="h-140" alt=""></div>
-                        </div>
-                        <div class="logoPlay-sm owl-carousel owl-theme">
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo1.svg" class="h-140" alt=""></div>
                             <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo1.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo2.svg" class="h-140" alt=""></div>
+                        </div>
+                        <div class="logoPlay-sm owl-carousel owl-theme">
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo3.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo4.svg" class="h-140" alt=""></div>
                             <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo5.svg" class="h-140" alt=""></div>
                         </div>
                         <div class="logoPlay-sm owl-carousel owl-theme">
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo2.svg" class="h-140" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo5.svg" class="h-140" alt=""></div>
-                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo1.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo6.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo7.svg" class="h-140" alt=""></div>
+                            <div class="p-4 my-2 bg-0_8 rounded"><img src="images/logo8.svg" class="h-140" alt=""></div>
                         </div>
                     </div>
                     <div class="col-6 text-center text-orange my-auto">
@@ -164,7 +164,7 @@
             <div class="row py-3" id="moreProduct-md">
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo5.svg" alt="" height="100px" class="d-block m-auto">
+                        <img src="images/logo.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>    
                 <div class="col-4 p-1" data-aos="zoom-in">
@@ -184,42 +184,42 @@
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo5.svg" alt="" height="100px" class="d-block m-auto">
+                        <img src="images/logo4.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>    
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo1.svg" alt="" height="100px" class="d-block m-auto">
-                    </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo2.svg" alt="" height="100px" class="d-block m-auto">
-                    </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo3.svg" alt="" height="100px" class="d-block m-auto">
-                    </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo5.svg" alt="" height="100px" class="d-block m-auto">
+                    </a>
+                </div>
+                <div class="col-4 p-1" data-aos="zoom-in">
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/logo6.svg" alt="" height="100px" class="d-block m-auto">
+                    </a>
+                </div>
+                <div class="col-4 p-1" data-aos="zoom-in">
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/logo7.svg" alt="" height="100px" class="d-block m-auto">
+                    </a>
+                </div>
+                <div class="col-4 p-1" data-aos="zoom-in">
+                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                        <img src="images/logo8.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>    
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo1.svg" alt="" height="100px" class="d-block m-auto">
+                        <img src="images/logo9.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo2.svg" alt="" height="100px" class="d-block m-auto">
+                        <img src="images/logo10.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
                 <div class="col-4 p-1" data-aos="zoom-in">
                     <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
-                        <img src="images/logo3.svg" alt="" height="100px" class="d-block m-auto">
+                        <img src="images/logo11.svg" alt="" height="100px" class="d-block m-auto">
                     </a>
                 </div>
             </div>
@@ -464,6 +464,90 @@
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo4.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo6.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo7.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo8.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo9.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo10.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
+                                        <img src="images/logo11.svg" alt="" height="240px" class="d-block m-auto">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
+                                <div class="d-block p-4 bg-white rounded">
+                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                                         <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
@@ -492,140 +576,56 @@
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo4.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo6.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo7.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo8.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo9.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo10.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo1.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo2.svg" alt="" height="240px" class="d-block m-auto">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
-                                <div class="d-block p-4 bg-white rounded">
-                                    <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo3.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo11.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
