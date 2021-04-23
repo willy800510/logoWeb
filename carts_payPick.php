@@ -37,6 +37,7 @@
                     <div class="p-3 bg-white">
                         <h5 class="mt-2">購買列表</h5>
                     </div> 
+                    <!-- 嘗試寫 接收carts_lists的value -->
                     <?php #foreach($_POST as $post ){?>
                         <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white">
                             <img src="<?php echo $_POST['productImg'] ?>" alt="" class="logoIcon col-2">
@@ -44,11 +45,13 @@
                             <div class="col-5 text-right text-alert">金額 NT$<?php echo $_POST['price'] ?></div>
                         </div>   
                     <?php #} ?> 
+                    <!-- 購物項目模板 start -->
                         <div class="row justify-content-between align-items-center px-3 py-lg-3 border-bottom bg-white">
                             <img src="<?php echo $_POST['productImg'] ?>" alt="" class="logoIcon col-2">
                             <div class="col-5">商品名稱</div>
                             <div class="col-5 text-right text-alert">金額 NT$<?php echo $_POST['price'] ?></div>
                         </div>   
+                    <!-- 購物項目模板 end -->
                     <div class="d-md-none bg-white p-3 border-bottom rounded-top">
                         <h5 class="mt-2">訂單總額</h5>
                         <div class="d-flex justify-content-between align-items-center">
