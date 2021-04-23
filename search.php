@@ -169,7 +169,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -185,7 +187,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo1.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo1.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -201,7 +205,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo2.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo2.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -217,7 +223,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo3.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo3.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -233,7 +241,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo4.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo4.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -249,7 +259,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo5.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo5.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -265,7 +277,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo6.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo6.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -281,7 +295,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo7.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo7.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -297,7 +313,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo8.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo8.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -313,7 +331,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo9.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo9.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -329,7 +349,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo10.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo10.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
@@ -345,7 +367,9 @@
             <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
                 <div class="d-block p-4 bg-cloud rounded">
                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                        <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto">
+                        <!-- <img src="images/logo5.svg" alt="" width="137px" class="d-block m-auto"> -->
+                        <img src="<?php echo 'images/logo11.svg'?>" alt="" class="d-block m-auto">
+                        <input type="hidden" name="productImg" value="<?php echo 'images/logo11.svg'?>">
                     </a>
                     <a href="product.php">
                         <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>

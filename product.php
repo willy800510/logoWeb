@@ -27,7 +27,7 @@
             <a href="#">商品資訊</a>
         </div>
         <div class="card border-0 row flex-md-row justify-content-center align-items-center mb-3 mx-1 p-4 bg-cloud">
-            <img class="logoCard col-auto col-md-5 rounded p-4 p-md-5 my-2" src="images/logo5.svg" alt="Card image cap">
+            <img class="logoCard col-auto col-md-5 rounded p-4 p-md-5 my-2" src="<?php echo $_POST['pd-pick'] ?>" alt="Card image cap">
             <div class="card-body col-auto col-md-7 flex-column justify-content-between bg-cloud rounded">
                 <div class="d-flex justify-content-between d-xl-block">
                     <h5 class="card-title">商品名稱</h5>

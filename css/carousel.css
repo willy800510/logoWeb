@@ -1,5 +1,5 @@
 .caroItem_1{
-    transform: scale(0.4) rotate(-23deg) translate(5px, 185px) !important;
+    transform: scale(0.4) rotate(-23deg) translate(-15px, 185px) !important;
     transition: transform 1s ease-in-out .8s;
 }
 .caroItem_2{

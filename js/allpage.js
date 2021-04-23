@@ -175,4 +175,12 @@ $(document).ready(function(){
     }).blur(function() {
         $(".carousel").carousel('cycle');
     });
+
+    // 點選logo，預覽同一個logo
+    $('.logoDpSm img').click(function(){
+        var logoPick = $(this).attr('src');
+        $('#carouselExampleCaptions > img').attr('src',logoPick);
+        $('#carouselExampleCaptions > input').attr('value',logoPick);
+        $('#logoDpSm img').attr('src',logoPick);
+    })
 });
