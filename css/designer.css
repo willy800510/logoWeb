@@ -31,16 +31,15 @@
 	width: 200px;
 	/* height: 200px; */
 }
-.error {
-	border: 2px solid #FF4141;
+.overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
 }
-
 /* ---layout---------------------- */
-@media (max-width: 414px) {
-	.h4 {
-		/* font-size: 16px; */
-	}
-}
 @media (max-width: 575.98px) {
 	.designer-content .container-sm,
 	.designer-content h6,
@@ -54,6 +53,25 @@
 		padding-right: 0;
 	}
 }
+/* ---切換修改資訊(carousel)------------ */
+
+@media (max-width: 767.98px) {
+	#modify_carousel .row.carousel-item {
+		margin-right: -100%;
+	}
+}
+
+#modify_carousel .carousel-control-prev,
+#modify_carousel .carousel-control-next {
+	width: 30%;
+	bottom: 50%;
+}
+
+@media (min-width: 768px) {
+	#modify_carousel .row.carousel-item {
+		display: flex;
+	}
+}
 
 /* ---上傳拖曳區塊---------------------- */
 .upload-wrapper {
@@ -65,7 +83,7 @@
 }
 
 .upload-wrapper:hover {
-	background-color: #f3f3f3 !important;
+	background-color: #fcfaf8 !important;
 }
 .upload-wrapper.dragging {
 	background-color: #fffcf9 !important;
@@ -83,6 +101,12 @@
 #upload:focus {
 	outline: none;
 }
+
+/* dropzonejs */
+.preview-container {
+	background: url('../images/upload cloud.png') no-repeat center top;
+}
+
 
 /* ---覆蓋common---------------------- */
 @media (min-width: 992px) {
