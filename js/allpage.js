@@ -12,6 +12,7 @@ $(document).ready(function(){
         }
     });
 
+    // 點選 愛心收藏
     $(".hrtCk").click(function(){
         var _this = $(this);
         var current = _this.attr("src");

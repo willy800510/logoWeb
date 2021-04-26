@@ -47,12 +47,13 @@
     </div>
     <div class="container-fluid">
         <div class="container-sm clearfix">
-    <!-- 商品類別 -->
+    <!-- 商品類別 --> 
             <div class="d-flex justify-content-between overflow-hidden">
                 <a href="#" class="p-1">商品類別</a>
                 <a href="search.php" class="p-1">MORE→</a>
             </div>
             <div class="row rounded py-3">
+            <!-- 點選類別，要導向search.php，.srcBanner自動換相對應的bg -->
                 <div class="col-6 col-md-4 d-flex justify-content-center position-relative overflow-hidden pdClass">
                     <span class="text-center p-2 m-1" style="background-image: url(images/class1.jpg);"><a href="search.php" class="text-white categLink">食</a></span>
                     <div class="mask d-none position-absolute d-md-flex justify-content-center align-items-center">
