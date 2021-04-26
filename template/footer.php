@@ -5,7 +5,7 @@
                 <a href="index.php" class="logo footer-logo"></a>
                 <span>
                     <h4>關於品牌</h4>
-                    <a href="" class="pt-1">品牌故事</a>
+                    <a href="index_enterAd.php" class="pt-1">品牌故事</a>
                     <a href="termOf_service.php" class="pt-1">服務條款</a>
                     <a href="termOf_privacy.php" class="pt-1">隱私條款</a>
                 </span>
@@ -35,7 +35,7 @@
                 <h4 class="col-2 px-0 my-auto d-sm-none text-center bg-cloud rounded py-2">關於<br>品牌</h4>
                 <span class="col-4 px-0 col-sm-3 my-2 my-sm-3">
                     <h4 class="d-none d-sm-block">關於品牌</h4>
-                    <a href="" class="pt-1">品牌故事</a>
+                    <a href="index_enterAd.php" class="pt-1">品牌故事</a>
                     <a href="termOf_service.php" class="pt-1">服務條款</a>
                     <a href="termOf_privacy.php" class="pt-1">隱私條款</a>
                 </span>

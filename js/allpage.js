@@ -62,14 +62,7 @@ $(document).ready(function(){
             $(".menuBurger-L").click();
         }
     });
-
-    // 嘗試只要有
-    // if($('.bkmk_1 img').is("[src^='images/icon/MDIcon/favorite_orange_36dp.svg']")){
-    //     $('.sideMenuBtnCall').addClass('show');
-    // }
-
-
-
+    
     // logo輪播
     $(".carousel-control-next").click(function(){
         var $logo = $("#scoll_overlay");
@@ -182,5 +175,10 @@ $(document).ready(function(){
         $('#carouselExampleCaptions > img').attr('src',logoPick);
         $('#carouselExampleCaptions > input').attr('value',logoPick);
         $('#logoDpSm img').attr('src',logoPick);
+    })
+
+    // bookmark 刪除
+    $('.favoCancel').click(function(){
+        $(this).parent().parent().parent('.favoLogo').remove();
     })
 });

@@ -162,66 +162,78 @@
             </div>
             <!-- 更多商品 -->
             <div class="row py-3" id="moreProduct-md">
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form1">
+                    <a href="" onclick='document.forms["form1"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo.svg"?>">
                     </a>
-                </div>    
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>    
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form2">
+                    <a href="" onclick='document.forms["form2"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo1.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo1.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form3">
+                    <a href="" onclick='document.forms["form3"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo2.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo2.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form4">
+                    <a href="" onclick='document.forms["form4"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo3.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo3.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form5">
+                    <a href="" onclick='document.forms["form5"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo4.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo4.svg"?>">
                     </a>
-                </div>    
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>    
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form6">
+                    <a href="" onclick='document.forms["form6"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo5.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo5.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form7">
+                    <a href="" onclick='document.forms["form7"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo6.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo6.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form8">
+                    <a href="" onclick='document.forms["form8"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo7.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo7.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form9">
+                    <a href="" onclick='document.forms["form9"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo8.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo8.svg"?>">
                     </a>
-                </div>    
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>    
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form10">
+                    <a href="" onclick='document.forms["form10"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo9.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo9.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form11">
+                    <a href="" onclick='document.forms["form11"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo10.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo10.svg"?>">
                     </a>
-                </div>
-                <div class="col-4 p-1" data-aos="zoom-in">
-                    <a href="product.php" class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
+                </form>
+                <form action="product.php" method="post" class="col-4 p-1" data-aos="zoom-in" id="form12">
+                    <a href="" onclick='document.forms["form12"].submit(); return false;' class="py-4 bg-cloud rounded d-inline-block w-100 h-100">
                         <img src="images/logo11.svg" alt="" height="100px" class="d-block m-auto">
+                        <input type="hidden" name="pd-pick" value="<?php echo "images/logo11.svg"?>">
                     </a>
-                </div>
+                </form>
             </div>
             <a href="index.php" id="enterIndex-md" class="d-flex justify-content-center align-items-center font-weight-bolder text-orange display-3" style="height: 250px;" data-aos="fade-up" data-aos-duration="9000" data-aos-anchor-placement="center-bottom">Get Started</a>
         </div>
@@ -548,7 +560,7 @@
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>
@@ -583,7 +595,7 @@
                             <div class="col-6 col-md-4 col-lg-3 col-xl-2 p-1 ">
                                 <div class="d-block p-4 bg-white rounded">
                                     <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                                        <img src="images/logo.svg" alt="" height="240px" class="d-block m-auto">
+                                        <img src="images/logo5.svg" alt="" height="240px" class="d-block m-auto">
                                     </a>
                                 </div>
                             </div>

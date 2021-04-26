@@ -4,7 +4,7 @@
         <div class="container-sm position-relative" style="pointer-events: auto;">
             <form action="product.php" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" method="post">
                 <img src="images/logo5.svg" class="w-100 height-200 position-absolute mg-70 z-index-1" id="scoll_overlay" alt="...">
-                <input type="hidden" name="pd-pick" value="<?php echo "images/logo5.svg"?>">
+                <input type="hidden" name="productImg" value="<?php echo "images/logo5.svg"?>">
                 <div class="position-absolute z-index-100 addCart">
                     <button class="btn btn-outline-logoColor px-2 addcarts">加入購物袋</button>
                 </div>
@@ -22,28 +22,28 @@
                         <div id="logoDpSm" class="d-flex justify-content-center p-5 w-100 height-500">
                             <img src="images/logo5.svg" class="w-100 height-200 opacity-3 mg-70" alt="...">
                         </div>
-                        <div class="carousel-caption d-none d-md-block text-dark">
+                        <!-- <div class="carousel-caption d-none d-md-block text-dark">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="carousel-item bg-0_8 rounded">
                         <div class="d-flex justify-content-center p-5 w-100 height-500">
                             <img src="images/carousel/65911.png" class="d-block w-auto height-400" alt="...">
                         </div>
-                        <div class="carousel-caption d-none d-md-block text-dark">
+                        <!-- <div class="carousel-caption d-none d-md-block text-dark">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="carousel-item bg-0_8 rounded">
                         <div class="d-flex justify-content-center p-5 w-100 height-500">
                             <img src="images/carousel/business-cards.png" class="d-block w-auto height-400" alt="...">
                         </div>
-                        <div class="carousel-caption d-none d-md-block">
+                        <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">

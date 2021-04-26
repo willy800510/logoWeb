@@ -39,6 +39,7 @@
                         </ul>
                         <ul class="d-flex justify-content-around align-items-center">
                             <img src="images/logo.svg" alt="" class="logoIcon col-3 text-center">
+                            <!-- <input type="hidden" name="productImg" value="<?php #echo 'images/logo1.svg'?>"> -->
                             <a href="orderNum.php" class="col-3 text-center">xxxxxxxxxx</a> 
                             <li class="col-3 text-center">商品製作中</li>
                             <li class="col-3 text-center text-alert">NT$200</li>

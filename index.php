@@ -96,16 +96,20 @@
                 <a href="#" class="p-1">MORE→</a>
             </div>
             <div class="row py-3">
+                <!-- 嘗試將一個card寫成logo展示的模板 logoCard.php 請參照issue# -->
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" class="d-block p-4 bg-cloud rounded" method="post">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
                             <img src="<?php echo 'images/logo5.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo5.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'Cube'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'Cube'?>">
+                            <a class="d-block text-center">NT$<?php echo'80'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '80'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -114,16 +118,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'EcoGreen'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'EcoGreen'?>">
+                            <a class="d-block text-center">NT$<?php echo'120'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '120'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -132,16 +138,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo1.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo1.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'Rooster'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'Rooster'?>">
+                            <a class="d-block text-center">NT$<?php echo'100'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '100'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -150,16 +158,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo2.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo2.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'Bear'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'Bear'?>">
+                            <a class="d-block text-center">NT$<?php echo'90'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '90'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -168,16 +178,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo3.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo3.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'Horse'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'Horse'?>">
+                            <a class="d-block text-center">NT$<?php echo'100'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '100'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -186,16 +198,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo4.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo4.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'EcoFood'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'EcoFood'?>">
+                            <a class="d-block text-center">NT$<?php echo'110'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '110'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -204,16 +218,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display d-none d-md-block">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo6.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo6.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'ElectroCar'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'ElectroCar'?>">
+                            <a class="d-block text-center">NT$<?php echo'150'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '150'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -222,16 +238,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display d-none d-md-block">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo7.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo7.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'CarService'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'CarService'?>">
+                            <a class="d-block text-center">NT$<?php echo'140'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '140'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -240,16 +258,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display d-none d-md-block">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo8.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo8.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'AutoCar'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'AutoCar'?>">
+                            <a class="d-block text-center">NT$<?php echo'130'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '130'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -258,16 +278,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display d-none d-lg-block">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo9.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo9.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'Fashion Shop'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'Fashion Shop'?>">
+                            <a class="d-block text-center">NT$<?php echo'105'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '105'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -276,16 +298,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display d-none d-lg-block">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo10.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo10.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'Tower'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'Tower'?>">
+                            <a class="d-block text-center">NT$<?php echo'90'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '90'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -294,16 +318,18 @@
                     </div>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3 p-1 logo-display d-none d-lg-block">
-                    <div class="d-block p-4 bg-cloud rounded">
+                    <form action="product.php" method="post" class="d-block p-4 bg-cloud rounded">
                         <a href="" class="logoDpSm" data-toggle="modal" data-target="#logoDisplay">
-                            <!-- <img src="images/logo5.svg" alt="" class="d-block m-auto"> -->
                             <img src="<?php echo 'images/logo11.svg'?>" alt="" class="d-block m-auto">
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo11.svg'?>">
                         </a>
-                        <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
-                        </a>
-                    </div>
+                        <button type="submit" class="d-block mx-auto">
+                            <a class="d-block mt-4 text-center"><?php echo'Pizza'?></a>
+                            <input type="hidden" name="prodName" value="<?php echo 'Pizza'?>">
+                            <a class="d-block text-center">NT$<?php echo'120'?></a>
+                            <input type="hidden" name="prodPrice" value="<?php echo '120'?>">
+                        </button>
+                    </form>
                     <div class="bkmk_1 d-block p-3 position-absolute">
                         <img src="images/icon/MDIcon/favorite_border_orange_36dp.svg" data-swap='images/icon/MDIcon/favorite_orange_36dp.svg' data-src='images/icon/MDIcon/favorite_border_orange_36dp.svg' width="36px" height="36px" alt="" class="d-block ml-auto hrtCk">
                     </div>
@@ -326,7 +352,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -344,7 +371,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo1.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -362,7 +390,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo2.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -380,7 +409,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo3.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -398,7 +428,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo4.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -416,7 +447,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo5.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -434,7 +466,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo6.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -452,7 +485,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo7.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -470,7 +504,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo8.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -488,7 +523,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo9.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -506,7 +542,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo10.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
@@ -524,7 +561,8 @@
                             <input type="hidden" name="productImg" value="<?php echo 'images/logo11.svg'?>">
                         </a>
                         <a href="product.php">
-                            <span class="d-block mt-4 text-center">logo name<br>NT$ 60</span>
+                            <span class="d-block mt-4 text-center"><?php echo'logo name'?></span>
+                            <span class="d-block text-center">NT$<?php echo'60'?></span>
                         </a>
                     </div>
                     <div class="bkmk_1 d-block p-3 position-absolute">
