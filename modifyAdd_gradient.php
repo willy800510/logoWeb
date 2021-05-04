@@ -8,7 +8,6 @@
     <?php include("template/bootstrapScript.php"); ?>
     <!-- color picker -->
     <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5.4.0/dist/iro.min.js"></script>
-    <script src="js/iro.js"></script>
     <!-- css -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -28,6 +27,59 @@
             background-position: right calc(.375em + .1875rem) center;
             background-size: calc(.75em + .375rem) calc(.75em + .375rem);
             padding-left: .5rem !important;
+        }
+        .swatch {
+        height: 32px;
+        margin: 4px 0;
+        border-radius: 4px;
+        }
+
+        #colorList {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 12px;
+            display: flex;
+        }
+    
+        #colorList .swatch {
+            border-radius: 0;
+        }
+    
+        #colorList li {
+            flex: 1;
+        }
+    
+        #colorList li:first-child .swatch {
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+    
+        #colorList li:last-child .swatch{
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        #activeColor .swatch {
+        width: 120px;
+        }
+
+        .readout {
+            margin-top: 32px;
+            line-height: 180%;
+        }
+
+        #values {
+            font-family: monospace;
+            line-height: 150%;
+        }
+
+        .link {
+            margin-top: 16px;
+        }
+    
+        .link a {
+            color: MediumSlateBlue;
         }
     </style>
 </head>
@@ -76,7 +128,7 @@
                             <!-- <label class="mt-2"><span class="text-danger p-1">*</span>選擇顏色</label> -->
                             <div class="mt-2">嘗試看看其他顏色吧</div>
                             <div class="d-flex flex-wrap justify-content-between justify-content-sm-start px-0 colorBox">
-                                <input type="radio" id="colorCustom" name="companyColor" value="" class="d-none">
+                                <input type="radio" id="colorCustom" name="companyColor" value="007bff" class="d-none">
                                 <label for="colorCustom" class="btn d-flex align-items-center justify-content-center my-2 mr-0 mr-sm-2 border border-secondary chooColor" data-toggle="modal" data-target="#colorPk">+</label>
                             </div>
                             <label for="remark" class="mt-2">選色備註</label>
@@ -86,7 +138,7 @@
                             <!-- <img src="images/logo5.svg" class="" alt=""> -->
                             <div class="d-flex flex-column rounded bg-0_8 p-5 p-lg-4 p-lg-5 shadow">
                                 <small class="text-alert"></small>
-                                <?php require_once( 'images/logo5.svg.php' ); ?>
+                                <?php require_once( 'images/logo.svg.php' ); ?>
                             </div>
                         </div>
                     </div>
@@ -96,29 +148,15 @@
                 </form>
                 <!-- Modal color picker -->
                 <div class="modal fade" id="colorPk" tabindex="-1">
-                    <div class="modal-dialog mx-auto" style="max-width: 290px !important;">
+                    <div class="modal-dialog mx-auto" style="max-width: 330px !important;">
                         <div class="modal-content bg-0_8">
-                            <div id="boxPicker" class="mx-auto m-3" style="pointer-events: auto;" ></div>
+                            <div id="colorPicker" class="mx-auto m-3" style="pointer-events: auto;" ></div>
                             <!-- <form class="d-flex flex-column align-items-center" method="post"> -->
                             <form id="colorValue" class="d-flex flex-column align-items-center">
-                                <div id="values" class="mx-auto"></div>
-                                <div class="form-group col-12 d-flex align-items-center">
-                                    <label for="hexInput" class="mb-0">Hex:</label>
-                                    <input type="text" id="hexInput" class="form-control mx-1" placeholder="#"></input>
-                                </div>
-                                <div class="form-group col-12 mx-auto">
-                                    <div name="rgb">
-                                        <div class="d-flex align-items-center">
-                                            rgb(
-                                            <input type="number" id="red" class="rgb-input form-control">
-                                            ,
-                                            <input type="number" id="green" class="rgb-input form-control">
-                                            ,
-                                            <input type="number" id="blue" class="rgb-input form-control">
-                                            )
-                                        </div>
-                                    </div>
-                                </div>
+                                <span>您選的顏色:</span>
+                                <div id="colorList"></div>
+                                <span>漸層色:</span>
+                                <span id="colorGradient"></span>
                                 <button id="colorDecide" type="submit" class="btn btn-outline-primary col-4 mx-auto mb-2">送出</button>
                             </form>
                         </div>
@@ -129,52 +167,87 @@
     </div>
 </div>
 <script>
-    // 提交修改表單
-    $('#modifyForm').submit(function(){
-        var form = document.getElementById('modifyForm');
-        var companyColor = document.getElementById('colorRed');
-        form.classList.add('was-validated');
-        if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-            if(companyColor.checkValidity() === false) {
-                $('.colorBox').addClass('border border-danger rounded invalid');
-            }
-        }
-    })
+// Create a new color picker instance
+// https://iro.js.org/guide.html#getting-started
+var colorPicker = new iro.ColorPicker("#colorPicker", {
+  // color picker options
+  // Option guide: https://iro.js.org/guide.html#color-picker-options
+  width: 250,
+  // Pure red, green and blue
+  colors: [  
+    "rgb(255, 0, 0)", // Pure red
+    "rgb(0, 255, 0)", // Pure green
+    // "rgb(0, 0, 255)", // Pure blue
+  ],
+  handleRadius: 9,
+  borderWidth: 1,
+  borderColor: "#fff",
+});
 
-    // 嘗試其他顏色的色塊，預設圖檔的顏色（目前只有辦法一種顏色）
-    // var colorDefault = $('#pdlogo svg .cls-1').css('fill');
-    // $(".chooColor").css('background-color',colorDefault)
-    
-    // 選擇顏色
-    $('.chooColor').on('click',function(){
-        $('.colorBox').removeClass('border border-danger rounded invalid');
-        $(".chooColor").off("click");
-    })
-    // 提交color picker的表單
-    $('#colorValue').submit(function(){
-        // 不送出表單
+const colorList = document.getElementById("colorList");
+
+function setColor(colorIndex) {
+  // setActiveColor expects the color index!
+  colorPicker.setActiveColor(colorIndex);
+}
+
+
+// https://iro.js.org/guide.html#color-picker-events
+colorPicker.on(["mount","color:change"], function(){
+    colorList.innerHTML = '';
+    colorPicker.colors.forEach(color => {
+        const index = color.index;
+        const hexString = color.hexString;
+        colorList.innerHTML += `
+            <li onClick="setColor(${ index })">
+            <div class="swatch" style="background: ${ hexString }; width:100px;"></div>
+            <span>${ hexString }</span>
+            </li>
+        `;
+        var color1 = colorPicker.colors[0].hexString;
+        var color2 = colorPicker.colors[1].hexString;
+        colorGradient.innerHTML = `
+            <div
+                style="
+                width: 100px;
+                height: 35px;
+                background: linear-gradient(to left,${ color2 },${ color1 }); 
+                "
+                class="rounded mb-3 colorShow"
+            ></div>
+        `;
+    });
+});
+// 提交修改表單
+$('#modifyForm').submit(function(){
+    var form = document.getElementById('modifyForm');
+    var companyColor = document.getElementById('colorRed');
+    form.classList.add('was-validated');
+    if (form.checkValidity() === false) {
         event.preventDefault();
-        // 將自訂的顏色放入要送出的表單，並改變標籤顏色
-        var color = $('#hexInput').val();
-        $('#colorCustom').val(color);
-        $('#colorCustom').next().css('background-color',color);
-        // $('#pdlogo svg .cls-1').css('fill',color);
-
-        // 判斷顏色深淺，決定"+"是黑/白色
-        var grayLevel = $('#red').val() * 0.299 + $('#green').val() * 0.587 + $('#blue').val() * 0.114;
-        console.log(grayLevel);
-        if (grayLevel >= 192) {
-            $('#colorCustom').next().css('color','#000000');
-            // $("#pdlogo").css('background-color','rgb(0,0,0,0.8)')
-        } else {
-            $('#colorCustom').next().css('color','#ffffff');
-            // $("#pdlogo").css('background-color','#ffffff')
+        event.stopPropagation();
+        if(companyColor.checkValidity() === false) {
+            $('.colorBox').addClass('border border-danger rounded invalid');
         }
-        // 關閉color picker
-        $('#colorPk').modal('hide');
-    })
+    }
+})
+
+
+// 選擇顏色
+$('.chooColor').on('click',function(){
+    $('.colorBox').removeClass('border border-danger rounded invalid');
+    $(".chooColor").off("click");
+})
+// 提交color picker的表單
+$('#colorValue').submit(function(){
+    // 不送出表單
+    event.preventDefault();
+    // 將自訂的顏色放入要送出的表單，並改變標籤顏色
+    var colorG = $('#colorGradient .colorShow').css('background');
+    $('#colorCustom').next().css('background',colorG);
+    // 關閉color picker
+    $('#colorPk').modal('hide');
+})
 
 </script>
 <?php include("template/footer.php"); ?>

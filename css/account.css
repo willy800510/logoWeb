@@ -95,9 +95,24 @@
 #pdlogo small::after{
     content: "*此處為示意圖,商品以檔案為主";
     position: absolute;
-    bottom: -12%;
-    left: 11%;
-    
+}
+@media(min-width: 0px){
+    #pdlogo small::after{
+        bottom: -10%;
+        left: 10%;
+    }
+}
+@media(min-width: 576px){
+    #pdlogo small::after{
+        bottom: -10%;
+        left: 11%;
+    }
+}
+@media(min-width: 992px){
+    #pdlogo small::after{
+        bottom: 40%;
+        left: 10%;
+    }
 }
 
 /* carts_lists */

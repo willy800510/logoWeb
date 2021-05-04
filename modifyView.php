@@ -62,11 +62,13 @@
                                 <!-- <div class="badge badge-danger d-inline-block mr-2 chooColor"></div> -->
                                 <div class="badge d-inline-block mr-2 chooColor" style="background-color: #<?php 
                                     $color = trim($_POST['companyColor'],"#");
-                                    if($color == ""){
-                                        echo "FC9545"; //這裡是想取得原本圖檔的color，圖目前受到第97-98影響 會改變顏色
-                                    } else{
+                                    // if($color == ""){
+                                    //     echo "FC9545"; //這裡是想取得原本圖檔的color，圖目前受到第97-98影響 會改變顏色
+                                    // } else{
                                         echo $color;
-                                    } ?>;"></div>
+                                    // } 
+                                    ?>;">
+                                </div>
                             </div>
                         </div>
                         <div id="pdlogo" class="col-6 col-md-4 col-lg-3 order-0 order-lg-1 p-5 p-lg-4 p-lg-5 shadow m-0 m-lg-5 mt-4 rounded bg-0_8">
@@ -94,7 +96,7 @@
     // }else{
     //     $('#pdlogo svg .cls-1').css('fill',color);
     // }
-    var color = $(".chooColor").css("background-color")
-    $('#pdlogo svg .cls-1').css('fill',color);
+    // var color = $(".chooColor").css("background-color")
+    // $('#pdlogo svg .cls-1').css('fill',color);
 </script>
 <script src="js/allpage.js"></script>
