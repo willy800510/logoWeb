@@ -31,9 +31,9 @@
             <img src="images/icon/designer3.png" alt="" style="width:80px">
           </div>
         </div>
-        <form action="#" method="POST" class="row p-2">
+        <form action="#" method="POST" enctype="multipart/form-data" class="row p-2">
           <div class="col-12 col-lg-8 offset-lg-2 d-flex flex-wrap justify-content-center align-content-center text-center p-2 p-sm-4 my-4 upload-wrapper">
-            <input type="file" multiple="multiple" id="upload" />
+            <input type="file" multiple="multiple" id="upload" accept="image/png,.ai" />
             <div id="fileInfo" class="col-12 px-0 mb-3" style="pointer-events: none;">
               <img src="images/upload cloud.png" alt="">
             </div>
