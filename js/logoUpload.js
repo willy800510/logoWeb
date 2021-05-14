@@ -4,16 +4,16 @@ $(function () {
 		maxSize = 10; //檔案大小限制(MB)
 	let oldFiles = new DataTransfer();
 
-	// $('#upload').on('dragenter', function () {
-	// 	$('.upload-wrapper').addClass('dragging');
-	// });
-	// $('#upload').on('dragleave', function () {
-	// 	$('.upload-wrapper').removeClass('dragging');
-	// });
-	// $('#upload').on('dragdrop', function () {
-	// 	uploadFiles();
-	// 	$('.upload-wrapper').removeClass('dragging');
-	// });
+	$('#upload').on('dragenter', function () {
+		$('.upload-wrapper').addClass('dragging');
+	});
+	$('#upload').on('dragleave', function () {
+		$('.upload-wrapper').removeClass('dragging');
+	});
+	$('#upload').on('dragdrop', function () {
+		uploadFiles();
+		$('.upload-wrapper').removeClass('dragging');
+	});
 	$('#upload').on('change', function () {
 		if (upload.files.length == 0) {
 			//按"取消"時不做任何動作
@@ -32,15 +32,14 @@ $(function () {
 
 	function uploadFiles() {
 		for (let i = 0; i < upload.files.length; i++) {
-			checkFile(i);
+			addFile(i);
 		}
 		upload.onchange = null; // remove event listener
 		upload.files = oldFiles.files; // this will trigger a change event
-
 		updateInfo();
 	}
 
-	function checkFile(i, action) {
+	function addFile(i) {
 		const file = upload.files[i];
 
 		let fileExt = file.name.substring(file.name.lastIndexOf('.'));
@@ -49,6 +48,7 @@ $(function () {
 		} else {
 			if (file.size < maxSize * 1000 * 1024) {
 				oldFiles.items.add(file);
+
 				$('.upload-wrapper').removeClass('dragging');
 			} else {
 				window.alert('檔案大小超過限制，不能超過 ' + maxSize + 'MB');
@@ -80,18 +80,18 @@ $(function () {
 					fileExt = file.name.substring(extPos);
 
 				// 預覽圖準備
-				var img = fileExt == '.ai' ? '<i class="far fa-file-alt fa-3x text-secondary"></i>' : '<i class="fas fa-spinner fa-pulse"></i>';
-				infoBox.append('<div class="row d-flex align-items-center bg-white shadow-sm p-3 mb-1"><div class="col-3 previewImg">' + img + '</div><div class="col-4 text-left" style="overflow-wrap: break-word;">' + fileName + '</div><div class="col-2">' + fileExt + '</div><div class="col-3"><button type="button" class="btn btn-danger delBtn" data-idx="' + i + '">刪除</button></div></div>');
+				if (fileExt != '.ai') {
+					var objectURL = URL.createObjectURL(file);
+					var img = '<img class="w-100 previewImg" src="' + objectURL + '" alt=""></img>';
+				} else {
+					var img = '<i class="far fa-file-alt fa-3x text-secondary previewImg"></i>';
+				}
+				infoBox.append('<div class="row d-flex align-items-center bg-white shadow-sm p-3 mb-1"><div class="col-3">' + img + '</div><div class="col-4 text-left" style="overflow-wrap: break-word;">' + fileName + '</div><div class="col-2">' + fileExt + '</div><div class="col-3"><button type="button" class="btn btn-outline-danger delBtn" data-idx="' + i + '">取消</button></div></div>');
 
-				var imgReader = new FileReader();
-				imgReader.onload = function (e) {
-					var imgSrc = e.target.result;
-					infoBox
-						.find('.previewImg')
-						.eq(i)
-						.html('<img class="w-100" src="' + imgSrc + '" alt=""></img>');
+				var previewImg = document.querySelectorAll('.previewImg')[i];
+				previewImg.onload = function (e) {
+					window.URL.revokeObjectURL(this.src);
 				};
-				imgReader.readAsDataURL(file);
 			}
 
 			$('#fileInfo').css('pointer-events', '');

@@ -21,7 +21,7 @@
 
 	<div class="container-fluid designer-content mToTop">
 		<div class="container-sm pb-3 pb-xl-1">
-			<h5 class="page-title">訂單管理</h5>
+			<h5 class="position-fixed fixed-top page-title">訂單管理</h5>
 			<div class="bg-white px-3 px-sm-4 px-lg-5 pb-4 pb-lg-5">
 				<div class="row align-items-end border-bottom border-dark py-3 mb-2 mb-md-5">
 					<p class="col-4 m-0">訂單編號：xxxxxxxxxx</p>
@@ -49,14 +49,17 @@
 						<div class="col-12 p-2">
 							<p class="mb-1">希望使用的顏色</p>
 							<div class="d-flex">
-							<!-- 如果只有一個顏色，不要加 mr-3 -->
+								<!-- 如果是漸層色的話，才出現那下面一行 -->
+								<!-- <div class="col-2 bg-light text-muted rounded p-2 mr-3" style="background:linear-gradient(to left,#AEC20F,#5C5CFF);"></div> -->
+
+								<!-- 如果只有一個顏色，不要加 mr-3；多個顏色的話，除了最後一個以外 都要加 mr-3 -->
 								<div class="col bg-light text-muted rounded p-2 mr-3">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
 								<div class="col bg-light text-muted rounded p-2">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row col-lg-8 offset-lg-2 mt4 mt-md-5">
+				<div class="row col-lg-8 offset-lg-2 mt-md-5">
 					<p class="col-10 small mb-2 mb-md-3">檔案預覽</p>
 					<div class="col-6 p-2 upload-info">
 						<div class="text-center border border-secondary rounded p-2">
@@ -72,7 +75,7 @@
 					</div>
 				</div>
 				<div class="text-center mt-4">
-					<a href="designer_upload.php" class="btn btn-outline-logoColor mr-3">重新上傳</a>
+					<a href="designer_upload.php" class="btn btn-outline-logoColor mr-3">上傳檔案</a>
 					<button type="button" class="btn btn-logoColor" data-toggle="modal" data-target="#confirmModal">確定送出</button>
 				</div>
 			</div>
@@ -91,7 +94,8 @@
 				<div class="modal-body text-center font-weight-bold py-5">
 					<!-- <div class="shadow-sm p-1 p-md-3 mb-2">truckLogo.png</div>
 					<div class="shadow-sm p-1 p-md-3 mb-2">truckLogo.ai</div> -->
-					確認送出這 2 個檔案給客戶？
+					確認送出第二次的修改提案？<br>
+					<sapn class="text-danger">(確認後將無法再變更)</sapn>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-outline-logoColor" data-dismiss="modal">取消</button>

@@ -21,7 +21,7 @@
 
   <div class="container-fluid designer-content mToTop">
     <div class="container-sm pb-3 pb-xl-1">
-      <h5 class="page-title">訂單管理</h5>
+      <h5 class="position-fixed fixed-top page-title">訂單管理</h5>
       <div class="bg-white px-3 px-sm-4 px-lg-5 pb-4 pb-lg-5">
         <div class="row align-items-end border-bottom border-dark py-3 mb-2 mb-md-5">
           <p class="col-4 m-0">訂單編號：xxxxxxxxxx</p>
@@ -54,8 +54,11 @@
                 <div class="col-12 p-2">
                   <p class="mb-1">希望使用的顏色</p>
                   <div class="d-flex">
-                  <!-- 如果只有一個顏色，不要加 mr-3 -->
-                    <div class="col bg-light text-muted rounded p-2 mr-3">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
+                    <!-- 如果是漸層色的話，才出現那下面一行 -->
+                    <!-- <div class="col-2 bg-light text-muted rounded p-2 mr-3" style="background:linear-gradient(to left,#AEC20F,#5C5CFF);"></div> -->
+
+                    <!-- 如果只有一個顏色，不要加 mr-3；多個顏色的話，除了最後一個以外 都要加 mr-3 -->
+                    <div class="col bg-light text-muted rounded p-2 mr-3">#AEC20F<span class="color-sample" style="background-color: #AEC20F;"></span></div>
                     <div class="col bg-light text-muted rounded p-2">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
                   </div>
                 </div>
