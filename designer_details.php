@@ -44,11 +44,17 @@
               <div class="col-12 col-md-8 col-lg-5 col-xl-6 pl-xl-5 row">
                 <div class="col-12 col-sm-6 p-2">
                   <p class="mb-1">公司名稱</p>
-                  <div class="bg-light text-muted rounded p-2">company name</div>
+                  <div class="bg-light text-muted rounded p-2">
+                    <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                    <span class="copyContent">company name</span>
+                  </div>
                 </div>
                 <div class="col-12 col-sm-6 p-2">
                   <p class="mb-1">公司口號/標語</p>
-                  <div class="bg-light text-muted rounded p-2">company slogan</div>
+                  <div class="bg-light text-muted rounded p-2">
+                    <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                    <span class="copyContent">company slogan</span>
+                  </div>
                 </div>
                 <!-- 如果只有一個顏色，col-12 改成 col-6 -->
                 <div class="col-12 p-2">
@@ -58,8 +64,16 @@
                     <!-- <div class="col-2 bg-light text-muted rounded p-2 mr-3" style="background:linear-gradient(to left,#AEC20F,#5C5CFF);"></div> -->
 
                     <!-- 如果只有一個顏色，不要加 mr-3；多個顏色的話，除了最後一個以外 都要加 mr-3 -->
-                    <div class="col bg-light text-muted rounded p-2 mr-3">#AEC20F<span class="color-sample" style="background-color: #AEC20F;"></span></div>
-                    <div class="col bg-light text-muted rounded p-2">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
+                    <div class="col bg-light text-muted rounded p-2 mr-3">
+                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                      <span class="color-sample" style="background-color: #AEC20F;"></span>
+                      <span class="copyContent">#AEC20F</span>
+                    </div>
+                    <div class="col bg-light text-muted rounded p-2">
+                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                      <span class="color-sample" style="background-color: #5C5CFF;"></span>
+                      <span class="copyContent">#5C5CFF</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -89,17 +103,31 @@
               <div class="col-12 col-md-8 col-lg-5 col-xl-6 pl-xl-5 row">
                 <div class="col-12 col-sm-6 p-2">
                   <p class="mb-1">公司名稱</p>
-                  <div class="bg-light text-muted rounded p-2">company name</div>
+                  <div class="bg-light text-muted rounded p-2">
+                    <i class="far fa-copy fa-lg p-1 ml-2 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                    <span class="copyContent">company name2</span>
+                  </div>
                 </div>
                 <div class="col-12 col-sm-6 p-2">
                   <p class="mb-1">公司口號/標語</p>
-                  <div class="bg-light text-muted rounded p-2">company slogan</div>
+                  <div class="bg-light text-muted rounded p-2">
+                    <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                    <span class="copyContent">company slogan/company slogan</span>
+                  </div>
                 </div>
                 <div class="col-12 p-2">
                   <p class="mb-1">希望使用的顏色</p>
                   <div class="d-flex">
-                    <div class="col bg-light text-muted rounded p-2 mr-3">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
-                    <div class="col bg-light text-muted rounded p-2">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
+                    <div class="col bg-light text-muted rounded p-2 mr-3">
+                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                      <span class="color-sample" style="background-color: #5CAADD;"></span>
+                      <span class="copyContent">#5CAADD</span>
+                    </div>
+                    <div class="col bg-light text-muted rounded p-2">
+                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                      <span class="color-sample" style="background-color: #5C5CFF;"></span>
+                      <span class="copyContent">#5C5CFF</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -120,6 +148,7 @@
       </div>
     </div>
   </div>
+
   <script>
     $(function() {
       $(".carousel").carousel({
@@ -147,6 +176,31 @@
           }
         }
       }
+      var tooltipTimer;
+      $('[data-toggle="tooltip"]').tooltip({
+        placement: 'top',
+        trigger: 'manual',
+        title: '已複製！'
+      });
+      $('.copyBtn').on('shown.bs.tooltip', function() {
+        $this = $(this);
+        tooltipTimer = setTimeout(function() {
+          $this.tooltip('hide');
+        }, 2000);
+      })
+      $('.copyBtn').click(function() {
+        clearTimeout(tooltipTimer);
+        $('[data-toggle="tooltip"]').tooltip('hide');
+        $(this).tooltip('show');
+        var TextRange = document.createRange();
+        TextRange.selectNode(this.parentElement.querySelector('.copyContent'));
+
+        sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(TextRange);
+        document.execCommand('copy');
+        sel.removeAllRanges();
+      })
     })
   </script>
   <?php include("template/footer.php"); ?>
