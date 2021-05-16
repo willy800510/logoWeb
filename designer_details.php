@@ -56,24 +56,26 @@
                     <span class="copyContent">company slogan</span>
                   </div>
                 </div>
-                <!-- 如果只有一個顏色，col-12 改成 col-6 -->
                 <div class="col-12 p-2">
                   <p class="mb-1">希望使用的顏色</p>
-                  <div class="d-flex">
+                  <div class="row">
+                    <!-- 奇數的項目加 pr-2， 偶數的項目加 pl-2 -->
+                    <div class="col-6 mb-2 pr-2">
+                      <div class="bg-light text-muted rounded p-2">
+                        <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                        <span class="color-sample" style="background-color: #AEC20F;"></span>
+                        <span class="copyContent">#AEC20F</span>
+                      </div>
+                    </div>
+                    <div class="col-6 mb-2 pl-2">
+                      <div class="bg-light text-muted rounded p-2">
+                        <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                        <span class="color-sample" style="background-color: #5AA2C1;"></span>
+                        <span class="copyContent">#5AA2C1</span>
+                      </div>
+                    </div>
                     <!-- 如果是漸層色的話，才出現那下面一行 -->
-                    <!-- <div class="col-2 bg-light text-muted rounded p-2 mr-3" style="background:linear-gradient(to left,#AEC20F,#5C5CFF);"></div> -->
-
-                    <!-- 如果只有一個顏色，不要加 mr-3；多個顏色的話，除了最後一個以外 都要加 mr-3 -->
-                    <div class="col bg-light text-muted rounded p-2 mr-3">
-                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
-                      <span class="color-sample" style="background-color: #AEC20F;"></span>
-                      <span class="copyContent">#AEC20F</span>
-                    </div>
-                    <div class="col bg-light text-muted rounded p-2">
-                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
-                      <span class="color-sample" style="background-color: #5C5CFF;"></span>
-                      <span class="copyContent">#5C5CFF</span>
-                    </div>
+                    <!-- <div class="col-12 rounded color-sample" style="background:linear-gradient(to right,#AEC20F,#5AA2C1,#AECBBF,#5C5CFF);"></div> -->
                   </div>
                 </div>
               </div>
@@ -93,9 +95,10 @@
                 <!-- 已上傳檔案尚未確認送出的情況 -->
                 <div class="mx-auto mx-md-0 logo-img position-relative">
                   <img src="images/logo5_changeColor.svg" class="img-thumbnail shadow border-0" alt="">
-                  <a href="designer_preview.php" class="overlay border rounded d-flex justify-content-center align-items-center">
-                    <span class="btn btn-logoColor">送出檔案</span>
-                  </a>
+                  <div class="d-flex flex-wrap justify-content-center align-content-center border rounded overlay">
+                    <a href="designer_upload.php" class="btn btn-warning text-white mb-3">重新上傳</a>
+                    <a href="designer_preview.php" class="btn btn-logoColor">送出檔案</a>
+                  </div>
                 </div>
                 <!-- 已上傳檔案尚未確認送出的情況 end -->
 
@@ -117,16 +120,20 @@
                 </div>
                 <div class="col-12 p-2">
                   <p class="mb-1">希望使用的顏色</p>
-                  <div class="d-flex">
-                    <div class="col bg-light text-muted rounded p-2 mr-3">
-                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
-                      <span class="color-sample" style="background-color: #5CAADD;"></span>
-                      <span class="copyContent">#5CAADD</span>
+                  <div class="row">
+                    <div class="col-6 mb-2 pr-2">
+                      <div class="bg-light text-muted rounded p-2">
+                        <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                        <span class="color-sample" style="background-color: #5CAADD;"></span>
+                        <span class="copyContent">#5CAADD</span>
+                      </div>
                     </div>
-                    <div class="col bg-light text-muted rounded p-2">
-                      <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
-                      <span class="color-sample" style="background-color: #5C5CFF;"></span>
-                      <span class="copyContent">#5C5CFF</span>
+                    <div class="col-6 mb-2 pl-2">
+                      <div class="bg-light text-muted rounded p-2">
+                        <i class="far fa-copy fa-lg p-1 ml-2 float-right copyBtn" role="button" data-toggle="tooltip"></i>
+                        <span class="color-sample" style="background-color: #5C5CFF;"></span>
+                        <span class="copyContent">#5C5CFF</span>
+                      </div>
                     </div>
                   </div>
                 </div>

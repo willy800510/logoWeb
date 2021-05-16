@@ -39,6 +39,7 @@
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
 /* ---layout---------------------- */
 @media (max-width: 575.98px) {
 	.designer-content .container-sm,
@@ -99,6 +100,15 @@
 }
 .upload-wrapper.dragging {
 	background-color: #fffcf9 !important;
+}
+.upload-wrapper .tag {
+	color: #ff7870;
+	border: solid 2px;
+	border-color: #ff7870;
+}
+.upload-wrapper .btn:hover {
+	color: #fff;
+	background-color: #ff7870;
 }
 #upload {
 	width: 100%;

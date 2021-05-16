@@ -25,7 +25,8 @@
       <h5 class="position-fixed fixed-top page-title">訂單管理</h5>
       <div class="bg-white px-3 px-sm-4 px-lg-5 pb-4 pb-lg-5">
         <div class="row align-items-end border-bottom border-dark py-3 mb-2 mb-md-5">
-          <p class="col-4 m-0">訂單編號：xxxxxxxxxx</p>
+          <!-- 連結到這個訂單的details頁 -->
+          <p class="col-4 m-0">訂單編號：<a href="designer_details.php" class="text-primary">xxxxxxxxxx</a></p>
           <p class="col-4 h4 text-center align-self-start align-self-lg-auto m-0 p-0">第二次</p>
           <div class="col-4 text-right">
             <img src="images/icon/designer3.png" alt="" style="width:80px">
@@ -59,7 +60,7 @@
               <img src="images/upload cloud.png" alt="">
             </div>
             <div>
-              <p>拖曳檔案　or　<span class="btn btn-pink align-baseline">瀏覽檔案</span></p>
+              <p>拖曳檔案　or　<span class="btn align-baseline tag">瀏覽檔案</span></p>
               <p>上傳格式 .png /. ai</p>
             </div>
 
