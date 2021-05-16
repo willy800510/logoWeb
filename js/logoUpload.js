@@ -2,7 +2,7 @@ $(function () {
 	const upload = document.getElementById('upload'),
 		validExts = new Array('.png', '.ai'), //可接受的附檔名
 		maxSize = 10; //檔案大小限制(MB)
-	let oldFiles = new DataTransfer();
+	// let oldFiles = new DataTransfer();
 
 	$('#upload').on('dragenter', function () {
 		$('.upload-wrapper').addClass('dragging');
@@ -34,8 +34,8 @@ $(function () {
 		for (let i = 0; i < upload.files.length; i++) {
 			addFile(i);
 		}
-		upload.onchange = null; // remove event listener
-		upload.files = oldFiles.files; // this will trigger a change event
+		// upload.onchange = null; // remove event listener
+		// upload.files = oldFiles.files; // this will trigger a change event
 		updateInfo();
 	}
 
@@ -45,27 +45,31 @@ $(function () {
 		let fileExt = file.name.substring(file.name.lastIndexOf('.'));
 		if (validExts.indexOf(fileExt) < 0) {
 			window.alert(file.name + ' 檔案類型錯誤，可接受的副檔名有：*' + validExts.join('/*'));
+			removeFile(i);
 		} else {
 			if (file.size < maxSize * 1000 * 1024) {
-				oldFiles.items.add(file);
-
+				// oldFiles.items.add(file);
 				$('.upload-wrapper').removeClass('dragging');
 			} else {
 				window.alert('檔案大小超過限制，不能超過 ' + maxSize + 'MB');
+				removeFile(i);
 			}
 		}
 	}
 
 	function removeFile(i) {
-		oldFiles = new DataTransfer();
+		// oldFiles = new DataTransfer();
+		let dt = new DataTransfer();
 		for (let file of upload.files) {
 			// This will remove the [i] item
 			if (file !== upload.files[i]) {
-				oldFiles.items.add(file);
+				// oldFiles.items.add(file);
+				dt.items.add(file);
 			}
 		}
 		upload.onchange = null; // remove event listener
-		upload.files = oldFiles.files; // this will trigger a change event
+		// upload.files = oldFiles.files; // this will trigger a change event
+		upload.files = dt.files; // this will trigger a change event
 	}
 
 	function updateInfo() {
