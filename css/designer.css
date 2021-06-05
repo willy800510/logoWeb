@@ -3,35 +3,35 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 2px;
-	float: right;
+	float: left;
+	margin-right: 8px;
 }
 .page-title {
+	position: relative !important;
 	background-color: #fff;
 	padding: 18px;
 	margin-bottom: 4px;
 	text-align: center;
 	font-size: 14px;
+	pointer-events: none;
 }
 @media (min-width: 576px) {
 	.page-title {
 		background-color: transparent;
-		position: fixed;
-		width: 100%;
-		top: 0;
-		left: 0;
-		z-index: 9999;
+		position: fixed !important;
 		font-size: 20px;
 	}
 }
 .logo-img {
 	width: 150px;
-	/* height: 150px; */
 }
 .upload-img {
 	width: 200px;
-	/* height: 200px; */
 }
-.overlay {
+.overlay,
+.uploadDbItems:hover::after {
+	content: '';
+	display: block;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -39,6 +39,7 @@
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.4);
 }
+
 /* ---layout---------------------- */
 @media (max-width: 575.98px) {
 	.designer-content .container-sm,
@@ -73,6 +74,18 @@
 	}
 }
 
+/* ---已上傳部分---------------------- */
+.delDbBtn {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+.uploadDbItems:hover .delDbBtn {
+	display: inline-block;
+}
 /* ---上傳拖曳區塊---------------------- */
 .upload-wrapper {
 	position: relative;
@@ -88,6 +101,15 @@
 .upload-wrapper.dragging {
 	background-color: #fffcf9 !important;
 }
+.upload-wrapper .tag {
+	color: #ff7870;
+	border: solid 2px;
+	border-color: #ff7870;
+}
+.upload-wrapper .btn:hover {
+	color: #fff;
+	background-color: #ff7870;
+}
 #upload {
 	width: 100%;
 	height: 100%;
@@ -101,12 +123,6 @@
 #upload:focus {
 	outline: none;
 }
-
-/* dropzonejs */
-.preview-container {
-	background: url('../images/upload cloud.png') no-repeat center top;
-}
-
 
 /* ---覆蓋common---------------------- */
 @media (min-width: 992px) {

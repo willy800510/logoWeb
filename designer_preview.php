@@ -21,10 +21,11 @@
 
 	<div class="container-fluid designer-content mToTop">
 		<div class="container-sm pb-3 pb-xl-1">
-			<h5 class="page-title">訂單管理</h5>
+			<h5 class="position-fixed fixed-top page-title">訂單管理</h5>
 			<div class="bg-white px-3 px-sm-4 px-lg-5 pb-4 pb-lg-5">
 				<div class="row align-items-end border-bottom border-dark py-3 mb-2 mb-md-5">
-					<p class="col-4 m-0">訂單編號：xxxxxxxxxx</p>
+					<!-- 連結到這個訂單的details頁 -->
+					<p class="col-4 m-0">訂單編號：<a href="designer_details.php" class="text-primary">xxxxxxxxxx</a></p>
 					<p class="col-4 h4 text-center align-self-start align-self-lg-auto m-0 p-0">第二次</p>
 					<div class="col-4 text-right">
 						<img src="images/icon/designer3.png" alt="" style="width:80px">
@@ -45,18 +46,29 @@
 							<p class="mb-1">公司口號/標語</p>
 							<div class="bg-light text-muted rounded p-2">company slogan</div>
 						</div>
-						<!-- 如果只有一個顏色，col-12 改成 col-6 -->
 						<div class="col-12 p-2">
 							<p class="mb-1">希望使用的顏色</p>
-							<div class="d-flex">
-							<!-- 如果只有一個顏色，不要加 mr-3 -->
-								<div class="col bg-light text-muted rounded p-2 mr-3">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
-								<div class="col bg-light text-muted rounded p-2">#5C5CFF<span class="color-sample" style="background-color: #5C5CFF;"></span></div>
+							<div class="row">
+								<!-- 奇數的項目加 pr-2， 偶數的項目加 pl-2 -->
+								<div class="col-6 mb-2 pr-2">
+									<div class="bg-light text-muted rounded p-2">
+										<span class="color-sample" style="background-color: #AEC20F;"></span>
+										<span class="copyContent">#AEC20F</span>
+									</div>
+								</div>
+								<div class="col-6 mb-2 pl-2">
+									<div class="bg-light text-muted rounded p-2">
+										<span class="color-sample" style="background-color: #5AA2C1;"></span>
+										<span class="copyContent">#5AA2C1</span>
+									</div>
+								</div>
+								<!-- 如果是漸層色的話，才出現那下面一行 -->
+								<!-- <div class="col-12 rounded color-sample" style="background:linear-gradient(to right,#AEC20F,#5AA2C1,#AECBBF,#5C5CFF);"></div> -->
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row col-lg-8 offset-lg-2 mt4 mt-md-5">
+				<div class="row col-lg-8 offset-lg-2 mt-md-5">
 					<p class="col-10 small mb-2 mb-md-3">檔案預覽</p>
 					<div class="col-6 p-2 upload-info">
 						<div class="text-center border border-secondary rounded p-2">
@@ -72,7 +84,7 @@
 					</div>
 				</div>
 				<div class="text-center mt-4">
-					<a href="designer_upload.php" class="btn btn-outline-logoColor mr-3">重新上傳</a>
+					<a href="designer_upload.php" class="btn btn-outline-logoColor mr-3">上傳檔案</a>
 					<button type="button" class="btn btn-logoColor" data-toggle="modal" data-target="#confirmModal">確定送出</button>
 				</div>
 			</div>
@@ -82,16 +94,9 @@
 	<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
-				<!-- <div class="modal-header h5">
-					確認送出以下 2個檔案？
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div> -->
 				<div class="modal-body text-center font-weight-bold py-5">
-					<!-- <div class="shadow-sm p-1 p-md-3 mb-2">truckLogo.png</div>
-					<div class="shadow-sm p-1 p-md-3 mb-2">truckLogo.ai</div> -->
-					確認送出這 2 個檔案給客戶？
+					確認送出第二次的修改提案？<br>
+					<sapn class="text-danger">(確認後將無法再變更)</sapn>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-outline-logoColor" data-dismiss="modal">取消</button>
